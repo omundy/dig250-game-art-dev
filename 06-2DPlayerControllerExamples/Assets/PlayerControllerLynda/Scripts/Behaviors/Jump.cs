@@ -8,6 +8,7 @@ public class Jump : AbstractBehavior
     public float jumpSpeed = 200f;
     public float jumpDelay = .1f;
     public int jumpCount = 2;
+    public GameObject dustEffectPrefab;
 
     protected float lastJumpTime = 0;
     protected int jumpsRemaining = 0;
@@ -19,7 +20,7 @@ public class Jump : AbstractBehavior
     }
 
     // Update is called once per frame
-    void Update()
+    protected virtual void Update()
     {
         var canJump = inputState.GetButtonValue(inputButtons[0]);
         var holdTime = inputState.GetButtonHoldTime(inputButtons[0]);
@@ -42,6 +43,8 @@ public class Jump : AbstractBehavior
                 {
                     OnJump();
                     jumpsRemaining --;
+                    var clone = Instantiate(dustEffectPrefab);
+                    clone.transform.position = transform.position;
                 }
 
             }

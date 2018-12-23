@@ -528,6 +528,7 @@ GameObject:
   - component: {fileID: 1363211764}
   - component: {fileID: 1363211765}
   - component: {fileID: 1363211766}
+  - component: {fileID: 1363211767}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -723,7 +724,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1363211755}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9a38aecf416bb4ae48bc1574028e7f69, type: 3}
   m_Name: 
@@ -732,3 +733,26 @@ MonoBehaviour:
   jumpSpeed: 200
   jumpDelay: 0.1
   jumpCount: 2
+  dustEffectPrefab: {fileID: 1868811832362010, guid: 46fbf8fb807c84a2fb46c4d662dd2da9,
+    type: 2}
+--- !u!114 &1363211767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1363211755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e51f610170b48e59fa642290c20c8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputButtons: 05000000
+  jumpSpeed: 150
+  jumpDelay: 0.1
+  jumpCount: 2
+  dustEffectPrefab: {fileID: 1868811832362010, guid: 46fbf8fb807c84a2fb46c4d662dd2da9,
+    type: 2}
+  longJumpDelay: 0.15
+  longJumpMultiplier: 1.2
+  canLongJump: 0
+  isLongJumping: 0

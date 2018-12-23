@@ -1,7 +1,4 @@
-﻿
-//https://unity3d.com/learn/tutorials/topics/2d-game-creation/player-controller-script
-
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
