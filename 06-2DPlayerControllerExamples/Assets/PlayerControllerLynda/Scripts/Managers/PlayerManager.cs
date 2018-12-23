@@ -8,6 +8,7 @@ public class PlayerManager : MonoBehaviour {
     private Walk walkBehavior;
     private Animator animator;
     private CollisionState collisionState;
+    private Duck duckBehavior;
 
     void Awake()
     {
@@ -15,6 +16,7 @@ public class PlayerManager : MonoBehaviour {
         walkBehavior = GetComponent<Walk>();
         animator = GetComponent<Animator>();
         collisionState = GetComponent<CollisionState>();
+        duckBehavior = GetComponent<Duck>();
     }
 
     private void Update()
@@ -36,6 +38,15 @@ public class PlayerManager : MonoBehaviour {
         }
 
         animator.speed = walkBehavior.running ? walkBehavior.runMultiplier : 1;
+
+        if (duckBehavior.ducking)
+        {
+            ChangeAnimationState(3);
+        }
+        if (!collisionState.standing && collisionState.onWall)
+        {
+            ChangeAnimationState(4);
+        }
     }
 
     void ChangeAnimationState(int value)

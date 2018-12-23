@@ -1,10 +1,15 @@
 ﻿<Properties StartupConfiguration="{B0BDAFC1-39AE-98A3-F409-3C5DE148C957}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/PlayerControllerLynda/Scripts/Behaviors/Duck.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/PlayerControllerLynda/Scripts/Behaviors/WallJump.cs">
     <Files>
-      <File FileName="Assets/PlayerControllerLynda/Scripts/Effects/DustEffect.cs" Line="9" Column="29" />
-      <File FileName="Assets/PlayerControllerLynda/Scripts/Behaviors/Jump.cs" Line="25" Column="1" />
-      <File FileName="Assets/PlayerControllerLynda/Scripts/Behaviors/LongJump.cs" Line="37" Column="28" />
-      <File FileName="Assets/PlayerControllerLynda/Scripts/Behaviors/Duck.cs" Line="8" Column="5" />
+      <File FileName="Assets/PlayerControllerLynda/Scripts/Behaviors/AbstractBehavior.cs" Line="8" Column="25" />
+      <File FileName="Assets/PlayerControllerLynda/Scripts/Behaviors/Duck.cs" Line="27" Column="57" />
+      <File FileName="Assets/PlayerControllerLynda/Scripts/Behaviors/FaceDirection.cs" Line="11" Column="9" />
+      <File FileName="Assets/PlayerControllerLynda/Scripts/Behaviors/Walk.cs" Line="14" Column="5" />
+      <File FileName="Assets/PlayerControllerLynda/Scripts/Collision/CollisionState.cs" Line="46" Column="31" />
+      <File FileName="Assets/PlayerControllerLynda/Scripts/Managers/PlayerManager.cs" Line="48" Column="35" />
+      <File FileName="Assets/PlayerControllerLynda/Scripts/Behaviors/StickToWall.cs" Line="36" Column="40" />
+      <File FileName="Assets/PlayerControllerLynda/Scripts/Behaviors/WallSlide.cs" Line="17" Column="55" />
+      <File FileName="Assets/PlayerControllerLynda/Scripts/Behaviors/WallJump.cs" Line="7" Column="5" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

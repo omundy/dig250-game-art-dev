@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Duck : AbstractBehavior
@@ -7,7 +6,7 @@ public class Duck : AbstractBehavior
 
     public float scale = .5f;
     public bool ducking;
-    public float centerOffsetY = 0;
+    public float centerOffsetY = 0f;
 
     private CircleCollider2D circleCollider;
     private Vector2 originalCenter;
@@ -22,7 +21,11 @@ public class Duck : AbstractBehavior
 
     protected virtual void OnDuck(bool value)
     {
+
         ducking = value;
+
+        ToggleScripts(!ducking); // disable other script
+
         var size = circleCollider.radius;
 
         float newOffsetY;
@@ -35,14 +38,30 @@ public class Duck : AbstractBehavior
         }
         else
         {
-            // reset
             sizeReciprocal = 1 / scale;
             newOffsetY = originalCenter.y;
         }
 
         size = size * sizeReciprocal;
         circleCollider.radius = size;
-        circleCollider.offset = new Vector2(circleCollider)
+        circleCollider.offset = new Vector2(circleCollider.offset.x, newOffsetY);
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+        var canDuck = inputState.GetButtonValue(inputButtons[0]);
+        if (canDuck < 0 && collisionState.standing && !ducking)
+        {
+            OnDuck(true);
+        }
+        else if (ducking && canDuck >= 0)
+        {
+            OnDuck(false);
+        }
+
     }
 
 }

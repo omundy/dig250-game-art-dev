@@ -1,11 +1,12 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using System.Collections;
 
-public abstract class AbstractBehavior : MonoBehaviour {
-
+public abstract class AbstractBehavior : MonoBehaviour
+{
 
     public Buttons[] inputButtons;
+    public MonoBehaviour[] disableScripts;
+
     protected InputState inputState;
     protected Rigidbody2D body2d;
     protected CollisionState collisionState;
@@ -17,13 +18,11 @@ public abstract class AbstractBehavior : MonoBehaviour {
         collisionState = GetComponent<CollisionState>();
     }
 
-    protected virtual void Start()
+    protected virtual void ToggleScripts(bool value)
     {
-
+        foreach (var script in disableScripts)
+        {
+            script.enabled = value;
+        }
     }
-    protected virtual void Update()
-    {
-
-    }
-
 }

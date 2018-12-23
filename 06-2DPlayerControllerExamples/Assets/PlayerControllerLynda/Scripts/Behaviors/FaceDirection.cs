@@ -5,10 +5,9 @@ using UnityEngine;
 public class FaceDirection : AbstractBehavior
 {
 
-
-
-    protected override void Update()
+    void Update()
     {
+
         var right = inputState.GetButtonValue(inputButtons[0]);
         var left = inputState.GetButtonValue(inputButtons[1]);
 
@@ -22,5 +21,8 @@ public class FaceDirection : AbstractBehavior
         }
 
         transform.localScale = new Vector3((float)inputState.direction, 1, 1);
+
+
+
     }
 }

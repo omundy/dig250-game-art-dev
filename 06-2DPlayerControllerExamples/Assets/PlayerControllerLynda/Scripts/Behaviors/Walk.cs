@@ -11,7 +11,7 @@ public class Walk : AbstractBehavior
 
 
     // Update is called once per frame
-    protected override void Update()
+    void Update()
     {
         running = false;
         var right = inputState.GetButtonValue(inputButtons[0]);
