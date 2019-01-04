@@ -35,7 +35,9 @@
 * Select - F key or double click
 * Arrow Keys - Move around
 
-**Transform Tools** ![toolbar](https://docs.unity3d.com/uploads/Main/UI-ViewTool.png)
+**<a href="https://docs.unity3d.com/Manual/SceneViewNavigation.html">Transform Tools</a>** 
+
+![toolbar](https://docs.unity3d.com/uploads/Main/UI-ViewTool.png)
 
 * Q, Hand - Pan / orbit around
 * W, Translate - Move game object
@@ -54,9 +56,9 @@
 
 ![toolbar](https://docs.unity3d.com/uploads/Main/Editor-PlayButtons.png)
 
-Play | Enter play mode
-Pause | Pause play mode
-Step | Step forward one frame
+* Play -  Enter play mode
+* Pause - Pause play mode
+* Step - Step forward one frame
 
 
 
