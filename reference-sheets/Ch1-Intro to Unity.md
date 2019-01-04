@@ -1,7 +1,3 @@
----
-
-
----
 
 <p>Asset - A game file (texture, scripts, etc.). All assets are stored in a project’s Assets folder and are visible in the Project window.</p>
 <p>Game Object - The pieces that make up a scene. These are the containers for components and are viewable in the Scene and Game views and the Hierarchy window.</p>
