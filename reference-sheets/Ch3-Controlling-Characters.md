@@ -12,19 +12,22 @@
 Term | Definition
 --- | ---
 [Audio Source](https://docs.unity3d.com/Manual/class-AudioSource.html) | The Audio Source plays back an Audio Clip in the scene.
-[Rigidbody](https://docs.unity3d.com/Manual/class-Rigidbody.html) | This component allows game objects to move using physics and gravity. Since a Rigidbody takes over the movement of the GameObject, you shouldn't try to move it from a script by changing the Transform properties (position, rotation, or scale). Instead, you should apply forces to push (for example, other characters, objects, projectiles) the GameObject and let the physics engine calculate the results. See below for more details.
+[Rigidbody](https://docs.unity3d.com/Manual/class-Rigidbody.html) | This component allows game objects to move using physics and gravity. Since it takes over the movement of the GameObject, do not move it from a script by changing the Transform properties. Instead, apply forces to push the GameObject and let the physics engine calculate the results. 
 [Transform](https://docs.unity3d.com/Manual/Transforms.html) | The Transform is used to store a GameObject’s position, rotation, scale and parenting state. Every GameObject will have a Transform component attached.
 [Collider](https://docs.unity3d.com/Manual/Collider2D.html) | Collider components define the shape of objects for physical collisions and triggering behaviors. A Collider is invisible and need not be the exact same shape as the GameObject’s Mesh.
 
 
 
-### [RigidBody2D](https://docs.unity3d.com/Manual/class-Rigidbody2D.html) Body Type Settings
+### RigidBody2D Body Type Settings
 
-Body Type | Collides with | Definition
---- | ---
-`Dynamic` | Everything | The default setting has the full set of properties to make it affected by gravity and forces. It also is the most performance-expensive body type because of its dynamic nature. 
-`Kinematic` | Only Dynamic Rigidbodys | This setting removes the Rigidbody 2D from control of the physics engine and allows it to be moved kinematically from a script. Since it is not affected by gravity and forces it is fast and has a lower demand on system resources than a Dynamic Rigidbody2D.
-`Static` | Only Dynamic Rigidbodys | This Rigidbody 2D is designed to not move under simulation at all. If anything collides with it, a Static Rigidbody 2D behaves like an immovable object.
+Type | Collides with | Description
+--- | --- | ---
+Dynamic | Everything | The default setting has the full set of properties to make it affected by gravity and forces. It also is the most performance-expensive body type because of its dynamic nature. 
+Kinematic | Only Dynamic Rigidbodys | This setting removes the Rigidbody 2D from control of the physics engine and allows it to be moved kinematically from a script. Since it is not affected by gravity and forces it is fast and has a lower demand on system resources than a Dynamic Rigidbody2D.
+Static | Only Dynamic Rigidbodys | This Rigidbody 2D is designed to not move under simulation at all. If anything collides with it, a Static Rigidbody 2D behaves like an immovable object.
+
+Source: [Unity Manual: RigidBody2D](https://docs.unity3d.com/Manual/class-Rigidbody2D.html)
+
 
 
 
