@@ -1,25 +1,24 @@
 
 
-![unity logo](https://raw.githubusercontent.com/omundy/dig250-game-development/master/reference-sheets/unity-logo.png)
+![unity logo](https://raw.githubusercontent.com/omundy/dig250-game-development/master/reference-sheets/images/unity-logo-293w.png)
 
-## Ch1 - Intro to Unity Reference Sheet
-
-
+## Ch1 - Reference Sheet - Intro to Unity 
 
 
-### Terms
 
 
+### Terminology
 
 Term | Definition
 --- | ---
-Asset | A game file (texture, scripts, etc.). All assets are stored in a project’s Assets folder and are visible in the Project window.
-Game Object | The pieces that make up a scene. These are the containers for components and are viewable in the Scene and Game views and the Hierarchy window.
-Component | A modular piece of behavior, such as a Collider or Script. Components are visible in the <a href="https://docs.unity3d.com/Manual/UsingTheInspector.html">Inspector window</a>.
+[Asset](https://docs.unity3d.com/Manual/AssetWorkflow.html) | A game file (texture, scripts, etc.). All assets are stored in a project’s Assets folder and are visible in the [Project window](https://docs.unity3d.com/Manual/ProjectView.html).
+Game Object | The pieces that make up a scene. These are the containers for components and are viewable in the Scene and Game views and the [Hierarchy window](https://docs.unity3d.com/Manual/Hierarchy.html).
+Component | A modular piece of behavior, such as a Collider or Script. Components are visible in the [Inspector](https://docs.unity3d.com/Manual/UsingTheInspector.html).
+[Inspector](https://docs.unity3d.com/Manual/UsingTheInspector.html) | Displays detailed information about the currently selected GameObject, including all attached components and their properties, and allows you to modify the functionality of GameObjects in your Scene.
 Play Mode | When the editor enters play mode the project begins to run and simulate game play. In play mode changes you make are not saved so leave play mode before resuming work.
 Scene | A collection of game objects. Think of a scene like a level.
-<a href="https://docs.unity3d.com/Manual/UsingTheSceneView.html">Scene View</a> | The editable view into the scenes of your game. Your “working space” where you build and edit your game objects.
-<a href="https://docs.unity3d.com/Manual/GameView.html">Game View</a> | What your players see when they run your game. Shows what is rendered from the Camera(s) in your game.
+[Scene View](https://docs.unity3d.com/Manual/UsingTheSceneView.html) | The editable view into the scenes of your game. Your “working space” where you build and edit your game objects.
+[Game View](https://docs.unity3d.com/Manual/GameView.html) | What your players see when they run your game. Shows what is rendered from the Camera(s) in your game.
 Camera | A game object with a Camera component renders your players’ view of the game. Can be moved (e.g. FPS).
 
 
@@ -34,7 +33,7 @@ Camera | A game object with a Camera component renders your players’ view of t
 * Select - F key or double click
 * Arrow Keys - Move around
 
-**<a href="https://docs.unity3d.com/Manual/SceneViewNavigation.html">Transform Tools</a>** 
+**[Transform Tools](https://docs.unity3d.com/Manual/SceneViewNavigation.html)** 
 
 ![toolbar](https://docs.unity3d.com/uploads/Main/UI-ViewTool.png)
 
@@ -51,7 +50,7 @@ Camera | A game object with a Camera component renders your players’ view of t
 * Duplicate - Ctrl or Cmd + D
 * Delete (OSX) - Cmd + Backspace
 
-**Play Controls**
+**[Play Controls](https://docs.unity3d.com/Manual/Toolbar.html)**
 
 ![toolbar](https://docs.unity3d.com/uploads/Main/Editor-PlayButtons.png)
 
