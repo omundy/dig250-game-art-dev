@@ -43,7 +43,7 @@ Source: Unity in Action (2nd ed.) Joseph Hocking
 
 ## Power of 2
 
-Ideally, Texture dimension sizes should be powers of two on each side. This ensures that the hardware can compress the image and increases overall performance. The Textures do not have to be square; that is the width can be different from height. [Unity Manual](https://docs.unity3d.com/Manual/ImportingTextures.html#TextureSizes) 
+Ideally, Texture dimension sizes should be powers of two on each side. This ensures hardware can efficiently compress images in your game, decreasing required memory thus increasing overall performance. The Textures do not have to be square; that is the width can be different from height. [Unity Manual](https://docs.unity3d.com/Manual/ImportingTextures.html#TextureSizes) 
 
 Power | 2<sup>1</sup> | 2<sup>2</sup> | 2<sup>3</sup> | 2<sup>4</sup> | 2<sup>5</sup> | 2<sup>6</sup> | 2<sup>7</sup> | 2<sup>8</sup> | 2<sup>9</sup> | 2<sup>10</sup> | 2<sup>11</sup> | 2<sup>12</sup>
 --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
