@@ -18,6 +18,8 @@ Term | Definition
 
 
 
+
+
 ### RigidBody2D Body Type Settings
 
 Type | Collides with | Description
@@ -27,6 +29,17 @@ Kinematic | Only Dynamic Rigidbodys | This setting removes the Rigidbody 2D from
 Static | Only Dynamic Rigidbodys | This Rigidbody 2D is designed to not move under simulation at all. If anything collides with it, a Static Rigidbody 2D behaves like an immovable object.
 
 Source: [Unity Manual: RigidBody2D](https://docs.unity3d.com/Manual/class-Rigidbody2D.html)
+
+
+
+
+### C# Terms
+
+Term | Definition
+--- | ---
+[Awake()](https://docs.unity3d.com/ScriptReference/MonoBehaviour.Awake.html) | Awake is called just once, when the script instance is being loaded.
+[Start()](https://docs.unity3d.com/ScriptReference/MonoBehaviour.Start.html) | Start is called just once, on the frame when a script is enabled [just before](https://docs.unity3d.com/Manual/ExecutionOrder.html) any of the Update methods are called the first time. 
+[Update()](https://docs.unity3d.com/ScriptReference/MonoBehaviour.Update.html) | The Monobehavior method that runs every frame. 
 
 
 
