@@ -23,20 +23,21 @@ Texture Atlas | A texture (bitmap image) containing multiple, smaller images, us
 
 
 
-https://docs.unity3d.com/Manual/AssetTypes.html
-  
-  
+## Image formats for Unity
 
-Image format | The most common image files types are BMP, TIF, TGA, PNG, JPG, and PSD (photoshop file).
+Type | Lossless | Alpha | Description
+--- | :--- | --- | ---
+PNG | ![#00ff00](https://placehold.it/15/00ff00/000000?text=+) yes | ![#00ff00](https://placehold.it/15/00ff00/000000?text=+) yes | Commonly used on the web. Lossless compression; has an alpha channel.
+JPG | ![#ff0000](https://placehold.it/15/ff0000/000000?text=+) no | ![#ff0000](https://placehold.it/15/ff0000/000000?text=+) no | Commonly used on the web. Lossy compression; no alpha channel.
+GIF | ![#ff0000](https://placehold.it/15/ff0000/000000?text=+) no | ![#ff0000](https://placehold.it/15/ff0000/000000?text=+) no | Commonly used on the web. Lossy compression; no alpha channel.
+BMP | ![#00ff00](https://placehold.it/15/00ff00/000000?text=+) yes | ![#ff0000](https://placehold.it/15/ff0000/000000?text=+) no | Default image format on Windows. No compression; no alpha channel.
+TGA | ![#00ff00](https://placehold.it/15/00ff00/000000?text=+) yes | ![#00ff00](https://placehold.it/15/00ff00/000000?text=+) yes | Commonly used for 3D graphics; obscure everywhere else. No or lossless compression; has an alpha channel.
+TIFF | ![#00ff00](https://placehold.it/15/00ff00/000000?text=+) yes | ![#ff0000](https://placehold.it/15/ff0000/000000?text=+) no | Commonly used for digital photography and publishing. No or lossless compression; no alpha channel.
+PICT | ![#ff0000](https://placehold.it/15/ff0000/000000?text=+) no | ![#ff0000](https://placehold.it/15/ff0000/000000?text=+) no | Default image format on old Macs. Lossy compression; no alpha channel.
+PSD | ![#00ff00](https://placehold.it/15/00ff00/000000?text=+) yes | ![#00ff00](https://placehold.it/15/00ff00/000000?text=+) yes | Native file format for Photoshop. No compression; has an alpha channel. The main reason to use this file format would be the advantage of using Photoshop files directly.
 
-  
+Source: Unity in Action (2nd ed.) Joseph Hocking
 
-Each file format serves a different purpose, with different settings, and varying file sizes. For example,
-
-  
-  
-
-PNG file formats allow you to have an alpha channel, which allows part of an image to be transparent, where a JPG does not. These are important things to keep in mind when deciding on what image format that you will need to export from your graphics program. We will cover how to import images with alpha channels, as well as
 
 
 
