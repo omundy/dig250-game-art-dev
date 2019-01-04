@@ -1,4 +1,13 @@
 
+
+
+
+![unity logo](https://raw.githubusercontent.com/omundy/dig250-game-development/master/reference-sheets/unity-logo.png)
+
+## Ch1 - Intro to Unity Reference Sheet
+
+### Terms
+
 <p>Asset - A game file (texture, scripts, etc.). All assets are stored in a project’s Assets folder and are visible in the Project window.</p>
 
 <p>Game Object - The pieces that make up a scene. These are the containers for components and are viewable in the Scene and Game views and the Hierarchy window.</p>
@@ -14,4 +23,53 @@
 <p><a href="https://docs.unity3d.com/Manual/GameView.html">Game View</a> - What your players see when they run your game. Shows what is rendered from the Camera(s) in your game.</p>
 
 <p>Camera - A game object with a Camera component renders your players’ view of the game. Can be moved (e.g. FPS).</p>
+
+
+
+### Hotkeys & Buttons
+
+
+**Scene Movement (2D Mode)**
+* Pan - Right Click + Drag
+* Zoom - Mouse scroll wheel
+* Select - F key or double click
+* Arrow Keys - Move around
+
+**Transform Tools** ![toolbar](https://docs.unity3d.com/uploads/Main/UI-ViewTool.png)
+
+* Q, Hand - Pan / orbit around
+* W, Translate - Move game object
+* E, Rotate - Rotate object
+* R, Scale - Resize object
+* T, Rect - Modify 2D sprites
+* Y, Composite - Modify 3D sprites
+
+**Miscellaneous**
+
+* Save - Ctrl or Cmd + S
+* Duplicate - Ctrl or Cmd + D
+* Delete (OSX) - Cmd + Backspace
+
+**Play Controls**
+
+![toolbar](https://docs.unity3d.com/uploads/Main/Editor-PlayButtons.png)
+
+Play | Enter play mode
+Pause | Pause play mode
+Step | Step forward one frame
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
