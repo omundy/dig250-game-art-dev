@@ -14,10 +14,10 @@ Pair with
 
 Term | Definition
 --- | ---
-[Audio Source](https://docs.unity3d.com/Manual/class-AudioSource.html) | The Audio Source plays back an Audio Clip in the scene.
-[Rigidbody](https://docs.unity3d.com/Manual/class-Rigidbody.html) | This component allows game objects to move using physics and gravity. Since it takes over the movement of the GameObject, do not move it from a script by changing the Transform properties. Instead, apply forces to push the GameObject and let the physics engine calculate the results. 
+
+[Rigidbody](https://docs.unity3d.com/Manual/RigidbodiesOverview.html) | This component allows game objects to respond to physics and gravity. Since it takes over the movement of the GameObject, do not move it using code by changing the Transform properties. Instead, apply forces to push the GameObject and let the physics engine calculate the results. 
 [Transform](https://docs.unity3d.com/Manual/Transforms.html) | The Transform is used to store a GameObject’s position, rotation, scale and parenting state. Every GameObject will have a Transform component attached.
-[Collider](https://docs.unity3d.com/Manual/Collider2D.html) | Collider components define the shape of objects for physical collisions and triggering behaviors. A Collider is invisible and need not be the exact same shape as the GameObject’s Mesh.
+[Collider](https://docs.unity3d.com/Manual/CollidersOverview.html) | Collider components define the shape of objects for physical collisions and triggering behaviors. A Collider is invisible and need not be the exact same shape as the GameObject’s Mesh.
 
 
 
@@ -33,41 +33,5 @@ Static | Only Dynamic Rigidbodys | This Rigidbody 2D is designed to not move und
 
 Source: [Unity Manual: RigidBody2D](https://docs.unity3d.com/Manual/class-Rigidbody2D.html)
 
-
-
-
-### C# Terms
-
-Term | Definition
---- | ---
-[Awake()](https://docs.unity3d.com/ScriptReference/MonoBehaviour.Awake.html) | Awake is called just once, when the script instance is being loaded.
-[Start()](https://docs.unity3d.com/ScriptReference/MonoBehaviour.Start.html) | Start is called just once, on the frame when a script is enabled, [just before](https://docs.unity3d.com/Manual/ExecutionOrder.html) any of the Update methods are called the first time. This makes it a better place to store references to the game object's components needed in the script.
-[Update()](https://docs.unity3d.com/ScriptReference/MonoBehaviour.Update.html) | The Monobehavior method that runs every frame. 
-[FixedUpdate()](https://docs.unity3d.com/ScriptReference/MonoBehaviour.FixedUpdate.html) | This method, like `Update()` runs every frame, but is frame rate independent. This means it is better for physics calculations because the character movement will happen at the same rate regardless of hardware performance. 
-
-
-
-
-## Audio formats for Unity
-
-Extensions | Description
---- |  ---
-.mp3 | MPEG layer 3
-.ogg | Ogg Vorbis	
-.wav | Microsoft Wave	
-.aiff / .aif | Audio Interchange File Format
-
-## Tracker Modules for Unity
-
-[Tracker Modules](https://docs.unity3d.com/Manual/TrackerModules.html) are similar to Midi files, where pitch and instrument can be adjust without losing quality. One benefit is they can be very small without a corresponding loss of sound quality compared to regular audio.
-
-Extensions | Description
---- |  ---
-.mod | Ultimate Soundtracker module	
-.it | Impulse Tracker module	
-.s3m | Scream Tracker module	
-.xm | FastTracker 2 module	
-
-Source: [Unity Manual: Audio Files](https://docs.unity3d.com/Manual/AudioFiles.html)
 
 
