@@ -2,7 +2,7 @@
 
 ![unity logo](https://raw.githubusercontent.com/omundy/dig250-game-development/master/reference-sheets/images/unity-logo-293w.png)
 
-## Unity Physics Reference Sheet
+## Reference Sheet - Unity Physics 
 
 Pair with 
 * Chapter 3 in Ferro, Lauren S., and Francesco Sapio. Unity 2017 Game Development. Packt, 2018.
