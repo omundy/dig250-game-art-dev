@@ -51,7 +51,7 @@ Power | 2<sup>1</sup> | 2<sup>2</sup> | 2<sup>3</sup> | 2<sup>4</sup> | 2<sup>5<
 --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
 Pixels | 2 | 4 | 8 | 16 | 32 | 64 | 128 | 256 | 512 | 1024 | 2048 | 4096
 
-Source: [Unity Manual: Importing Textures](https://docs.unity3d.com/Manual/ImportingTextures.html#TextureSizes) 
+Source: Unity Manual: [Importing Textures](https://docs.unity3d.com/Manual/ImportingTextures.html#TextureSizes) 
 
 
 
