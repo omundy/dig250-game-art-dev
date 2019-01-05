@@ -8,7 +8,8 @@
 
 ## MonoBehaviour
 
-[MonoBehaviour](https://docs.unity3d.com/ScriptReference/MonoBehaviour.html) is the base class from which every Unity script derives. When you use C#, you must explicitly derive from MonoBehaviour.
+* [MonoBehaviour](https://docs.unity3d.com/ScriptReference/MonoBehaviour.html) is the base class from which every Unity script derives. 
+* When you use C#, you must explicitly derive from MonoBehaviour.
 
 
 ### Methods
