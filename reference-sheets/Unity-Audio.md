@@ -26,7 +26,7 @@ Extensions | Description
 
 ## Tracker Modules for Unity
 
-[Tracker Modules](https://docs.unity3d.com/Manual/TrackerModules.html) are similar to Midi files, where pitch and instrument can be adjust without losing quality. One benefit is they can be very small without a corresponding loss of sound quality compared to regular audio.
+[Tracker Modules](https://docs.unity3d.com/Manual/TrackerModules.html) are similar to Midi files, where pitch and instrument can be adjusted without losing quality. One benefit is they can be very small without a corresponding loss of sound quality compared to regular audio.
 
 Extensions | Description
 --- |  ---
