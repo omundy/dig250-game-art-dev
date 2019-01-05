@@ -14,7 +14,6 @@ Pair with
 
 Term | Definition
 --- | ---
-
 [Rigidbody](https://docs.unity3d.com/Manual/RigidbodiesOverview.html) | This component allows game objects to respond to physics and gravity. Since it takes over the movement of the GameObject, do not move it using code by changing the Transform properties. Instead, apply forces to push the GameObject and let the physics engine calculate the results. 
 [Transform](https://docs.unity3d.com/Manual/Transforms.html) | The Transform is used to store a GameObject’s position, rotation, scale and parenting state. Every GameObject will have a Transform component attached.
 [Collider](https://docs.unity3d.com/Manual/CollidersOverview.html) | Collider components define the shape of objects for physical collisions and triggering behaviors. A Collider is invisible and need not be the exact same shape as the GameObject’s Mesh.
