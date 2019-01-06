@@ -4,6 +4,9 @@
 
 ## Reference Sheet - Unity Audio 
 
+Pair with
+* Chapter 3 in Ferro, Lauren S., and Francesco Sapio. Unity 2017 Game Development. Packt, 2018.
+
 
 ### Terminology
 
