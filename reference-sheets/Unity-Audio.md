@@ -4,9 +4,6 @@
 
 ## Reference Sheet - Unity Audio 
 
-Pair with
-* Chapter 3 in Ferro, Lauren S., and Francesco Sapio. Unity 2017 Game Development. Packt, 2018.
-
 
 ### Terminology
 
@@ -39,4 +36,12 @@ Extensions | Description
 .xm | FastTracker 2 module	
 
 Source: [Unity Manual: Audio Files](https://docs.unity3d.com/Manual/AudioFiles.html)
+
+
+### Sources
+* [Unity Manual](https://docs.unity3d.com/Manual/index.html) and [Unity Scripting Reference](https://docs.unity3d.com/ScriptReference/index.html)
+* Chapter 3 in Ferro, Lauren S., and Francesco Sapio. Unity 2017 Game Development. Packt, 2018.
+* Chapter 11 in Hocking, Joseph. Unity in Action: Multiplatform Game Development in C # (2nd Edition). Manning, 2018. 
+
+
 
