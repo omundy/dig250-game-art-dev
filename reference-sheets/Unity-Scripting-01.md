@@ -27,4 +27,4 @@ Term | Definition
 * [Unity Manual](https://docs.unity3d.com/Manual/index.html) and [Unity Scripting Reference](https://docs.unity3d.com/ScriptReference/index.html)
 * Chapter 3 in Ferro, Lauren S., and Francesco Sapio. Unity 2017 Game Development. Packt, 2018.
 * Chapter 1 in Hocking, Joseph. Unity in Action: Multiplatform Game Development in C # (2nd Edition). Manning, 2018.
-* Chapter 1 in DaGraca & Lukosek. Learning C# 7 By Developing Games with Unity 2017 (3rd Edition). Packt, 2017. Print.
+* Chapter 1 in DaGraca & Lukosek. Learning C# 7 By Developing Games with Unity 2017 (3rd Edition). Packt, 2017.
