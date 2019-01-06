@@ -4,9 +4,6 @@
 
 ## Reference Sheet - 3D Objects
 
-Pair with 
-* Chapter 2 in Hocking, Joseph. Unity in Action: Multiplatform Game Development in C # (2nd Edition). Manning, 2018.
-
 
 ### Terminology
 
