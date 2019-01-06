@@ -6,7 +6,8 @@
 
 Pair with 
 * Chapter 2 in Ferro, Lauren S., and Francesco Sapio. Unity 2017 Game Development. Packt, 2018.
-* Chapter 4 in Hocking, Joseph. Unity in Action: Multiplatform Game Development in C # (2nd Edition). Manning. 
+* Chapter 4 in Hocking, Joseph. Unity in Action: Multiplatform Game Development in C # (2nd Edition). Manning, 2018.
+* Chapter 1 in Godbold, Ashley, and Simon Jackson. Mastering Unity 2D Game Development (2nd Edition). Packt, 2016. 
 
 
 ### Terminology
