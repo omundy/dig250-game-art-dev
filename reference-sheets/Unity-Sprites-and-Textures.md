@@ -18,6 +18,8 @@ Texture Atlas | A texture (bitmap image) containing multiple, smaller images, us
 [Sprite Tags](https://docs.unity3d.com/Manual/Tags.html) | Tags help you identify GameObjects for scripting purposes. For example, you might define “Player” Tags for player-controlled characters or items the player can collect in a Scene with a “Collectable” Tag.
 [Sprite Sorting Layers](https://docs.unity3d.com/Manual/class-TagManager.html) | Sorting Layers and Order in Layer are used by the Sprite Renderer to determine the render order of sprites in a scene. You can add and arrange Sorting Layers, and change the order of sprites in the layer (both positive and negative values) to affect how sprites overlay. See [this video](https://unity3d.com/learn/tutorials/topics/2d-game-creation/sorting-layers) for a demonstration.
 [Layers](https://docs.unity3d.com/Manual/Layers.html) | Layers are most commonly used by Cameras and Lights to render or illuminate only parts of the scene. They can also be used by raycasting to selectively ignore colliders or to create collisions. If you want to change the overlay of Sprites you should use Sorting Layers (above).
+Lossy | When a file is compressed and data is lost (i.e. it loses quality). Lossless is when every single bit of data remains. Lossy compression results in smaller file sizes but again, with a loss in quality.
+
 
 
 ### Sprite Tools
@@ -64,7 +66,7 @@ Source: Unity Manual: [Importing Textures](https://docs.unity3d.com/Manual/Impor
 * Chapter 2 in Ferro, Lauren S., and Francesco Sapio. Unity 2017 Game Development. Packt, 2018.
 * Chapter 4 in Hocking, Joseph. Unity in Action: Multiplatform Game Development in C # (2nd Edition). Manning, 2018.
 * Chapter 1 in Godbold, Ashley, and Simon Jackson. Mastering Unity 2D Game Development (2nd Edition). Packt, 2016. 
-
+* Chapter 3 in Halpern, Jared. Developing 2D Games with Unity. APress, 2019.
 
 
 
