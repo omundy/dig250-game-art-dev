@@ -30,4 +30,4 @@ https://github.com/Apress/Devel-2D-Games-Unity
 
 ### Animation
 
-[ANIMATE 2D CHARACTERS in Unity](https://www.youtube.com/watch?v=eXIuizGzY2A) (15:40)
+Brackey's [Animate 2D Characters in Unity](https://www.youtube.com/watch?v=eXIuizGzY2A) (15:40)
