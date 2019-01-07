@@ -14,7 +14,7 @@ Term | Definition
 --- | ---
 [Scene](https://docs.unity3d.com/Manual/CreatingScenes.html) | A collection of game objects. Think of a scene like a level.
 [Scene view](https://docs.unity3d.com/Manual/UsingTheSceneView.html) | The editable view of the scene; Your “working space” where you build and edit objects in your game.
-[Game view](https://docs.unity3d.com/Manual/GameView.html) | What your players see when they run your game. Shows what is rendered from the Camera(s) in your game.
+[Game view](https://docs.unity3d.com/Manual/GameView.html) | Shows what is rendered from the Camera(s) and thus what your players see when they run your game. The Game view can simulate different screen ratios and devices, which are available in your Build settings.
 [Asset](https://docs.unity3d.com/Manual/AssetWorkflow.html) | A game file (texture, scripts, etc.). All assets are stored in a project’s Assets folder and are visible in the [Project window](https://docs.unity3d.com/Manual/ProjectView.html).
 [Project window](https://docs.unity3d.com/Manual/ProjectView.html) | The Project is where you can access and manage all the assets that belong to your project. You can add them by dragging them to the Scene or the Hierarchy.
 [Hierarchy window](https://docs.unity3d.com/Manual/Hierarchy.html) | The Hierarchy contains a list of every GameObject in the current Scene. As objects are added and removed in the Scene, they will appear and disappear from the Hierarchy as well.
@@ -24,7 +24,7 @@ Parenting | In the Hierarchy, when you drag a game object onto another, the form
 [Inspector](https://docs.unity3d.com/Manual/UsingTheInspector.html) | Displays detailed information about the currently selected game object, including all attached components and their properties, and allows you to modify the functionality of GameObjects in your Scene.
 Play Mode | When the editor enters play mode the project begins to run and simulate game play. In play mode changes you make are not saved so leave play mode before resuming work.
 [Camera](https://docs.unity3d.com/Manual/CamerasOverview.html) | A game object with a Camera component that renders your players’ view of the game. Can be moved and repositioned (e.g. a "first-person shooter").
-
+[Gizmos](https://docs.unity3d.com/Manual/GizmosMenu.html) | Gizmos are icons that stand in place of objects in the Scene view that don’t necessarily have representations like the camera, lighting or colliders. 
 
 
 
