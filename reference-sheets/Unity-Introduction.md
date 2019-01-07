@@ -67,7 +67,7 @@ Play Mode | When the editor enters play mode the project begins to run and simul
 * [Unity Manual](https://docs.unity3d.com/Manual/index.html) and [Unity Scripting Reference](https://docs.unity3d.com/ScriptReference/index.html)
 * Chapter 1 in Ferro, Lauren S., and Francesco Sapio. Unity 2017 Game Development. Packt, 2018.
 * Chapter 1 in Hocking, Joseph. Unity in Action: Multiplatform Game Development in C # (2nd Edition). Manning, 2018. 
-
+* Chapter 2 in Halpern, Jared. Developing 2D Games with Unity. APress, 2019. 
 
 
 
