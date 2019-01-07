@@ -4,7 +4,7 @@
 
 ![unity logo](https://raw.githubusercontent.com/omundy/dig250-game-development/master/reference-sheets/images/unity-logo-293w.png)
 
-## Reference Sheet - Intro to Unity 
+## Reference Sheet - Unity Animation
 
 
 
