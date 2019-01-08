@@ -19,7 +19,7 @@ Texture Atlas | A texture (bitmap image) containing multiple, smaller images, us
 [Sprite Sorting Layers](https://docs.unity3d.com/Manual/class-TagManager.html) | Sorting Layers and Order in Layer are used by the Sprite Renderer to determine the render order of sprites in a scene. You can add and arrange Sorting Layers, and change the order of sprites in the layer (both positive and negative values) to affect how sprites overlay. See [this video](https://unity3d.com/learn/tutorials/topics/2d-game-creation/sorting-layers) for a demonstration.
 [Layers](https://docs.unity3d.com/Manual/Layers.html) | Layers are most commonly used by Cameras and Lights to render or illuminate only parts of the scene. They can also be used by raycasting to selectively ignore colliders or to create collisions. If you want to change the overlay of Sprites you should use Sorting Layers (above).
 Lossy | When a file is compressed and data is lost (i.e. it loses quality). Lossless is when every single bit of data remains. Lossy compression results in smaller file sizes but again, with a loss in quality.
-
+Pixels Per Unit (PPU) | Pixels per unit is a sprite import setting that determines the relationship between pixels (the image scale) and Unity's units. For pixel art you typically use a low PPU, allowing you to easily snap tiles together in a scene, while you want a higher PPU for high resolution graphics. The default is 100. 
 
 
 ### Sprite Tools
