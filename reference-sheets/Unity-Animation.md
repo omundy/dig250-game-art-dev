@@ -16,9 +16,7 @@ Animation Frame | A single moment in time, where properties or different sprites
 [Animation Clips](https://docs.unity3d.com/Manual/class-AnimationClip.html) | A single clip, with either a sprite frame by frame animation or changes to properties, viewable on a timeline. These represent isolated pieces of motion, such as Run, Jump, or Crawl, and are controlled by the Animation Controller.
 [Animator Controller](https://docs.unity3d.com/Manual/class-AnimatorController.html) | The “brain” or “state machine” where you control which animation clip is playing and the conditions for how transitions between animation clips happen.
 [Animation Transitions](https://docs.unity3d.com/Manual/class-Transition.html) | The switch or blend from one animation to another in the state machine and under what conditions the change should occur.
-
-
-
+[Animation Parameters](https://docs.unity3d.com/Manual/AnimationParameters.html) | Variables defined within an Animator Controller that allow script control over the flow of the state machine. For example, if a player makes a character jump, we can use code to set a `grounded` property to false. We can set the state machine to transition to a jump animation in this case.
 
 
 ### Sources
