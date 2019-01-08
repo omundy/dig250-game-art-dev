@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{85EE3654-7D34-7BA2-EEEC-6A5D9A663999}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/PlayerControllerLynda/Scripts/Behaviors/Jump.cs">
+    <Files>
+      <File FileName="Assets/PlayerControllerLynda/Scripts/Managers/PlayerManager.cs" Line="27" Column="22" />
+      <File FileName="Assets/PlayerControllerLynda/Scripts/Input/InputState.cs" Line="45" Column="37" />
+      <File FileName="Assets/PlayerControllerLynda/Scripts/Behaviors/Walk.cs" Line="33" Column="43" />
+      <File FileName="Assets/PlayerControllerLynda/Scripts/Collision/CollisionState.cs" Line="30" Column="50" />
+      <File FileName="Assets/PlayerControllerLynda/Scripts/Behaviors/AbstractBehavior.cs" Line="17" Column="53" />
+      <File FileName="Assets/PlayerControllerLynda/Scripts/Behaviors/Jump.cs" Line="17" Column="11" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

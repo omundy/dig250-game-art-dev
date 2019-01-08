@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Timeline_Duck_Puppet/Timeline_Duck_Puppet.unity
+  isLoaded: 1
+  isActive: 1
