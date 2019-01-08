@@ -1,6 +1,6 @@
 
 
-![unity logo](https://raw.githubusercontent.com/omundy/dig250-game-development/master/reference-sheets/images/unity-logo-293w.png)
+![unity logo](images/unity-logo-293w.png)
 
 ## Reference Sheet - Sprites and Textures
 

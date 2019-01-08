@@ -1,6 +1,5 @@
 
 
-
 ![unity logo](images/unity-logo-293w.png)
 
 ## Reference Sheet - Unity UI
