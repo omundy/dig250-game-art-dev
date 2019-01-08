@@ -2,7 +2,7 @@
 
 
 
-![unity logo](https://raw.githubusercontent.com/omundy/dig250-game-development/master/reference-sheets/images/photoshop.ico)
+![unity logo](https://raw.githubusercontent.com/omundy/dig250-game-development/master/reference-sheets/images/photoshop.png)
 
 ## Reference Sheet - Photoshop Animation 
 
@@ -14,5 +14,5 @@
 
 Term | Definition
 --- | ---
-
+PNG | File tupe tahdkahjd
 
