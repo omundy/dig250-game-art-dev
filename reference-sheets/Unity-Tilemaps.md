@@ -12,6 +12,7 @@
 
 Term | Definition
 --- | ---
+Tiles | Sprites that have been segmented or “sliced” into convenient dimensions and usually placed using a Tile Palette.
 
 
 ### Sources
