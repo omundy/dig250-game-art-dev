@@ -11,7 +11,7 @@
 * When you use C#, you must explicitly derive from MonoBehaviour.
 
 
-### Methods
+### Methods & Terms
 
 Term | Definition
 --- | ---
@@ -20,7 +20,7 @@ Term | Definition
 [Update()](https://docs.unity3d.com/ScriptReference/MonoBehaviour.Update.html) | The Monobehavior method that runs every frame. 
 [FixedUpdate()](https://docs.unity3d.com/ScriptReference/MonoBehaviour.FixedUpdate.html) | This method, like `Update()` runs every frame, but is frame rate independent. This means it is better for physics calculations because the character movement will happen at the same rate regardless of hardware performance. 
 [OnTriggerEnter2D(Collider2D)](https://docs.unity3d.com/ScriptReference/MonoBehaviour.OnTriggerEnter2D.html) | Sent when another object enters a trigger collider attached to this object (2D physics only). Further information about the other collider is reported in the Collider2D parameter passed during the call.
-
+[namespace](https://docs.unity3d.com/Manual/Namespaces.html) | Help to prevent naming conflicts by organizing our class names into collections referred to using the chosen prefix. An example of this simplified access: instead of typing `UnityEngine.Debug.Log()` we can type `Debug.Log()` by writing `using UnityEngine`.
 
 ### Sources
 * [Unity Manual](https://docs.unity3d.com/Manual/index.html) and [Unity Scripting Reference](https://docs.unity3d.com/ScriptReference/index.html)
