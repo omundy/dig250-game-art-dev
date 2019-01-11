@@ -1,6 +1,9 @@
 # Game Art and Development
 
-Examples, tutorials, and references for ART 270 Art for Games and DIG 250 Game Development
+Examples, tutorials, and references for 
+
+* ART 270 Art for Games
+* DIG 250 Game Development
 
 
 
