@@ -11,8 +11,40 @@ Examples, tutorials, and references for
 
 
 
+
+
+
+## Tutorials and References
+Step by step lessons
+
+
+### Art
+
+* Unity Tutorial: [Intro to 2D World building w/ Tilemap](https://unity3d.com/learn/tutorials/topics/2d-game-creation/intro-2d-world-building-w-tilemap) (parts 1–8)
+
+
+
+### C# Scripting
+
+* Class Scripting References: [01](reference-sheets/Unity-Scripting-01.md) and [02](reference-sheets/Unity-Scripting-02.md)
+* [Unity Scripting Reference](https://docs.unity3d.com/ScriptReference/index.html)
+* Unity Tutorial: [Scripting](https://unity3d.com/learn/tutorials/s/scripting)
+* Unity Manual: [Scripting](https://docs.unity3d.com/Manual/ScriptingSection.html)
+
+
+### Animation
+
+* Brackeys [Animate 2D Characters in Unity](https://www.youtube.com/watch?v=eXIuizGzY2A) (15:40)
+* Brackeys [2D Camera in Unity (Cinemachine Tutorial)](https://www.youtube.com/watch?v=2jTY11Am0Ig) (9:18)
+
+
+
+
+
+
+
 ## Resources
-Downloadable content for your projects
+Content for your projects
 
 ### Art
 
@@ -28,20 +60,4 @@ Downloadable content for your projects
 
 * Halpern, Jared. [Developing 2D Games with Unity](https://github.com/Apress/Devel-2D-Games-Unity). APress, 2019
 * DaGraca, Micael, and Greg Lukosek. [Learning C# 7 By Developing Games with Unity 2017 (3rd Ed.)](https://github.com/PacktPublishing/Learning-C-7-By-Developing-Games-with-Unity-2017-Third-Edition). Packt, 2017.
-
-
-
-
-## Tutorials
-Step by step instructions for your projects
-
-### Animation
-
-* Brackey's [Animate 2D Characters in Unity](https://www.youtube.com/watch?v=eXIuizGzY2A) (15:40)
-
-
-
-
-
-
 
