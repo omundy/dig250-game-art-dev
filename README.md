@@ -1,5 +1,5 @@
 
-![game controller](resource-sheets/images/controller-xs.png)
+![game controller](reference-sheets/images/controller-xs.png)
 
 
 # Game Art and Development
