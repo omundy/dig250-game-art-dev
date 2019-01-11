@@ -1,3 +1,7 @@
+
+!(game controller)[resource-sheets/images/controller-xs.png]
+
+
 # Game Art and Development
 
 Examples, tutorials, and references for 
@@ -23,7 +27,7 @@ Downloadable content for your projects
 ### Book Source Code
 
 * Halpern, Jared. [Developing 2D Games with Unity](https://github.com/Apress/Devel-2D-Games-Unity). APress, 2019
-
+* DaGraca, Micael, and Greg Lukosek. [Learning C# 7 By Developing Games with Unity 2017 (3rd Ed.)](https://github.com/PacktPublishing/Learning-C-7-By-Developing-Games-with-Unity-2017-Third-Edition). Packt, 2017.
 
 
 
