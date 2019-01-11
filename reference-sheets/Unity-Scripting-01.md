@@ -13,7 +13,7 @@
 
 ### Monobehavior Methods
 
-Term | Definition
+Method | Description
 --- | ---
 [Awake()](https://docs.unity3d.com/ScriptReference/MonoBehaviour.Awake.html) | Awake is called just once, when the script instance is being loaded.
 [Start()](https://docs.unity3d.com/ScriptReference/MonoBehaviour.Start.html) | Start is called just once, on the frame when a script is enabled, [just before](https://docs.unity3d.com/Manual/ExecutionOrder.html) any of the Update methods are called the first time. This makes it a better place to store references to the game object's components needed in the script.
