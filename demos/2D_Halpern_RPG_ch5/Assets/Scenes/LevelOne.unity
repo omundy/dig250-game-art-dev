@@ -152,9 +152,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 1302668116476568, guid: 497dc629ddef14dd0a9a6136b1d561b2, type: 2}
-      propertyPath: m_TagString
-      value: CanBePickedUp
+    - target: {fileID: 58026687544170386, guid: 497dc629ddef14dd0a9a6136b1d561b2,
+        type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 497dc629ddef14dd0a9a6136b1d561b2, type: 2}
