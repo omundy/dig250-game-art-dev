@@ -13,7 +13,7 @@ Term | Definition
 [Transform](https://docs.unity3d.com/Manual/Transforms.html) | The Transform component determines the Position, Rotation, and Scale of each object in the scene. Every GameObject has a [Transform Component](https://docs.unity3d.com/Manual/class-Transform.html).
 [Rigidbody](https://docs.unity3d.com/Manual/RigidbodiesOverview.html) | This component allows GameObjects to respond to physics and gravity. Since it takes over the movement of the GameObject, do not move the GameObject using code by changing the Transform. Instead, use [`velocity`](https://docs.unity3d.com/Manual/class-Rigidbody2D.html) or other forces to push the GameObject and let the [physics engine](https://docs.unity3d.com/Manual/PhysicsSection.html) calculate the results. Note the specific [Rigidbody2D](https://docs.unity3d.com/ScriptReference/Rigidbody2D.html) for 2D physics.  
 [Collider](https://docs.unity3d.com/Manual/CollidersOverview.html) | Collider components define the shape of objects for physical collisions and triggering behaviors. A Collider is invisible and need not be the exact same shape as the GameObject’s Mesh.
-[Triggers](https://docs.unity3d.com/Manual/CollidersOverview.html) | Normally colliders detect collisions and initiate the `OnCollisionEnter()` function, but you can also simply detect when another collider overlaps using the `Is Trigger` property. This will allow other colliders to pass through and will call the `OnTriggerEnter()` function on the trigger object’s scripts.
+[Triggers](https://docs.unity3d.com/Manual/CollidersOverview.html) | Normally colliders detect collisions and initiate the `OnCollisionEnter()` function, but you can also simply detect when another collider overlaps using the `Is Trigger` property without causing physics interactions. This will allow other colliders to pass through and will call the `OnTriggerEnter()` function on the trigger object’s scripts.
 [Layer Collision Matrix](https://docs.unity3d.com/Manual/LayerBasedCollision.html) | Located in `Edit > Project Settings > Physics 2D`, Layer-based collision detection is a way to make a GameObject collide with another GameObject that is set up to a specific Layer or Layers.
 [Prefab](https://docs.unity3d.com/Manual/Prefabs.html) | Unity’s Prefab system allows you to create, configure, and store a GameObject complete with all its components, property values, and child GameObjects as a reusable Asset. The Prefab Asset acts as a template from which you can create new Prefab instances in the Scene.
 
@@ -36,7 +36,7 @@ Dynamic | Everything | The default setting has the full set of properties to mak
 Kinematic | Only Dynamic Rigidbodys | This setting removes the Rigidbody 2D from control of the physics engine and allows it to be moved kinematically from a script. Since it is not affected by gravity and forces it is fast and has a lower demand on system resources than a Dynamic Rigidbody2D.
 Static | Only Dynamic Rigidbodys | This Rigidbody 2D is designed to not move under simulation at all. If anything collides with it, a Static Rigidbody 2D behaves like an immovable object.
 
-Source: [Unity Manual: RigidBody2D](https://docs.unity3d.com/Manual/class-Rigidbody2D.html)
+Source: Unity Manual: [RigidBody2D](https://docs.unity3d.com/Manual/class-Rigidbody2D.html)
 
 
 
