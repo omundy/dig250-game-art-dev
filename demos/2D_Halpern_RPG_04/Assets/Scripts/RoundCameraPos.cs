@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using Cinemachine;
  
 public class RoundCameraPos : CinemachineExtension
@@ -23,8 +23,6 @@ public class RoundCameraPos : CinemachineExtension
             // Set the VC's new position to the difference between the old 
             // position and the new rounded position that we just calculated
             state.PositionCorrection += newPos - finalPos;
-
-			print ("hello");
         }
     }
  
