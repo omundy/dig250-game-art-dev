@@ -5,16 +5,54 @@
 ## Reference Sheet - Unity Tilemaps
 
 
-
+[![tilemap basics](images/tilemap.gif)](https://www.youtube.com/watch?v=fmNtibNWPhc)
+* Unity Tilemap: [The Basics](https://www.youtube.com/watch?v=fmNtibNWPhc) (3:48)
+* Unity Tutorial: [Intro to 2D World building w/ Tilemap](https://unity3d.com/learn/tutorials/topics/2d-game-creation/intro-2d-world-building-w-tilemap) (parts 1–8)
 
 
 ### Terminology
 
 Term | Definition
 --- | ---
-Tiles | Sprites that have been segmented or “sliced” into convenient dimensions and usually placed using a Tile Palette.
+[Tilemap](https://docs.unity3d.com/Manual/class-Tilemap.html) | A technique in 2D game development consisting of building the game world or level map out of small, regular-shaped images called tiles. This results in performance and memory usage gains — big image files containing entire level maps are not needed, as they are constructed by small images or image fragments multiple times. [MDN](https://developer.mozilla.org/en-US/docs/Games/Techniques/Tilemaps)
+Tiles | Assets with sprites that have been segmented or “sliced” into convenient dimensions to be placed in the game over a grid using a Tile Palette.
+Grid | A game object that controls the layout of its child tilemaps.
+Tilemap Components | Components attached to the tilemap game objects that allow you to 'paint' on them.
+[Tile Palette](https://docs.unity3d.com/Manual/Tilemap-Palette.html) | A 'palette' of tiles that you can view using the Tile Palette Window to select tiles to paint over a grid in the scene
+[Tilemap Collider](https://docs.unity3d.com/2018.3/Documentation/Manual/Tilemap-Physics2D.html) | Adding this component to a tilemap will generate a collider based on the Tiles of the Tilemap. You can also use the Composite Collider 2D with this collider for performance.
+
+
+
+
+
+
+### Tilemap Workflow
+
+Below is the general workflow to follow to create and paint a Tilemap:
+
+1. Create a Tilemap GameObject
+2. Import and prepare Sprites to create Tile Assets
+3. Create a Tile Palette with selected Tile Assets
+4. ‘Paint’ on the Tilemap with the Tile Assets and Brush Tools available from the Tile Palette
+5. If you want the Tilemap to interact with Physics2D, attach the Tilemap Collider component to your Tilemap to generate a Colider based on the Tiles present on the Tilemap.
+
+
+
+
+### Camera Terminology
+
+Term | Definition
+--- | ---
 [Camera](https://docs.unity3d.com/Manual/CamerasOverview.html) | A game object with a Camera component that renders your players’ view of the game. Can be moved and repositioned (e.g. a "first-person shooter").
-Camera Projection | The camera setting that renders objects with `perspective` intact (lines converge on the horizon) or `orthographic`, which renders objects uniformly, with no sense of perspective. ![orthographic vs perspective](https://docs.unity3d.com/uploads/Main/CameraPerspectiveAndOrtho.jpg)
+
+
+
+### Examples
+
+
+![orthographic vs perspective](https://docs.unity3d.com/uploads/Main/CameraPerspectiveAndOrtho.jpg)
+**Camera Projection** 
+The camera setting that renders objects with `perspective` intact (lines converge on the horizon) or `orthographic`, which renders objects uniformly, with no sense of perspective. 
 
 
 
