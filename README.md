@@ -32,8 +32,19 @@ Downloadable content for your projects
 
 
 
-## Tutorials
-Step by step instructions for your projects
+## Tutorials and References
+Step by step lessons
+
+
+
+
+### C# Scripting
+
+* Class Scripting References: [01](reference-sheets/Unity-Scripting-01.md) and [02](reference-sheets/Unity-Scripting-02.md)
+* [Unity Scripting Reference](https://docs.unity3d.com/ScriptReference/index.html)
+* Unity Tutorials: [Scripting](https://unity3d.com/learn/tutorials/s/scripting)
+* Unity User Manual: [Scripting](https://docs.unity3d.com/Manual/ScriptingSection.html)
+
 
 ### Animation
 
