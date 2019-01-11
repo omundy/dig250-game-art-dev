@@ -20,9 +20,7 @@ Grid | A game object that controls the layout of its child tilemaps.
 Tilemap Component | Component attached to the tilemap game objects that allow you to 'paint' on them.
 [Tile Palette](https://docs.unity3d.com/Manual/Tilemap-Palette.html) | A 'palette' of tiles that you can view using the Tile Palette Window to select tiles to paint over a grid in the scene
 [Tilemap Collider](https://docs.unity3d.com/2018.3/Documentation/Manual/Tilemap-Physics2D.html) | Adding this component to a tilemap will generate a collider based on the Tiles of the Tilemap. You can also use the Composite Collider 2D with this collider for performance.
-
-
-
+[Activate/Deactivate](https://docs.unity3d.com/Manual/DeactivatingGameObjects.html) | You can activate or deactivate a game object using the editor by 1) uncheck the box next to the game object's name. This disables it and all its components. A second way, that only hides the object, is 2) in the Inspector, uncheck the button next to it's Sprite Renderer (now the image of it will no longer be rendered, though its components are still active).
 
 
 
@@ -44,6 +42,7 @@ Below is the general workflow to follow to create and paint a Tilemap:
 Term | Definition
 --- | ---
 [Camera](https://docs.unity3d.com/Manual/CamerasOverview.html) | A game object with a Camera component that renders your players’ view of the game. Can be moved and repositioned (e.g. a "first-person shooter").
+Cinemachine | Cinemachine is a controller that can automate all types of camera movements, blend and cut from camera to camera automatically, and add many other cinematic effects.
 
 
 
@@ -54,6 +53,15 @@ Term | Definition
 
 **Camera Projection** 
 The camera setting that renders objects with `perspective` intact (lines converge on the horizon) or `orthographic`, which renders objects uniformly, with no sense of perspective. 
+
+
+![cinemachine](images/cinemachine.gif)
+
+**Cinemachine** 
+Cinemachine used in a 2D top-down game to follow the player.
+Source: [Using Cinemachine in 2D for Unity](https://medium.com/@jaredehalpern/using-cinemachine-in-2d-for-unity-f35dd394326d) by Jared Halpern
+
+
 
 
 
