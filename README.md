@@ -11,6 +11,41 @@ Examples, tutorials, and references for
 
 
 
+
+
+
+## Tutorials and References
+Step by step lessons
+
+
+### Art
+
+* Unity Tutorial: [Intro to 2D World building w/ Tilemap](https://unity3d.com/learn/tutorials/topics/2d-game-creation/intro-2d-world-building-w-tilemap) (parts 1–8)
+
+
+
+### C# Scripting
+
+* Class Scripting References: [01](reference-sheets/Unity-Scripting-01.md) and [02](reference-sheets/Unity-Scripting-02.md)
+* [Unity Scripting Reference](https://docs.unity3d.com/ScriptReference/index.html)
+* Unity Tutorial: [Scripting](https://unity3d.com/learn/tutorials/s/scripting)
+* Unity Manual: [Scripting](https://docs.unity3d.com/Manual/ScriptingSection.html)
+
+
+### Animation
+
+* Brackey's [Animate 2D Characters in Unity](https://www.youtube.com/watch?v=eXIuizGzY2A) (15:40)
+
+
+
+
+
+
+
+
+
+
+
 ## Resources
 Downloadable content for your projects
 
@@ -28,31 +63,4 @@ Downloadable content for your projects
 
 * Halpern, Jared. [Developing 2D Games with Unity](https://github.com/Apress/Devel-2D-Games-Unity). APress, 2019
 * DaGraca, Micael, and Greg Lukosek. [Learning C# 7 By Developing Games with Unity 2017 (3rd Ed.)](https://github.com/PacktPublishing/Learning-C-7-By-Developing-Games-with-Unity-2017-Third-Edition). Packt, 2017.
-
-
-
-
-## Tutorials and References
-Step by step lessons
-
-
-
-
-### C# Scripting
-
-* Class Scripting References: [01](reference-sheets/Unity-Scripting-01.md) and [02](reference-sheets/Unity-Scripting-02.md)
-* [Unity Scripting Reference](https://docs.unity3d.com/ScriptReference/index.html)
-* Unity Tutorials: [Scripting](https://unity3d.com/learn/tutorials/s/scripting)
-* Unity User Manual: [Scripting](https://docs.unity3d.com/Manual/ScriptingSection.html)
-
-
-### Animation
-
-* Brackey's [Animate 2D Characters in Unity](https://www.youtube.com/watch?v=eXIuizGzY2A) (15:40)
-
-
-
-
-
-
 
