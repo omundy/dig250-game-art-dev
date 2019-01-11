@@ -17,7 +17,7 @@ Term | Definition
 [Tilemap](https://docs.unity3d.com/Manual/class-Tilemap.html) | A technique in 2D game development consisting of building the game world or level map out of small, regular-shaped images called tiles. This results in performance and memory usage gains — big image files containing entire level maps are not needed, as they are constructed by small images or image fragments multiple times. [MDN](https://developer.mozilla.org/en-US/docs/Games/Techniques/Tilemaps)
 Tiles | Assets with sprites that have been segmented or “sliced” into convenient dimensions to be placed in the game over a grid using a Tile Palette.
 Grid | A game object that controls the layout of its child tilemaps.
-Tilemap Components | Components attached to the tilemap game objects that allow you to 'paint' on them.
+Tilemap Component | Component attached to the tilemap game objects that allow you to 'paint' on them.
 [Tile Palette](https://docs.unity3d.com/Manual/Tilemap-Palette.html) | A 'palette' of tiles that you can view using the Tile Palette Window to select tiles to paint over a grid in the scene
 [Tilemap Collider](https://docs.unity3d.com/2018.3/Documentation/Manual/Tilemap-Physics2D.html) | Adding this component to a tilemap will generate a collider based on the Tiles of the Tilemap. You can also use the Composite Collider 2D with this collider for performance.
 
@@ -47,10 +47,11 @@ Term | Definition
 
 
 
-### Examples
+### Camera Examples
 
 
 ![orthographic vs perspective](https://docs.unity3d.com/uploads/Main/CameraPerspectiveAndOrtho.jpg)
+
 **Camera Projection** 
 The camera setting that renders objects with `perspective` intact (lines converge on the horizon) or `orthographic`, which renders objects uniformly, with no sense of perspective. 
 
