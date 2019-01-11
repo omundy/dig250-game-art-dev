@@ -47,7 +47,7 @@ Step by step lessons
 
 
 ## Resources
-Downloadable content for your projects
+Content for your projects
 
 ### Art
 
