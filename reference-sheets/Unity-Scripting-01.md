@@ -34,6 +34,12 @@ Term | Definition
 [Scriptable objects](https://unity3d.com/learn/tutorials/modules/beginner/live-training-archive/scriptable-objects) | Scriptable objects are reusable data containers defined via C# script and saved as Assets. They reduce memory usage by storing references to a single instance of a data set. Because they inherit from `ScriptableObject` class they cannot be attached to GameObjects as they do not inherit from MonoBehaviour.
 
 
+### Tips
+
+* In VisualStudio Code on Mac, `shift + option + F` will auto format.
+* In C# the filename (e.g. `PlayerController.cs`) and the Class name (e.g. `PlayerController`) must match.
+* If you see an error like `The type or namespace name <Type> could not be found. Are you missing a <namespace> using directive?`, don't forget to import the correct `namespace` (e.g. Importing the UnityEngine.UI namespace is required to work with UI Elements).
+
 
 
 ### Sources
