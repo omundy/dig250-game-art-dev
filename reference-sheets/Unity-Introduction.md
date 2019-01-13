@@ -42,7 +42,7 @@ Play Mode | When the editor enters play mode the project begins to run and simul
 ![toolbar](https://docs.unity3d.com/uploads/Main/UI-ViewTool.png)
 
 * Q, Hand - Pan / orbit around
-* W, Translate - Move game object
+* W, Translate - Move GameObject
 * E, Rotate - Rotate object
 * R, Scale - Resize object
 * T, Rect - Modify 2D sprites
@@ -61,6 +61,11 @@ Play Mode | When the editor enters play mode the project begins to run and simul
 * Play -  Enter play mode
 * Pause - Pause play mode
 * Step - Step forward one frame
+
+
+### Tips
+
+* Double-clicking on a GameObject in the Hierarchy window will zoom to that object in the Scene. You can also, select the GameObject in the Hierarchy and press `f` to do this.
 
 
 ### Sources
