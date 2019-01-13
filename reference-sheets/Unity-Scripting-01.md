@@ -38,8 +38,7 @@ Term | Definition
 
 * In VisualStudio Code on Mac, `shift + option + F` will auto format.
 * In C# the filename (e.g. `PlayerController.cs`) and the Class name (e.g. `PlayerController`) must match.
-* If you see an error like `The type or namespace name <Type> could not be found. Are you missing a <namespace> using directive?`, don't forget to import the correct `namespace` (e.g. Importing the UnityEngine.UI namespace is required to work with UI Elements).
-
+* If you see an error like `The type or namespace name <Type> could not be found. Are you missing a <namespace> using directive?`, you may have forgotten to import the correct `namespace` at the top of your script.
 
 
 ### Sources
