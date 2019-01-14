@@ -1,0 +1,9 @@
+[submodule "book-assets/Learning-C-7-By-Developing-Games-with-Unity-2017-Third-Edition"]
+	path = book-assets/Learning-C-7-By-Developing-Games-with-Unity-2017-Third-Edition
+	url = https://github.com/PacktPublishing/Learning-C-7-By-Developing-Games-with-Unity-2017-Third-Edition
+[submodule "book-assets/Devel-2D-Games-Unity"]
+	path = book-assets/Devel-2D-Games-Unity
+	url = https://github.com/Apress/Devel-2D-Games-Unity
+[submodule "book-assets/Unity-2017-2D-Game-Development-Projects"]
+	path = book-assets/Unity-2017-2D-Game-Development-Projects
+	url = https://github.com/PacktPublishing/Unity-2017-2D-Game-Development-Projects
