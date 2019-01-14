@@ -194,4 +194,5 @@
 'Assets/Scripts/MonoBehaviours/MovementController.cs'
 'Assets/Scripts/MonoBehaviours/Player.cs'
 'Assets/Scripts/RoundCameraPos.cs'
+'Assets/Scripts/ScriptableObjects/HitPoints.cs'
 'Assets/Scripts/ScriptableObjects/Item.cs'

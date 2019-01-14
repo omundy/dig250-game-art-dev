@@ -191,7 +191,11 @@
 -define:UNITY_TEAM_LICENSE
 'Assets/Scripts/MonoBehaviours/Character.cs'
 'Assets/Scripts/MonoBehaviours/Consumable.cs'
+'Assets/Scripts/MonoBehaviours/HealthBar.cs'
+'Assets/Scripts/MonoBehaviours/Inventory/Inventory.cs'
 'Assets/Scripts/MonoBehaviours/MovementController.cs'
 'Assets/Scripts/MonoBehaviours/Player.cs'
 'Assets/Scripts/RoundCameraPos.cs'
+'Assets/Scripts/ScriptableObjects/HitPoints.cs'
 'Assets/Scripts/ScriptableObjects/Item.cs'
+'Assets/Slot.cs'

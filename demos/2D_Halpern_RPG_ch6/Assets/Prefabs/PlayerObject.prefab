@@ -119,8 +119,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7171477cf6a4546e699d38703dada5ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 5
+  hitPoints: {fileID: 11400000, guid: 65f9ce86f66494d069814052416936d0, type: 2}
+  startingHitPoints: 6
   maxHitPoints: 10
+  characterCategory: 0
+  healthBarPrefab: {fileID: 114864155794997036, guid: fe583658f68e742919e3d374a0987d8c,
+    type: 2}
+  inventoryPrefab: {fileID: 114731668174765180, guid: 936e692af066849b58411a99cfe21090,
+    type: 2}
 --- !u!114 &114978919500855382
 MonoBehaviour:
   m_ObjectHideFlags: 1
