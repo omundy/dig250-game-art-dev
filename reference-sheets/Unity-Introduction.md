@@ -27,6 +27,17 @@ Play Mode | When the editor enters play mode the project begins to run and simul
 [Gizmos](https://docs.unity3d.com/Manual/GizmosMenu.html) | Gizmos are icons that stand in place of objects in the Scene view that don’t necessarily have representations like the camera, lighting or colliders. 
 
 
+## Platforms 
+
+[Platforms](https://unity3d.com/unity/features/multiplatform) you can build to with Unity
+
+* Mobile (iOS and Android)
+* Desktop (Windows, Mac, Linux)
+* Console (Playstation, XBox, Switch)
+* Web (WebGL)
+
+
+
 
 ### Hotkeys & Buttons
 
