@@ -26,19 +26,26 @@ Term | Definition
 [`const`](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/const) | Constant fields and locals aren't variables and may not be modified. Constants can be numbers, Boolean values, strings, or a null reference. Don’t create a constant to represent information that you expect to change at any time.
 [`override`](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/override) |	Provides a new implementation of a virtual member inherited from a base class. It is required to extend or modify the abstract or virtual implementation of an inherited method, property, indexer, or event.
 [`static`](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/static) |	Declares a member that belongs to the type itself instead of to a specific object.
-[`virtual`](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/virtual) |	Declares a method or an accessor whose implementation can be changed by an overriding member in a derived class.
+[`virtual`](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/virtual) |	The “virtual” keyword in C# is used to declare that classes, methods, or variables will be implemented in the current class but can also be overridden in an inheriting class if the current implementation is not sufficient.
 [Access modifiers](https://unity3d.com/learn/tutorials/topics/scripting/scope-and-access-modifiers) | Access modifiers are keywords used to specify the declared accessibility of a member or a type. The three access modifiers you will see most often in C# are: `public` (access not restricted), `protected` (access limited to containing class or types derived from containing class), and `private` (access limited to the containing type). [Microsoft](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/access-modifiers).
 
-[Vector2](https://docs.unity3d.com/ScriptReference/Vector2.html) | A data structure used throughout Unity to represent 2D positions and directions. 
-[Vector3](https://docs.unity3d.com/ScriptReference/Vector3.html) | A data structure used throughout Unity to represent 3D positions and directions. Also contains functions for doing common vector operations.
 
 
-### C# Methods
+
+### C# Classes, Methods, and Properties
 
 Term | Definition
 --- | ---
-[`Destroy()`](https://docs.unity3d.com/ScriptReference/Object.Destroy.html) | Removes a gameobject, component or asset.
-
+[`Object`](https://docs.unity3d.com/ScriptReference/Object.html) | Base class for all objects Unity can reference. Any public variable you make that derives from Object gets shown in the inspector as a drop target.
+[`Object.name`](https://docs.unity3d.com/ScriptReference/Object-name.html) | The name of the object.
+[`Object.Destroy()`](https://docs.unity3d.com/ScriptReference/Object.Destroy.html) | Removes a gameobject, component or asset.
+[`GameObject`](https://docs.unity3d.com/ScriptReference/GameObject.html) | Base class for all entities in Unity Scenes.
+[`GameObject.name`](https://docs.unity3d.com/ScriptReference/Object-name.html) | Inherited from `Object.name`;
+[`GameObject.GetComponent`](https://docs.unity3d.com/ScriptReference/GameObject.GetComponent.html) | Returns the component of Type type if the game object has one attached, null if it doesn't. GetComponent is the primary way of accessing other components. You can access both builtin components or scripts with this function.
+[`Component`](https://docs.unity3d.com/ScriptReference/Component.html) | Base class for everything attached to GameObjects.
+[`Component.gameObject`](https://docs.unity3d.com/ScriptReference/Component-gameObject.html) | The game object this component is attached to. A component is always attached to a game object.
+[`Vector2`](https://docs.unity3d.com/ScriptReference/Vector2.html) | A data structure used throughout Unity to represent 2D positions and directions. 
+[`Vector3`](https://docs.unity3d.com/ScriptReference/Vector3.html) | A data structure used throughout Unity to represent 3D positions and directions. Also contains functions for doing common vector operations.
 
 
 
