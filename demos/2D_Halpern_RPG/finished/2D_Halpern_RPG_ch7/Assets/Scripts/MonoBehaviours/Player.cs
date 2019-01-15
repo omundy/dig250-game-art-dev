@@ -1,21 +1,19 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Player : Character
 {
+    public Inventory inventoryPrefab;
+    Inventory inventory;
+
+    public HitPoints hitPoints;
 
     public HealthBar healthBarPrefab;
-	public Inventory inventoryPrefab;
     HealthBar healthBar;
-	Inventory inventory;
 
-    void Start()
+    private void OnEnable()
     {
-		inventory = Instantiate(inventoryPrefab);
-        hitPoints.value = startingHitPoints;
-        healthBar = Instantiate(healthBarPrefab);
-        healthBar.character = this;
+        ResetCharacter();
     }
 
     void OnTriggerEnter2D(Collider2D collision)
@@ -26,8 +24,6 @@ public class Player : Character
 
             if (hitObject != null)
             {
-                print("it: " + hitObject.objectName);
-
                 bool shouldDisappear = false;
 
                 switch (hitObject.itemType)
@@ -41,23 +37,61 @@ public class Player : Character
                     default:
                         break;
                 }
-                if (shouldDisappear)
-                    collision.gameObject.SetActive(false);
-            }
 
+                if (shouldDisappear)
+                {
+                    collision.gameObject.SetActive(false);
+                }
+            }
         }
     }
+
     public bool AdjustHitPoints(int amount)
     {
-		print (hitPoints.value +","+ maxHitPoints);
         if (hitPoints.value < maxHitPoints)
         {
             hitPoints.value = hitPoints.value + amount;
-            print("Adjusted HP by: " + amount + ". New value: " + hitPoints.value);
             return true;
         }
-        print("didnt adjust hitpoints");
         return false;
     }
 
+    public override IEnumerator DamageCharacter(int damage, float interval)
+    {
+        while (true)
+        {
+            hitPoints.value = hitPoints.value - damage;
+
+            if (hitPoints.value <= float.Epsilon)
+            {
+                KillCharacter();
+                break;
+            }
+
+            if (interval > float.Epsilon)
+            {
+                yield return new WaitForSeconds(interval);
+            }
+            else
+            {
+                break;
+            }
+        }
+    }
+
+    public override void KillCharacter()
+    {
+        base.KillCharacter();
+        Destroy(healthBar.gameObject);
+        Destroy(inventory.gameObject);
+    }
+
+    public override void ResetCharacter()
+    {
+        inventory = Instantiate(inventoryPrefab);
+        healthBar = Instantiate(healthBarPrefab);
+        healthBar.character = this;
+
+        hitPoints.value = startingHitPoints;
+    }
 }
