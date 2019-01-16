@@ -43,6 +43,7 @@ Term | Definition
 [`MonoBehaviour.OnDisable()`](https://docs.unity3d.com/ScriptReference/MonoBehaviour.OnDisable.html) | This function is called when the behaviour becomes disabled. Also called when the object is destroyed and can be used for any cleanup code. 
 [`GameObject`](https://docs.unity3d.com/ScriptReference/GameObject.html) | Base class for all entities in Unity Scenes.
 [`GameObject.name`](https://docs.unity3d.com/ScriptReference/Object-name.html) | Inherited from `Object.name`;
+[`GameObject.SetActive()`](https://docs.unity3d.com/ScriptReference/GameObject.SetActive.html) | Activates/Deactivates the GameObject. Making a GameObject inactive will disable every component, turning off any attached renderers, colliders, rigidbodies, scripts, etc. Any scripts that you have attached to the GameObject will no longer have Update() called, for example.
 [`GameObject.GetComponent()`](https://docs.unity3d.com/ScriptReference/GameObject.GetComponent.html) | Returns the component of Type type if the game object has one attached, null if it doesn't. GetComponent is the primary way of accessing other components. You can access both builtin components or scripts with this function.
 [`Component`](https://docs.unity3d.com/ScriptReference/Component.html) | Base class for everything attached to GameObjects.
 [`Component.gameObject`](https://docs.unity3d.com/ScriptReference/Component-gameObject.html) | The game object this component is attached to. A component is always attached to a game object.
