@@ -19,6 +19,7 @@ Step by step lessons
 
 ### General
 
+* [Class Reference Sheets](reference-sheets/)
 * [Official Unity Tutorials](https://unity3d.com/learn/tutorials) - Covers a range of projects and topics.
 * [Brackeys](https://www.youtube.com/brackeys/) - Most popular Unity learning channel on YouTube offering high quality guides and walkthroughs.
 * [Unity Community Wiki Tutorials](http://wiki.unity3d.com/index.php/Tutorials)
@@ -27,13 +28,13 @@ Step by step lessons
 
 ### Art
 
-* Unity Tutorial: [Intro to 2D World building w/ Tilemap](https://unity3d.com/learn/tutorials/topics/2d-game-creation/intro-2d-world-building-w-tilemap) (parts 1–8)
-
+* Unity Tutorial: [Intro to 2D World building w/ Tilemap](https://unity3d.com/learn/tutorials/topics/2d-game-creation/intro-2d-world-building-w-tilemap?playlist=17093) (parts 1–8)
+* Brackeys: [Tilemaps in Unity](https://www.youtube.com/watch?v=ryISV_nH8qw) (13:44)
 
 
 ### C# Scripting
 
-* Class Scripting References: [01](reference-sheets/Unity-Scripting-01.md) and [02](reference-sheets/Unity-Scripting-02.md)
+* Class Scripting References: [01](reference-sheets/Unity-Scripting-01.md), [02](reference-sheets/Unity-Scripting-02.md), and [03](reference-sheets/Unity-Scripting-03.md)
 * [Unity Scripting Reference](https://docs.unity3d.com/ScriptReference/index.html)
 * Unity Tutorial: [Scripting](https://unity3d.com/learn/tutorials/s/scripting) (e.g. [Vector Maths](https://unity3d.com/learn/tutorials/topics/scripting/vector-maths)
 * Unity Manual: [Scripting](https://docs.unity3d.com/Manual/ScriptingSection.html)
