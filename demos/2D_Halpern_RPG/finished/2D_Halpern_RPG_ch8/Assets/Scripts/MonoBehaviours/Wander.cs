@@ -30,13 +30,28 @@ public class Wander : MonoBehaviour {
 	// used to pick a new direction
 	float currentAngle = 0;
 
+	CircleCollider2D circleCollider;
+
 	void Start()
 	{
 		animator = GetComponent<Animator>();
 		currentSpeed = wanderSpeed;
 		rb2d = GetComponent<Rigidbody2D>();
 		StartCoroutine(WanderRoutine());
+		circleCollider = GetComponent<CircleCollider2D>();
 	}
+
+	void OnDrawGizmos()
+	{
+		if(circleCollider != null){
+			Gizmos.DrawWireSphere(transform.position,circleCollider.radius);
+		}
+	}
+	void Update()
+	{
+		Debug.DrawLine(rb2d.position, endPosition, Color.red);
+	}
+
 
 	// wander algorithm
 	public IEnumerator WanderRoutine()
