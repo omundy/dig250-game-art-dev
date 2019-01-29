@@ -24,6 +24,19 @@ Term | Definition
 
 
 
+### World, Viewport, and Screen space
+
+Unity uses 3 different co-ordinate systems, World point system, Viewport point system, and Screen point system. There are functions to find where the particular point will be in another point system.
+
+![coordinate systems](https://answers.unity.com/storage/temp/8053-spaces.jpg)
+
+* **World**: The space where objects live. Uses 3D coordinates and has no limits to its size. The unit size in worldspace is arbitrary. Can be either local (to the game object) or global (to the world).
+* **Viewport**: A viewport space point is normalized and relative to the Camera. The bottom-left of the Camera is (0,0); the top-right is (1,1). The z position is in world unity from the camera.
+* **Screen**: Used by the UI system and unit size is pixels. The bottom-left of the screen is (0,0); the right-top is (screen.width, screen.height) The z position is in world units from the camera. The mouse position is given in this coordinate system.
+
+
+
+
 
 
 ### Sources
