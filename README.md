@@ -26,6 +26,14 @@ Step by step lessons
 * [CMU Unity Wiki](https://wiki2.etc.cmu.edu/index.php/Unity_Main_Page)
 
 
+### Forums
+
+* [answers.unity.com](https://answers.unity.com)
+* [forum.unity.com](https://forum.unity.com/)
+* [gamedev.stackexchange.com](https://gamedev.stackexchange.com/)
+
+
+
 ### Art
 
 * Unity Tutorial: [Intro to 2D World building w/ Tilemap](https://unity3d.com/learn/tutorials/topics/2d-game-creation/intro-2d-world-building-w-tilemap?playlist=17093) (parts 1–8)
@@ -62,9 +70,12 @@ Step by step lessons
 ## Resources
 Content for your projects
 
+
 ### Art
 
 * [Unity Asset Store](https://assetstore.unity.com)
+* [OpenGameArt.org](OpenGameArt.org)
+* [itch.io/game-assets](https://itch.io/game-assets)
 * [pixeldudesmaker](https://0x72.itch.io/pixeldudesmaker) procedurally-generation sprite tool by [0x72](https://0x72.itch.io)
 * 16x16 Dungeon Tileset [version 1](https://0x72.itch.io/16x16-dungeon-tileset) and [version 2](https://0x72.itch.io/dungeontileset-ii) by [0x72](https://0x72.itch.io)
 
