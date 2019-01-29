@@ -10,6 +10,8 @@
 
 Term | Definition
 --- | ---
+[Coroutines](https://docs.unity3d.com/Manual/Coroutines.html) | A coroutine is like a function that has the ability to pause execution and return control to Unity but then to continue where it left off on the following frame. They are handy for timers or scripted animations. All coroutines use the type `IEnumerator`. To set a coroutine running, you need to use `StartCoroutine()`.
+`yield` | Coroutines must use a `yield return` statement somewhere in the body to denote the point at which execution will pause and be resumed the following frame. 
 [`Time.deltaTime`](https://unity3d.com/learn/tutorials/topics/scripting/delta-time?playlist=17117) | Using Time.deltaTime can help your behaviors run smoothly regardless of frame rate by calculating the amount of time between frames, regardless of the speed of the platform.
 `float.Epsilon` | The smallest possible float greater than zero (roughly `1.401298E-45`). Allows a comparison of a floating point value to zero.
 [`Rigidbody2D.MovePosition()`](https://docs.unity3d.com/ScriptReference/Rigidbody2D.MovePosition.html) | Moves the rigidbody to the specified position by calculating the appropriate linear velocity required to move the rigidbody to that position during the next physics update. During the move, neither gravity or linear drag will affect the body. This causes the object to rapidly move from the existing position, through the world, to the specified position. It is best used in `FixedUpdate()`.
