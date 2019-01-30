@@ -11,6 +11,14 @@ Examples, tutorials, and references for
 
 
 
+## Thinking about Games
+
+* [The International Journal of Computer Game Research](http://gamestudies.org/)
+* [Extra Credits](https://www.youtube.com/playlist?list=PLB9B0CA00461BB187)
+* [Gamasutra](http://www.gamasutra.com/)
+* [Another Castle Podcast](http://gamedesignadvance.com/?page_id=1616)
+* [Polygon](https://www.polygon.com/)
+
 
 
 
