@@ -41,6 +41,10 @@ Step by step lessons
 * [gamedev.stackexchange.com](https://gamedev.stackexchange.com/)
 
 
+### Dialog
+
+* [Yarn Spinner](https://github.com/thesecretlab/YarnSpinner) ([Unity Quickstart](https://github.com/thesecretlab/YarnSpinner/blob/master/Documentation/YarnSpinner-Unity/YarnSpinner-with-Unity-QuickStart.md))
+
 
 ### Art
 
