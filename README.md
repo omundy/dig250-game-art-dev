@@ -79,6 +79,9 @@ Step by step lessons
 * Brackeys [2D Camera in Unity (Cinemachine Tutorial)](https://www.youtube.com/watch?v=2jTY11Am0Ig) (9:18)
 
 
+
+
+
 ## Resources
 Content for your projects
 
@@ -90,6 +93,10 @@ Content for your projects
 * [itch.io/game-assets](https://itch.io/game-assets)
 * [pixeldudesmaker](https://0x72.itch.io/pixeldudesmaker) procedurally-generation sprite tool by [0x72](https://0x72.itch.io)
 * 16x16 Dungeon Tileset [version 1](https://0x72.itch.io/16x16-dungeon-tileset) and [version 2](https://0x72.itch.io/dungeontileset-ii) by [0x72](https://0x72.itch.io)
+
+### Collaboration
+
+* [Boords](https://boords.com/) - Collaborative storyboarding. Add drawings, dialogue, and organize events in your game. See also "[How does E-Learning company Banzai use storyboards?](https://boords.com/blog/case-study-banzai-storyboards-elearning)."
 
 ### Fonts
 
