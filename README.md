@@ -112,3 +112,13 @@ Content for your projects
 * Halpern, Jared. [Developing 2D Games with Unity](https://github.com/Apress/Devel-2D-Games-Unity). APress, 2019
 * DaGraca, Micael, and Greg Lukosek. [Learning C# 7 By Developing Games with Unity 2017 (3rd Ed.)](https://github.com/PacktPublishing/Learning-C-7-By-Developing-Games-with-Unity-2017-Third-Edition). Packt, 2017.
 
+
+### Books we recommend
+
+In addition to the two assigned books (above) here are some additional books we recommend checking out for learning Unity:
+
+* Hocking, Joseph. [Unity in Action: Multiplatform Game Development in C # (2nd Edition)](https://www.manning.com/books/unity-in-action-second-edition). Manning, 2018.
+* Ferro, Lauren S., and Francesco Sapio. [Unity 2017 Game Development](https://www.packtpub.com/game-development/unity-2017-2d-game-development-projects). Packt, 2018.
+* Godbold, Ashley, and Simon Jackson. [Mastering Unity 2D Game Development (2nd Edition)](https://www.oreilly.com/library/view/mastering-unity-2d/9781786463456/). Packt, 2016.
+
+
