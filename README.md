@@ -11,6 +11,14 @@ Examples, tutorials, and references for
 
 
 
+## Thinking about Games
+
+* [The International Journal of Computer Game Research](http://gamestudies.org/)
+* [Extra Credits](https://www.youtube.com/playlist?list=PLB9B0CA00461BB187)
+* [Gamasutra](http://www.gamasutra.com/)
+* [Another Castle Podcast](http://gamedesignadvance.com/?page_id=1616)
+* [Polygon](https://www.polygon.com/)
+
 
 
 
@@ -25,6 +33,11 @@ Step by step lessons
 * [Unity Community Wiki Tutorials](http://wiki.unity3d.com/index.php/Tutorials)
 * [CMU Unity Wiki](https://wiki2.etc.cmu.edu/index.php/Unity_Main_Page)
 
+### Development
+
+* Mobile: [Unity Remote](https://docs.unity3d.com/Manual/UnityRemote5.html)
+* Collaboration: [Unity Collaborate](https://unity3d.com/unity/features/collaborate) and [Unity + Git](https://stackoverflow.com/questions/18225126/how-to-use-git-for-unity3d-source-control) 
+
 
 ### Forums
 
@@ -32,6 +45,10 @@ Step by step lessons
 * [forum.unity.com](https://forum.unity.com/)
 * [gamedev.stackexchange.com](https://gamedev.stackexchange.com/)
 
+
+### Dialog
+
+* [Yarn Spinner](https://github.com/thesecretlab/YarnSpinner) ([Unity Quickstart](https://github.com/thesecretlab/YarnSpinner/blob/master/Documentation/YarnSpinner-Unity/YarnSpinner-with-Unity-QuickStart.md))
 
 
 ### Art
@@ -67,6 +84,9 @@ Step by step lessons
 * Brackeys [2D Camera in Unity (Cinemachine Tutorial)](https://www.youtube.com/watch?v=2jTY11Am0Ig) (9:18)
 
 
+
+
+
 ## Resources
 Content for your projects
 
@@ -79,6 +99,10 @@ Content for your projects
 * [pixeldudesmaker](https://0x72.itch.io/pixeldudesmaker) procedurally-generation sprite tool by [0x72](https://0x72.itch.io)
 * 16x16 Dungeon Tileset [version 1](https://0x72.itch.io/16x16-dungeon-tileset) and [version 2](https://0x72.itch.io/dungeontileset-ii) by [0x72](https://0x72.itch.io)
 
+### Collaboration
+
+* [Boords](https://boords.com/) - Collaborative storyboarding. Add drawings, dialogue, and organize events in your game. See also "[How does E-Learning company Banzai use storyboards?](https://boords.com/blog/case-study-banzai-storyboards-elearning)."
+
 ### Fonts
 
 * [Silkscreen](https://www.1001fonts.com/silkscreen-font.html) by Jason Kottke
@@ -87,4 +111,14 @@ Content for your projects
 
 * Halpern, Jared. [Developing 2D Games with Unity](https://github.com/Apress/Devel-2D-Games-Unity). APress, 2019
 * DaGraca, Micael, and Greg Lukosek. [Learning C# 7 By Developing Games with Unity 2017 (3rd Ed.)](https://github.com/PacktPublishing/Learning-C-7-By-Developing-Games-with-Unity-2017-Third-Edition). Packt, 2017.
+
+
+### Books we recommend
+
+In addition to the two assigned books (above) here are some additional books we recommend checking out for learning Unity:
+
+* Hocking, Joseph. [Unity in Action: Multiplatform Game Development in C # (2nd Edition)](https://www.manning.com/books/unity-in-action-second-edition). Manning, 2018.
+* Ferro, Lauren S., and Francesco Sapio. [Unity 2017 Game Development](https://www.packtpub.com/game-development/unity-2017-2d-game-development-projects). Packt, 2018.
+* Godbold, Ashley, and Simon Jackson. [Mastering Unity 2D Game Development (2nd Edition)](https://www.oreilly.com/library/view/mastering-unity-2d/9781786463456/). Packt, 2016.
+
 
