@@ -32,6 +32,7 @@ Step by step lessons
 * [Brackeys](https://www.youtube.com/brackeys/) - Most popular Unity learning channel on YouTube offering high quality guides and walkthroughs.
 * [Unity Community Wiki Tutorials](http://wiki.unity3d.com/index.php/Tutorials)
 * [CMU Unity Wiki](https://wiki2.etc.cmu.edu/index.php/Unity_Main_Page)
+* [catlikecoding.com](https://catlikecoding.com/)
 
 ### Development
 
@@ -106,6 +107,10 @@ Content for your projects
 ### Fonts
 
 * [Silkscreen](https://www.1001fonts.com/silkscreen-font.html) by Jason Kottke
+
+### Shaders
+
+* [shadertoy.com](https://www.shadertoy.com/) - A massive collection of shaders with code and visual samples
 
 ### Book Source Code
 
