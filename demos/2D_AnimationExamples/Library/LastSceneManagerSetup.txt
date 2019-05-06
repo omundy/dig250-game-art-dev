@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Timeline_Duck_Puppet/Timeline_Duck_Puppet.unity
+- path: Assets/Skeletal_Bamboo/Skeletal_Bamboo.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
