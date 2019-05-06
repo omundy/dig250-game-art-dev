@@ -1,0 +1,63 @@
+/**********************************************************************************************************************/
+/* MeshToolbar                                                                                                         */
+/**********************************************************************************************************************/
+
+#SelectGeometryImage {
+    background-image: resource("Icons/SpriteIconsLight/SpriteEditor/Edit_Geometry");
+}
+
+#CreateVertexImage {
+    background-image: resource("Icons/SpriteIconsLight/SpriteEditor/Create_Vertex");
+}
+
+#CreateEdgeImage {
+    background-image: resource("Icons/SpriteIconsLight/SpriteEditor/Create_Edge");
+}
+
+#SplitEdgeImage {
+    background-image: resource("Icons/SpriteIconsLight/SpriteEditor/Split_Edge");
+}
+
+#GenerateGeometryImage {
+    background-image: resource("Icons/SpriteIconsLight/SpriteEditor/Generate_Geometry");
+}
+
+.Dark #SelectGeometryImage {
+    background-image: resource("Icons/SpriteIconsDark/SpriteEditor/d_Edit_Geometry");
+}
+
+.Dark #CreateVertexImage {
+    background-image: resource("Icons/SpriteIconsDark/SpriteEditor/d_Create_Vertex");
+}
+
+.Dark #CreateEdgeImage {
+    background-image: resource("Icons/SpriteIconsDark/SpriteEditor/d_Create_Edge");
+}
+
+.Dark #SplitEdgeImage {
+    background-image: resource("Icons/SpriteIconsDark/SpriteEditor/d_Split_Edge");
+}
+
+.Dark #GenerateGeometryImage {
+    background-image: resource("Icons/SpriteIconsDark/SpriteEditor/d_Generate_Geometry");
+}
+
+.Checked #SelectGeometryImage {
+    background-image: resource("Icons/SpriteIconsSelected/SpriteEditor/Edit_Geometry");
+}
+
+.Checked #CreateVertexImage {
+    background-image: resource("Icons/SpriteIconsSelected/SpriteEditor/Create_Vertex");
+}
+
+.Checked #CreateEdgeImage {
+    background-image: resource("Icons/SpriteIconsSelected/SpriteEditor/Create_Edge");
+}
+
+.Checked #SplitEdgeImage {
+    background-image: resource("Icons/SpriteIconsSelected/SpriteEditor/Split_Edge");
+}
+
+.Checked #GenerateGeometryImage {
+    background-image: resource("Icons/SpriteIconsSelected/SpriteEditor/Generate_Geometry");
+}
