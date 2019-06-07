@@ -69,13 +69,16 @@ Step by step lessons
 * [Introduction to Unity Serialization and Game Data](https://www.gamasutra.com/blogs/VivekTank/20180731/323248/Introduction_to_Unity_Serialization_and_Game_Data.php)
 
 
+#### Loading Data & Files
 
-
+* [Localization Tools - Dictionaries, JSON and Streaming Assets [3/8] Live 2017/1/9](https://www.youtube.com/watch?v=kox9EuSQL48) (8:51)
 
 
 #### Performance & Optimization
 
 * [Optimizing garbage collection in Unity games](https://unity3d.com/learn/tutorials/topics/performance-optimization/optimizing-garbage-collection-unity-games)
+
+
 
 
 ### Animation
