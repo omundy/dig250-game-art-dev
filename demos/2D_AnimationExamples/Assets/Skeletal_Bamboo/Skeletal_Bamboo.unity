@@ -139,8 +139,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 0.5
-  stiffnessForce: 5.22
-  dragForce: 1.66
+  stiffnessForce: 4
+  dragForce: 2
   springForce: {x: 0, y: -0.01, z: 0}
   colliders: []
   debug: 0
@@ -164,8 +164,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 0.5
-  stiffnessForce: 5.22
-  dragForce: 1.66
+  stiffnessForce: 4
+  dragForce: 2
   springForce: {x: 0, y: -0.01, z: 0}
   colliders: []
   debug: 0
@@ -177,6 +177,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1889393434}
     m_Modifications:
+    - target: {fileID: 5993030982578391084, guid: e4b35676e0b9546078040a64e4f1876e,
+        type: 3}
+      propertyPath: m_Name
+      value: Branch_L_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5993030982578391084, guid: e4b35676e0b9546078040a64e4f1876e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 58363309154745240, guid: e4b35676e0b9546078040a64e4f1876e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -235,16 +245,6 @@ PrefabInstance:
     - target: {fileID: 58363309154745240, guid: e4b35676e0b9546078040a64e4f1876e,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5993030982578391084, guid: e4b35676e0b9546078040a64e4f1876e,
-        type: 3}
-      propertyPath: m_Name
-      value: Branch_L_2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5993030982578391084, guid: e4b35676e0b9546078040a64e4f1876e,
-        type: 3}
-      propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1048,8 +1048,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 0.5
-  stiffnessForce: 5.22
-  dragForce: 1.66
+  stiffnessForce: 4
+  dragForce: 2
   springForce: {x: 0, y: -0.01, z: 0}
   colliders: []
   debug: 0
@@ -1073,8 +1073,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 0.5
-  stiffnessForce: 5.22
-  dragForce: 1.66
+  stiffnessForce: 4
+  dragForce: 2
   springForce: {x: 0, y: -0.01, z: 0}
   colliders: []
   debug: 0
@@ -1098,8 +1098,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 0.5
-  stiffnessForce: 5.22
-  dragForce: 1.66
+  stiffnessForce: 4
+  dragForce: 2
   springForce: {x: 0, y: -0.01, z: 0}
   colliders: []
   debug: 0
@@ -1161,6 +1161,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1889393434}
     m_Modifications:
+    - target: {fileID: 5993030982578391084, guid: e4b35676e0b9546078040a64e4f1876e,
+        type: 3}
+      propertyPath: m_Name
+      value: Branch_L_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5993030982578391084, guid: e4b35676e0b9546078040a64e4f1876e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 58363309154745240, guid: e4b35676e0b9546078040a64e4f1876e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1216,11 +1226,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5993030982578391084, guid: e4b35676e0b9546078040a64e4f1876e,
-        type: 3}
-      propertyPath: m_Name
-      value: Branch_L_1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 4822063937528615740, guid: e4b35676e0b9546078040a64e4f1876e,
     type: 3}
@@ -1243,8 +1248,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 0.5
-  stiffnessForce: 5.22
-  dragForce: 1.66
+  stiffnessForce: 4
+  dragForce: 2
   springForce: {x: 0, y: -0.01, z: 0}
   colliders: []
   debug: 0
@@ -1268,8 +1273,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 0.5
-  stiffnessForce: 5.22
-  dragForce: 1.66
+  stiffnessForce: 4
+  dragForce: 2
   springForce: {x: 0, y: -0.01, z: 0}
   colliders: []
   debug: 0
@@ -1293,8 +1298,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 0.5
-  stiffnessForce: 5.22
-  dragForce: 1.66
+  stiffnessForce: 4
+  dragForce: 2
   springForce: {x: 0, y: -0.01, z: 0}
   colliders: []
   debug: 0
@@ -1318,8 +1323,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 0.5
-  stiffnessForce: 5.22
-  dragForce: 1.66
+  stiffnessForce: 4
+  dragForce: 2
   springForce: {x: 0, y: -0.01, z: 0}
   colliders: []
   debug: 0
@@ -1468,8 +1473,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 0.5
-  stiffnessForce: 5.22
-  dragForce: 1.66
+  stiffnessForce: 4
+  dragForce: 2
   springForce: {x: 0, y: -0.01, z: 0}
   colliders: []
   debug: 0
@@ -1518,8 +1523,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 0.5
-  stiffnessForce: 5.22
-  dragForce: 1.66
+  stiffnessForce: 4
+  dragForce: 2
   springForce: {x: 0, y: -0.01, z: 0}
   colliders: []
   debug: 0
@@ -1543,12 +1548,140 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 0.5
-  stiffnessForce: 5.22
-  dragForce: 1.66
+  stiffnessForce: 4
+  dragForce: 2
   springForce: {x: 0, y: -0.01, z: 0}
   colliders: []
   debug: 0
   springLength: 0
+--- !u!1 &502545859
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 502545863}
+  - component: {fileID: 502545862}
+  - component: {fileID: 502545861}
+  - component: {fileID: 502545860}
+  m_Layer: 0
+  m_Name: floor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!50 &502545860
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 502545859}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
+--- !u!61 &502545861
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 502545859}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.2, y: 4.22}
+    newSize: {x: 3.2, y: 4.22}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2, y: 4.22}
+  m_EdgeRadius: 0
+--- !u!212 &502545862
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 502545859}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: e2bab379d9043400897909f85d007ad6, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 3.2, y: 4.22}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &502545863
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 502545859}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.22, y: -5.5, z: 0}
+  m_LocalScale: {x: 9.85, y: 0.18, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &505472840 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -1890573922435807528, guid: 975ddb6ab11ea4588ba26af6d0334089,
@@ -1568,8 +1701,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 0.5
-  stiffnessForce: 5.22
-  dragForce: 1.66
+  stiffnessForce: 4
+  dragForce: 2
   springForce: {x: 0, y: -0.01, z: 0}
   colliders: []
   debug: 0
@@ -1593,8 +1726,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 0.5
-  stiffnessForce: 5.22
-  dragForce: 1.66
+  stiffnessForce: 4
+  dragForce: 2
   springForce: {x: 0, y: -0.01, z: 0}
   colliders: []
   debug: 0
@@ -1618,8 +1751,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 0.5
-  stiffnessForce: 5.22
-  dragForce: 1.66
+  stiffnessForce: 4
+  dragForce: 2
   springForce: {x: 0, y: -0.01, z: 0}
   colliders: []
   debug: 0
@@ -1668,8 +1801,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 0.5
-  stiffnessForce: 5.22
-  dragForce: 1.66
+  stiffnessForce: 4
+  dragForce: 2
   springForce: {x: 0, y: -0.01, z: 0}
   colliders: []
   debug: 0
@@ -1693,8 +1826,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 0.5
-  stiffnessForce: 5.22
-  dragForce: 1.66
+  stiffnessForce: 4
+  dragForce: 2
   springForce: {x: 0, y: -0.01, z: 0}
   colliders: []
   debug: 0
@@ -1718,8 +1851,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 0.5
-  stiffnessForce: 5.22
-  dragForce: 1.66
+  stiffnessForce: 4
+  dragForce: 2
   springForce: {x: 0, y: -0.01, z: 0}
   colliders: []
   debug: 0
@@ -1818,8 +1951,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 0.5
-  stiffnessForce: 5.22
-  dragForce: 1.66
+  stiffnessForce: 4
+  dragForce: 2
   springForce: {x: 0, y: -0.01, z: 0}
   colliders: []
   debug: 0
@@ -1843,8 +1976,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 0.5
-  stiffnessForce: 5.22
-  dragForce: 1.66
+  stiffnessForce: 4
+  dragForce: 2
   springForce: {x: 0, y: -0.01, z: 0}
   colliders: []
   debug: 0
@@ -1918,8 +2051,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 0.5
-  stiffnessForce: 5.22
-  dragForce: 1.66
+  stiffnessForce: 4
+  dragForce: 2
   springForce: {x: 0, y: -0.01, z: 0}
   colliders: []
   debug: 0
@@ -1968,8 +2101,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 0.5
-  stiffnessForce: 5.22
-  dragForce: 1.66
+  stiffnessForce: 4
+  dragForce: 2
   springForce: {x: 0, y: -0.01, z: 0}
   colliders: []
   debug: 0
@@ -1993,8 +2126,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 0.5
-  stiffnessForce: 5.22
-  dragForce: 1.66
+  stiffnessForce: 4
+  dragForce: 2
   springForce: {x: 0, y: -0.01, z: 0}
   colliders: []
   debug: 0
@@ -2018,8 +2151,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 0.5
-  stiffnessForce: 5.22
-  dragForce: 1.66
+  stiffnessForce: 4
+  dragForce: 2
   springForce: {x: 0, y: -0.01, z: 0}
   colliders: []
   debug: 0
@@ -2031,6 +2164,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1889393434}
     m_Modifications:
+    - target: {fileID: 4327911871629703336, guid: 975ddb6ab11ea4588ba26af6d0334089,
+        type: 3}
+      propertyPath: m_Name
+      value: Branch_R_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4327911871629703336, guid: 975ddb6ab11ea4588ba26af6d0334089,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -2120262621172043448, guid: 975ddb6ab11ea4588ba26af6d0334089,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2091,15 +2234,15 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4327911871629703336, guid: 975ddb6ab11ea4588ba26af6d0334089,
+    - target: {fileID: -4407284433586422607, guid: 975ddb6ab11ea4588ba26af6d0334089,
         type: 3}
-      propertyPath: m_Name
-      value: Branch_R_2
+      propertyPath: m_LocalPosition.x
+      value: 0.47088808
       objectReference: {fileID: 0}
-    - target: {fileID: 4327911871629703336, guid: 975ddb6ab11ea4588ba26af6d0334089,
+    - target: {fileID: -4407284433586422607, guid: 975ddb6ab11ea4588ba26af6d0334089,
         type: 3}
-      propertyPath: m_IsActive
-      value: 1
+      propertyPath: m_LocalPosition.y
+      value: -0.13872251
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: -3819859744906193168, guid: 975ddb6ab11ea4588ba26af6d0334089,
@@ -3422,8 +3565,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 0.5
-  stiffnessForce: 5.22
-  dragForce: 1.66
+  stiffnessForce: 4
+  dragForce: 2
   springForce: {x: 0, y: -0.01, z: 0}
   colliders: []
   debug: 0
@@ -3447,8 +3590,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 0.5
-  stiffnessForce: 5.22
-  dragForce: 1.66
+  stiffnessForce: 4
+  dragForce: 2
   springForce: {x: 0, y: -0.01, z: 0}
   colliders: []
   debug: 0
@@ -3622,8 +3765,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 0.5
-  stiffnessForce: 5.22
-  dragForce: 1.66
+  stiffnessForce: 4
+  dragForce: 2
   springForce: {x: 0, y: -0.01, z: 0}
   colliders: []
   debug: 0
@@ -3672,8 +3815,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 0.5
-  stiffnessForce: 5.22
-  dragForce: 1.66
+  stiffnessForce: 4
+  dragForce: 2
   springForce: {x: 0, y: -0.01, z: 0}
   colliders: []
   debug: 0
@@ -3697,8 +3840,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 0.5
-  stiffnessForce: 5.22
-  dragForce: 1.66
+  stiffnessForce: 4
+  dragForce: 2
   springForce: {x: 0, y: -0.01, z: 0}
   colliders: []
   debug: 0
@@ -3722,8 +3865,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 0.5
-  stiffnessForce: 5.22
-  dragForce: 1.66
+  stiffnessForce: 4
+  dragForce: 2
   springForce: {x: 0, y: -0.01, z: 0}
   colliders: []
   debug: 0
@@ -3747,8 +3890,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 0.5
-  stiffnessForce: 5.22
-  dragForce: 1.66
+  stiffnessForce: 4
+  dragForce: 2
   springForce: {x: 0, y: -0.01, z: 0}
   colliders: []
   debug: 0
@@ -3772,8 +3915,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 0.5
-  stiffnessForce: 5.22
-  dragForce: 1.66
+  stiffnessForce: 4
+  dragForce: 2
   springForce: {x: 0, y: -0.01, z: 0}
   colliders: []
   debug: 0
@@ -3785,6 +3928,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1889393434}
     m_Modifications:
+    - target: {fileID: 4327911871629703336, guid: 975ddb6ab11ea4588ba26af6d0334089,
+        type: 3}
+      propertyPath: m_Name
+      value: Branch_R_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4327911871629703336, guid: 975ddb6ab11ea4588ba26af6d0334089,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -2120262621172043448, guid: 975ddb6ab11ea4588ba26af6d0334089,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3840,11 +3993,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4327911871629703336, guid: 975ddb6ab11ea4588ba26af6d0334089,
-        type: 3}
-      propertyPath: m_Name
-      value: Branch_R_1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: -3819859744906193168, guid: 975ddb6ab11ea4588ba26af6d0334089,
     type: 3}
@@ -3873,6 +4021,134 @@ MonoBehaviour:
   colliders: []
   debug: 0
   springLength: 0
+--- !u!1 &1528188066
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1528188070}
+  - component: {fileID: 1528188069}
+  - component: {fileID: 1528188068}
+  - component: {fileID: 1528188067}
+  m_Layer: 0
+  m_Name: dude
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!50 &1528188067
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1528188066}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!61 &1528188068
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1528188066}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.2, y: 4.22}
+    newSize: {x: 3.2, y: 4.22}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2, y: 4.22}
+  m_EdgeRadius: 0
+--- !u!212 &1528188069
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1528188066}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: e2bab379d9043400897909f85d007ad6, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 3.2, y: 4.22}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1528188070
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1528188066}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 12.30669, y: 6.497434, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1528412986 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3866844937934724595, guid: 975ddb6ab11ea4588ba26af6d0334089,
@@ -3892,8 +4168,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 0.5
-  stiffnessForce: 5.22
-  dragForce: 1.66
+  stiffnessForce: 4
+  dragForce: 2
   springForce: {x: 0, y: -0.01, z: 0}
   colliders: []
   debug: 0
@@ -3942,8 +4218,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 0.5
-  stiffnessForce: 5.22
-  dragForce: 1.66
+  stiffnessForce: 4
+  dragForce: 2
   springForce: {x: 0, y: -0.01, z: 0}
   colliders: []
   debug: 0
@@ -3967,8 +4243,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 0.5
-  stiffnessForce: 5.22
-  dragForce: 1.66
+  stiffnessForce: 4
+  dragForce: 2
   springForce: {x: 0, y: -0.01, z: 0}
   colliders: []
   debug: 0
@@ -3992,8 +4268,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 0.5
-  stiffnessForce: 5.22
-  dragForce: 1.66
+  stiffnessForce: 4
+  dragForce: 2
   springForce: {x: 0, y: -0.01, z: 0}
   colliders: []
   debug: 0
@@ -4017,8 +4293,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 0.5
-  stiffnessForce: 5.22
-  dragForce: 1.66
+  stiffnessForce: 4
+  dragForce: 2
   springForce: {x: 0, y: -0.01, z: 0}
   colliders: []
   debug: 0
@@ -4042,8 +4318,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 0.5
-  stiffnessForce: 5.22
-  dragForce: 1.66
+  stiffnessForce: 4
+  dragForce: 2
   springForce: {x: 0, y: -0.01, z: 0}
   colliders: []
   debug: 0
@@ -4067,8 +4343,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 0.5
-  stiffnessForce: 5.22
-  dragForce: 1.66
+  stiffnessForce: 4
+  dragForce: 2
   springForce: {x: 0, y: -0.01, z: 0}
   colliders: []
   debug: 0
@@ -4142,8 +4418,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 0.5
-  stiffnessForce: 5.22
-  dragForce: 1.66
+  stiffnessForce: 4
+  dragForce: 2
   springForce: {x: 0, y: -0.01, z: 0}
   colliders: []
   debug: 0
@@ -4192,8 +4468,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 0.5
-  stiffnessForce: 5.22
-  dragForce: 1.66
+  stiffnessForce: 4
+  dragForce: 2
   springForce: {x: 0, y: -0.01, z: 0}
   colliders: []
   debug: 0
@@ -4217,8 +4493,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 0.5
-  stiffnessForce: 5.22
-  dragForce: 1.66
+  stiffnessForce: 4
+  dragForce: 2
   springForce: {x: 0, y: -0.01, z: 0}
   colliders: []
   debug: 0
@@ -4267,8 +4543,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 0.5
-  stiffnessForce: 5.22
-  dragForce: 1.66
+  stiffnessForce: 4
+  dragForce: 2
   springForce: {x: 0, y: -0.01, z: 0}
   colliders: []
   debug: 0
@@ -4292,8 +4568,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 0.5
-  stiffnessForce: 5.22
-  dragForce: 1.66
+  stiffnessForce: 4
+  dragForce: 2
   springForce: {x: 0, y: -0.01, z: 0}
   colliders: []
   debug: 0
@@ -4342,8 +4618,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 0.5
-  stiffnessForce: 5.22
-  dragForce: 1.66
+  stiffnessForce: 4
+  dragForce: 2
   springForce: {x: 0, y: -0.01, z: 0}
   colliders: []
   debug: 0
@@ -4357,6 +4633,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1889393434}
+  - component: {fileID: 1889393435}
   m_Layer: 0
   m_Name: BambooRig
   m_TagString: Untagged
@@ -4371,17 +4648,29 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1889393433}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.1, y: 14.96, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0, y: 0, z: -0.020157225, w: 0.9997968}
+  m_LocalPosition: {x: -0.57, y: 2.68, z: 0.05078125}
+  m_LocalScale: {x: 0.75, y: 0.75, z: 0.75}
   m_Children:
   - {fileID: 327626495}
   - {fileID: 1959144678}
   - {fileID: 42339691}
   - {fileID: 1095093560}
-  m_Father: {fileID: 2144639306}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -2.31}
+--- !u!114 &1889393435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1889393433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58240373cd05a4f3b85a20b5ab3d9f1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1904493804
 GameObject:
   m_ObjectHideFlags: 0
@@ -4575,8 +4864,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 0.5
-  stiffnessForce: 5.22
-  dragForce: 1.66
+  stiffnessForce: 4
+  dragForce: 2
   springForce: {x: 0, y: -0.01, z: 0}
   colliders: []
   debug: 0
@@ -4654,8 +4943,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 0.5
-  stiffnessForce: 5.22
-  dragForce: 1.66
+  stiffnessForce: 4
+  dragForce: 2
   springForce: {x: 0, y: -0.01, z: 0}
   colliders: []
   debug: 0
@@ -4679,8 +4968,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 0.5
-  stiffnessForce: 5.22
-  dragForce: 1.66
+  stiffnessForce: 4
+  dragForce: 2
   springForce: {x: 0, y: -0.01, z: 0}
   colliders: []
   debug: 0
@@ -4729,8 +5018,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 0.5
-  stiffnessForce: 5.22
-  dragForce: 1.66
+  stiffnessForce: 4
+  dragForce: 2
   springForce: {x: 0, y: -0.01, z: 0}
   colliders: []
   debug: 0
@@ -4811,8 +5100,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.3, y: -12.42, z: 0.05078125}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1889393434}
+  m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
