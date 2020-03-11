@@ -39,6 +39,16 @@ Step by step lessons
 * Mobile: [Unity Remote](https://docs.unity3d.com/Manual/UnityRemote5.html)
 * Collaboration: [Unity Collaborate](https://unity3d.com/unity/features/collaborate) and [Unity + Git](https://stackoverflow.com/questions/18225126/how-to-use-git-for-unity3d-source-control) 
 
+### Development (2D Platformers)
+
+* [Unity: 2D Platformer Character Controller](https://learn.unity.com/tutorial/live-session-2d-platformer-character-controller)
+* (https://www.lynda.com/Unity-tutorials/Advanced-Unity-2D-Platformer-Player-Movement/367449-2.html)[https://www.lynda.com/Unity-tutorials/Advanced-Unity-2D-Platformer-Player-Movement/367449-2.html]
+* (Learning C# by Developing Games with Unity 3rd ed.)[https://www.amazon.com/Learning-Developing-Games-Unity-2017/dp/1788478924] (2017)
+* (A Beginner's Guide to 2D Platform Games with Unity)[https://www.amazon.com/Beginners-Guide-Platform-Games-Unity/dp/1520118171] (2016)
+
+
+
+
 
 ### Forums
 
