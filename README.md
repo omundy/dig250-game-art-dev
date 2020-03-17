@@ -62,6 +62,11 @@ Step by step lessons
 * [Yarn Spinner](https://github.com/thesecretlab/YarnSpinner) ([Unity Quickstart](https://github.com/thesecretlab/YarnSpinner/blob/master/Documentation/YarnSpinner-Unity/YarnSpinner-with-Unity-QuickStart.md))
 
 
+### Audio / Sound 
+
+* [Studytonight: Adding Sound Effects to Game](https://www.studytonight.com/game-development-in-2D/audio-in-unity)
+
+
 ### Art
 
 * Unity Tutorial: [Intro to 2D World building w/ Tilemap](https://unity3d.com/learn/tutorials/topics/2d-game-creation/intro-2d-world-building-w-tilemap?playlist=17093) (parts 1–8)
@@ -130,9 +135,10 @@ Content for your projects
 * [shadertoy.com](https://www.shadertoy.com/) - A massive collection of shaders with code and visual samples
 
 
-### Sound
+### Audio / Sound Resources
 
-* [https://www.nps.gov/yell/learn/photosmultimedia/soundlibrary.htm](The Yellowstone sound library) - Free sounds from Yellowstone Ntl. Park
+* [freesound.org](https://freesound.org/)
+* [The Yellowstone sound library](https://www.nps.gov/yell/learn/photosmultimedia/soundlibrary.htm) - Free sounds from Yellowstone Ntl. Park
 
 
 
