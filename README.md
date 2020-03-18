@@ -52,7 +52,6 @@ Step by step lessons
 
 * (**course text**) Halpern, Jared. [Developing 2D Games with Unity](). APress, 2019. [Github](https://github.com/Apress/Devel-2D-Games-Unity)
 * (**course text**) Ferrone, Harrison. [Learning C# By Developing Games with Unity 2019 (4rd Ed.)](https://www.packtpub.com/game-development/learning-c-developing-games-unity-2019-fourth-edition). Packt, 2019. [Github](https://github.com/PacktPublishing/Learning-C-by-Developing-Games-with-Unity-2019)
-
 * DaGraca, Micael, and Greg Lukosek. [Learning C# 7 By Developing Games with Unity 2017 (3rd Ed.)](https://www.packtpub.com/game-development/learning-c-7-developing-games-unity-2017-third-edition). Packt, 2017. [Github](https://github.com/PacktPublishing/Learning-C-7-By-Developing-Games-with-Unity-2017-Third-Edition)
 * Hocking, Joseph. [Unity in Action: Multiplatform Game Development in C # (2nd Edition)](https://www.manning.com/books/unity-in-action-second-edition). Manning, 2018.
 * Ferro, Lauren S., and Francesco Sapio. [Unity 2017 Game Development](https://www.packtpub.com/game-development/unity-2017-2d-game-development-projects). Packt, 2018.
