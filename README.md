@@ -37,7 +37,7 @@ Step by step lessons
 ### Development
 
 * Mobile: [Unity Remote](https://docs.unity3d.com/Manual/UnityRemote5.html)
-* Collaboration: [Unity Collaborate](https://unity3d.com/unity/features/collaborate) and [Unity + Git](https://stackoverflow.com/questions/18225126/how-to-use-git-for-unity3d-source-control) 
+* Collaboration: [Unity Collaborate](https://unity3d.com/unity/features/collaborate) and [Unity + Git](https://stackoverflow.com/questions/18225126/how-to-use-git-for-unity3d-source-control), [Brackey’s How to use GitHub with Unity](https://www.youtube.com/watch?v=qpXxcvS-g3g) 
 
 
 ### Forums
