@@ -41,10 +41,11 @@ Step by step lessons
 
 ### Version Control and Collaboration
 
-* [Github Git Cheatsheat](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf)
-* [Github Git Cheatsheat (education version)](https://education.github.com/git-cheat-sheet-education.pdf)
-* [Github Markdown Cheatsheat](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
-* Collaboration: [Unity Collaborate](https://unity3d.com/unity/features/collaborate) and [Unity + Git](https://stackoverflow.com/questions/18225126/how-to-use-git-for-unity3d-source-control), [Brackey’s How to use GitHub with Unity](https://www.youtube.com/watch?v=qpXxcvS-g3g) 
+* [Github Git Cheatsheet](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf)
+* [Github Git Cheatsheet (education version)](https://education.github.com/git-cheat-sheet-education.pdf)
+* [Github Markdown Cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [Brackey’s How to use GitHub with Unity](https://www.youtube.com/watch?v=qpXxcvS-g3g) and [Unity + Git notes](https://stackoverflow.com/questions/18225126/how-to-use-git-for-unity3d-source-control)
+* [Unity Collaborate](https://unity3d.com/unity/features/collaborate)
 
 
 
