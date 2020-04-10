@@ -78,6 +78,7 @@ Step by step lessons
 ### Dialog
 
 * [Yarn Spinner](https://github.com/thesecretlab/YarnSpinner) ([Unity Quickstart](https://github.com/thesecretlab/YarnSpinner/blob/master/Documentation/YarnSpinner-Unity/YarnSpinner-with-Unity-QuickStart.md))
+* [Ink](https://www.inklestudios.com/ink/) ([Github](https://github.com/inkle/ink-unity-integration))
 
 
 ### Audio / Sound 
