@@ -23,7 +23,7 @@ Method | Description
 
 
 ![data types](images/datatypes.png)
-Credit: [TutorialsTeacher C# Data Types](https://www.tutorialsteacher.com/csharp/csharp-data-types)
+[TutorialsTeacher C# Data Types](https://www.tutorialsteacher.com/csharp/csharp-data-types)
 
 ### Terminology
 
