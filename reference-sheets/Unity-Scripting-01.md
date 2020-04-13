@@ -22,6 +22,9 @@ Method | Description
 [`OnTriggerEnter2D(Collider2D)`](https://docs.unity3d.com/ScriptReference/MonoBehaviour.OnTriggerEnter2D.html) | Sent when another object enters a trigger collider attached to this object (2D physics only). Further information about the other collider is reported in the Collider2D parameter passed during the call.
 
 
+![data types](images/datatypes.png)<br>
+[TutorialsTeacher C# Data Types](https://www.tutorialsteacher.com/csharp/csharp-data-types)
+
 ### Terminology
 
 Term | Definition
