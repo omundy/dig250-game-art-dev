@@ -7,10 +7,16 @@
 * Storing and using data in multiples and collections
 
 
+### Classes
+
+
+
+
 ### Structs
 
 * Useful for holding small data values
-* Defined using the struct operator
+* Structs are value types (so faster than a class object). When you pass a struct, it creates a copy of the data.
+* Easier to transfer a class object than a struct so do not use struct when you are passing data across the wire or to other classes
 * Can contain parameterized constructor, static constructor, constants, fields, methods, properties, indexers, operators, events and nested types
 
 ```C#
@@ -18,23 +24,20 @@ struct NPC
 {
     // fields
     public int NPCId;
-    public string FirstName;
-    public string LastName;
+    public string Name;
     public bool GoodGuy;
-    
-    // constructor function
-    public Employee(int _NPCId, string FirstName, string _LastName, bool _GoodGuy)
+    // constructor
+    public NPC(int _NPCId, string _Name, bool _GoodGuy)
     {
-        EmpId = _NPCId;
-        FirstName = _FirstName;
-        LastName = _LastName;
+        NPCId = _NPCId;
+        Name = _Name;
         GoodGuy = _GoodGuy;
     }
 }
 // create instance using constructor
-NPC badguy1 = new NPC(1, "Dr.", "Evil", false);
+NPC badguy1 = new NPC(1, "Dr. Evil", false);
 // test 
-Console.Write(badguy1.FirstName + " " + badguy1.LastName); // prints Dr. Evil
+Console.Write(badguy1.Name); // prints Dr. Evil
 ```
 
 
