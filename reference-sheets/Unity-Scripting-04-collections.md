@@ -2,8 +2,40 @@
 
 ![unity logo](images/unity-logo-293w.png)
 
-## Reference Sheet - Unity C# Scripting - 04 - Data Types
+## Reference Sheet - Unity C# Scripting - 04
 
+* Storing and using data in multiples and collections
+
+
+### Structs
+
+* Useful for holding small data values
+* Defined using the struct operator
+* Can contain parameterized constructor, static constructor, constants, fields, methods, properties, indexers, operators, events and nested types
+
+```
+struct NPC
+{
+    // fields
+    public int NPCId;
+    public string FirstName;
+    public string LastName;
+    public bool GoodGuy;
+    
+    // constructor function
+    public Employee(int _NPCId, string FirstName, string _LastName, bool _GoodGuy)
+    {
+        EmpId = _NPCId;
+        FirstName = _FirstName;
+        LastName = _LastName;
+        GoodGuy = _GoodGuy;
+    }
+}
+// create instance using constructor
+NPC badguy1 = new NPC(1, "Dr.", "Evil", false);
+// test 
+Console.Write(badguy1.FirstName + " " + badguy1.LastName); // prints Dr. Evil
+```
 
 
 ### Arrays
@@ -74,7 +106,7 @@ print (dict["greeting"]);
 
 ### Sources
 * Unity Script Reference: [Array](https://docs.unity3d.com/ScriptReference/Array.html), [Lists and Dictionaries](https://learn.unity.com/tutorial/lists-and-dictionaries) 
-* TutorialsTeacher: C# [Arrays](https://www.tutorialsteacher.com/csharp/array-csharp), [ArrayLists](https://www.tutorialsteacher.com/csharp/csharp-arraylist), [Lists](https://www.tutorialsteacher.com/csharp/csharp-list), [Dictionaries](https://www.tutorialsteacher.com/csharp/csharp-dictionary)
+* TutorialsTeacher: C# [Structs](https://www.tutorialsteacher.com/csharp/csharp-struct), [Arrays](https://www.tutorialsteacher.com/csharp/array-csharp), [ArrayLists](https://www.tutorialsteacher.com/csharp/csharp-arraylist), [Lists](https://www.tutorialsteacher.com/csharp/csharp-list), [Dictionaries](https://www.tutorialsteacher.com/csharp/csharp-dictionary)
 * W3Schools: C# [Arrays](https://www.w3schools.com/cs/cs_arrays.asp)
 * [How to use arrays, lists, and dictionaries in Unity for 3D game development](https://hub.packtpub.com/arrays-lists-dictionaries-unity-3d-game-development/)
 
