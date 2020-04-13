@@ -13,7 +13,7 @@
 * Defined using the struct operator
 * Can contain parameterized constructor, static constructor, constants, fields, methods, properties, indexers, operators, events and nested types
 
-```
+```C#
 struct NPC
 {
     // fields
@@ -45,7 +45,7 @@ Console.Write(badguy1.FirstName + " " + badguy1.LastName); // prints Dr. Evil
 * Length is fixed, unchangeable, and can be specified or inferred
 * Use index number to access values (below, `colors[1] = "green"`)
 
-```
+```C#
 using UnityEngine;
 using System.Collections;
 
@@ -70,7 +70,7 @@ public class Array : MonoBehaviour
 * Stores objects of any type like an array
 * Unlike an array, you don't need to specify the size as it grows automatically as you add items in it
 
-```
+```C#
 IList arrayList = new ArrayList() { 100, "Two", 12.5, 200 };
 arrayList.Add("hello");
 print (myArryList[4]); // prints "hello"
@@ -84,7 +84,7 @@ print (myArryList[4]); // prints "hello"
 * Length is adjustable
 * You can easily add and remove elements from a List
 
-```
+```C#
 IList<int> intList = new List<int>();
 intList.Add(10);
 print (intList[0]); // prints 10
@@ -97,7 +97,7 @@ print (intList[0]); // prints 10
 * The Dictionary<TKey, TValue> class is a generic collection class in the System.Collection.Generics namespace. 
 * TKey denotes the type of key and TValue is the type of TValue.
 
-```
+```C#
 Dictionary<string, string> dict = new Dictionary<string, string>();
 dict.Add("greeting","hello world!");
 print (dict["greeting"]);
