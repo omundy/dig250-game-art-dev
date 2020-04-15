@@ -6,14 +6,12 @@ using UnityEngine;
 public struct NPC
 {
     // fields
-    public int NPCId;
-    public string Name;
+    public string Title;
     public bool GoodGuy;
     // constructor
-    public NPC(int _NPCId, string _Name, bool _GoodGuy)
+    public NPC(string _Title, bool _GoodGuy)
     {
-        NPCId = _NPCId;
-        Name = _Name;
+        Title = _Title;
         GoodGuy = _GoodGuy;
     }
 }
@@ -34,8 +32,8 @@ public class StructExample : MonoBehaviour
         print("StructExample -> stringDict['greeting'] = " + stringDict["greeting"]);
 
         // add struct and print
-        structDict.Add("badguy1", new NPC(1, "Dr. Evil", false));
-        print("StructExample -> structDict['badguy1'].Name = " + structDict["badguy1"].Name);
+        structDict.Add("badguy1", new NPC("Dr. Evil", false));
+        print("StructExample -> structDict['badguy1'].Title = " + structDict["badguy1"].Title);
 
     }
 
