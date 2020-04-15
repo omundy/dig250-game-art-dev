@@ -9,7 +9,10 @@
 
 ### Classes
 
-
+* Like a blueprint for a specific object
+* Helps group and define data and the functionality for an object
+* Can hold all types of properties, fields, events, method etc.
+* Reference type (not copied). When you pass a class (or object from it) it is passed as a reference
 
 
 ### Structs
@@ -99,10 +102,17 @@ print (intList[0]); // prints 10
 * TKey denotes the type of key and TValue is the type of TValue.
 
 ```C#
+// create dictionary
 Dictionary<string, string> dict = new Dictionary<string, string>();
+// add to key=value
 dict.Add("greeting","hello world!");
-print (dict["greeting"]);
+// confirm it contains key and print
+if ( dict.ContainsKey("greeting") ){
+    print (dict["greeting"]);
+}
 ```
+
+
 
 
 ### Sources
