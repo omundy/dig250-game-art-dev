@@ -20,17 +20,15 @@
 * Can contain parameterized constructor, static constructor, constants, fields, methods, properties, indexers, operators, events and nested types
 
 ```C#
-struct NPC
+public struct NPC
 {
     // fields
-    public int NPCId;
-    public string Name;
+    public string Title;
     public bool GoodGuy;
     // constructor
-    public NPC(int _NPCId, string _Name, bool _GoodGuy)
+    public NPC(string _Title, bool _GoodGuy)
     {
-        NPCId = _NPCId;
-        Name = _Name;
+        Title = _Title;
         GoodGuy = _GoodGuy;
     }
 }
