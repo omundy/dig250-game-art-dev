@@ -135,7 +135,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Data", menuName = "ScriptableObjects/ThingManagerScriptableObject", order = 1)]
 public class ThingManagerScriptableObject : ScriptableObject
 {
-    public int numberOfThings;
+    public int numberOfThings; // edit in the Inspector for the instance
 }
 
 public class Thing : MonoBehaviour
@@ -158,9 +158,9 @@ public class Thing : MonoBehaviour
 
 
 
+### JSON
 
-
-
+Coming soon
 
 
 
