@@ -7,6 +7,16 @@
 * Storing and using data in multiples and collections
 
 
+### Terminology
+
+Term | Definition
+--- | ---
+[Serialization](https://docs.unity3d.com/Manual/script-Serialization.html) | The process of converting the state of an object to a set of bytes in order to store the object into memory, a database or a file.
+[Deserialization](https://www.gamasutra.com/blogs/VivekTank/20180731/323248/Introduction_to_Unity_Serialization_and_Game_Data.php) | The reverse process of building an object out of a file, converting text/binary data into usable datatypes in code.
+
+
+
+
 ### Classes
 
 * Like a blueprint for a specific object
@@ -114,9 +124,49 @@ if ( dict.ContainsKey("greeting") ){
 
 
 
+### Scriptable Objects
+
+* Data containers specific to Unity that can be saved as assets in a project
+* Can also be used to help serialize objects and can be instantiated in a scene 
+
+```C#
+using UnityEngine;
+
+[CreateAssetMenu(fileName = "Data", menuName = "ScriptableObjects/ThingManagerScriptableObject", order = 1)]
+public class ThingManagerScriptableObject : ScriptableObject
+{
+    public int numberOfThings; // edit in the Inspector for the instance
+}
+
+public class Thing : MonoBehaviour
+{
+    // An instance of the ScriptableObject defined above.
+    public ThingManagerScriptableObject thingManagerValues;
+
+    void Start()
+    {
+        for (int i = 0; i < thingManagerValues.numberOfThings; i++)
+        {
+            print ("Thing Number " + i);
+        }
+    }
+}
+```
+[Example details](https://docs.unity3d.com/Manual/class-ScriptableObject.html)
+
+
+
+
+
+### JSON
+
+Coming soon
+
+
+
 
 ### Sources
-* Unity Script Reference: [Array](https://docs.unity3d.com/ScriptReference/Array.html), [Lists and Dictionaries](https://learn.unity.com/tutorial/lists-and-dictionaries) 
+* Unity Script Reference: [Array](https://docs.unity3d.com/ScriptReference/Array.html), [Scriptable Objects](https://docs.unity3d.com/Manual/class-ScriptableObject.html), Tutorials [Lists and Dictionaries](https://learn.unity.com/tutorial/lists-and-dictionaries), [Introduction to Scriptable Objects](https://learn.unity.com/tutorial/introduction-to-scriptable-objects)
 * TutorialsTeacher: C# [Structs](https://www.tutorialsteacher.com/csharp/csharp-struct), [Arrays](https://www.tutorialsteacher.com/csharp/array-csharp), [ArrayLists](https://www.tutorialsteacher.com/csharp/csharp-arraylist), [Lists](https://www.tutorialsteacher.com/csharp/csharp-list), [Dictionaries](https://www.tutorialsteacher.com/csharp/csharp-dictionary)
 * W3Schools: C# [Arrays](https://www.w3schools.com/cs/cs_arrays.asp)
 * [How to use arrays, lists, and dictionaries in Unity for 3D game development](https://hub.packtpub.com/arrays-lists-dictionaries-unity-3d-game-development/)
