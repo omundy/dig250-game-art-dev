@@ -203,7 +203,8 @@ Globals.Score += 100;
 
 4. [Observer design pattern](https://docs.microsoft.com/en-us/dotnet/standard/events/observer-design-pattern?redirectedfrom=MSDN)
 
-5. DontDestroyOnLoad (use with Singleton design pattern)
+5. [Singleton design pattern](http://wiki.unity3d.com/index.php/Singleton)
+* Used with DontDestroyOnLoad
 * Classes using this can also have methods
 
 6. [PlayerPrefs](https://docs.unity3d.com/ScriptReference/PlayerPrefs.html) (also preserves data for the next time game is run)
