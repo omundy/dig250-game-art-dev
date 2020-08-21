@@ -158,6 +158,61 @@ public class Thing : MonoBehaviour
 
 
 
+### Sharing data across components, objects, scenes, etc.
+
+* There are several ways to do this, depending on the complexity of your project. 
+* Note: #1 violates the Single Responsibility Principle (the S in [SOLID](https://en.wikipedia.org/wiki/SOLID))
+
+1. To get data from one script from another
+```C#
+// attached to Enemy GameObject
+public class EnemyScript : MonoBehaviour 
+{
+    public float damage;
+}
+public class GameController : MonoBehaviour 
+{
+    void Start() {
+        // note: this is the least efficient method to find an object in the scene
+        GameObject enemy = GameObject.Find ("Enemy");
+        EnemyScript enemyScript = enemy.GetComponent <EnemyScript> ();
+        float enemyDamage = enemyScript.damage;
+    }
+}
+```
+
+
+2. To send a message to all scripts *attached to the same object* use [Component.SendMessage()](https://docs.unity3d.com/ScriptReference/Component.SendMessage.html)
+
+
+The following allow you to make data accessible to all objects, across all scenes (globally)...
+
+
+3. Use fields in a public static class
+* This is good for data only. Classes using this CANNOT have methods attached.
+```c#
+public static class Globals
+{
+    public static int Score = 1000;
+    public static float AnotherField = 1.0f;    
+}
+// and then use like
+Globals.Score += 100;
+```
+
+
+4. [Observer design pattern](https://docs.microsoft.com/en-us/dotnet/standard/events/observer-design-pattern?redirectedfrom=MSDN)
+
+5. DontDestroyOnLoad (use with Singleton design pattern)
+* Classes using this can also have methods
+
+6. [PlayerPrefs](https://docs.unity3d.com/ScriptReference/PlayerPrefs.html) (also preserves data for the next time game is run)
+
+More information
+* [Unity Tutorial: Preserving Data between Scene Loading/Switching](https://www.youtube.com/watch?v=WchH-JCwVI8) (1:10:49)
+
+
+
 ### JSON
 
 Coming soon
