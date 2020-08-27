@@ -161,9 +161,11 @@ public class Thing : MonoBehaviour
 ### Sharing data across components, objects, scenes, etc.
 
 * There are several ways to do this, depending on the complexity of your project. 
-* Note: #1 violates the Single Responsibility Principle (the S in [SOLID](https://en.wikipedia.org/wiki/SOLID))
+
 
 1. To get data from one script from another
+* potentially the simplest way
+* violates the Single Responsibility Principle (the S in [SOLID](https://en.wikipedia.org/wiki/SOLID))
 ```C#
 // attached to Enemy GameObject
 public class EnemyScript : MonoBehaviour 
@@ -201,7 +203,14 @@ Globals.Score += 100;
 ```
 
 
-4. [Observer design pattern](https://docs.microsoft.com/en-us/dotnet/standard/events/observer-design-pattern?redirectedfrom=MSDN)
+4. [Observer design pattern](https://en.wikipedia.org/wiki/Observer_pattern)
+
+* This is not technically a way to share data but a way to send messages between different objects. 
+* A software design pattern in which an object, called the subject, maintains a list of its dependents, called observers, and notifies them automatically of any state changes, usually by calling one of their methods.
+* Mainly used to implement distributed event handling systems, in "event driven" software, in a way that encourages "decoupling" of objects (there aren't a lot of dependencies that can be broken if name or position changes)
+* See this Unity tutorial [Create a Simple Messaging System with Events](https://learn.unity.com/tutorial/create-a-simple-messaging-system-with-events) (also this [variation](https://medium.com/@johntucker_48673/discovering-unity-eventmanager-a040285d0690) using the same EventManager class from Unity)
+* MSDN: [Observer design pattern](https://docs.microsoft.com/en-us/dotnet/standard/events/observer-design-pattern?redirectedfrom=MSDN)
+
 
 5. [Singleton design pattern](http://wiki.unity3d.com/index.php/Singleton)
 * Used with DontDestroyOnLoad
