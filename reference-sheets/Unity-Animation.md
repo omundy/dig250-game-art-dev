@@ -5,10 +5,20 @@
 ## Reference Sheet - Unity Animation
 
 
+### General Animation Terminology
+
+Term | Definition
+--- | ---
+Animation | The illusion of movement created by displaying a sequence of images in succession, with objects moving slightly from one image to the next.
+Frame-based animation | Animation produced by displaying a series of still images, one after another, over time.
+Timeline-based animation | Animation produced when a computer interpolates changes in properties (keyframes) on a timeline over time.
+Physics-based procedural animation | Animation produced by numerical computations applied to the theoretical laws of physics.
+Scripted animation | The properties (position, rotation, etc.) of objects on screen are controlled by code using dynamic variables like player input. 
 
 
 
-### Terminology
+
+### Unity Terminology
 
 Term | Definition
 --- | ---
@@ -20,7 +30,7 @@ Animation Frame | A single moment in time, where properties or different sprites
 [Animation Parameters](https://docs.unity3d.com/Manual/AnimationParameters.html) | Variables defined within an Animator Controller that allow script control over the flow of the state machine. For example, if a player makes a character jump, we can use code to set a `grounded` property to false. We can set the state machine to transition to a jump animation in this case.
 
 
-### Advanced Terminology
+### Advanced Unity Terminology
 
 Term | Definition
 --- | ---
