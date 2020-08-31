@@ -6,7 +6,53 @@
 
 
 
-### Terminology
+### Introductions to game engine physics
+
+* [Unity Tutorial: 3D Physics](https://learn.unity.com/tutorial/3d-physics)
+* [Vector In Game Development: Understand The Basics Of Vector Math](https://gamedevelopertips.com/vector-in-game-development/)
+* Video Game Physics Tutorial: [Part I: An Introduction to Rigid Body Dynamics](https://www.toptal.com/game/video-game-physics-part-i-an-introduction-to-rigid-body-dynamics)
+
+
+
+
+
+### General Physics Terminology
+
+Term | Definition
+--- | ---
+[Rigid body dynamics](https://en.wikipedia.org/wiki/Rigid_body_dynamics) | Movement and interaction of solid, inflexible objects
+[Physics engine](https://en.wikipedia.org/wiki/Physics_engine) | The software component that performs the physics simulation
+[Newton's Three Laws of Motion](https://en.wikipedia.org/wiki/Newton%27s_laws_of_motion) | Describe the relationship between a body and the forces acting upon it, and its motion in response to those forces
+[Inertia](https://en.wikipedia.org/wiki/Newton%27s_laws_of_motion#Newton's_first_law) | First law of motion: If no force is applied on an object, its velocity (speed and direction of motion) shall not change
+[Force, Mass, and Acceleration](https://en.wikipedia.org/wiki/Newton%27s_laws_of_motion#Newton's_second_law) | Second law of motion: The force acting on an object is equal to the mass of the object multiplied by its acceleration (rate of change of velocity). This is given by the formula F = ma
+[Action and Reaction](https://en.wikipedia.org/wiki/Newton%27s_laws_of_motion#Newton's_third_law) | Third law of motion: “For every action there is an equal and opposite reaction.” In other words, whenever one body exerts a force on another, the second body exerts a force of the same magnitude and opposite direction on the first.
+[Vector](https://gamedevelopertips.com/vector-in-game-development/) | A vector is an entity that has a length (or, more formally, a magnitude) and a direction. It can be represented by x and y in 2D, or x, y, and z, in 3-dimensional space. Vectors can describe the position of a static object inside the game world, as well as physical simulations, like the motion of a rigid body in a 3D world.
+
+
+
+
+### Common Vector Operations
+A table of common operations for vectors and their Unity references. See also the [Vector Cookbook](https://docs.unity3d.com/Manual/VectorCookbook.html) and [Unity Tutorial: 3D Physics](https://learn.unity.com/tutorial/3d-physics)
+
+Term | Definition
+--- | ---
+Multiplications by a scalar | Changes the `magnitude` of the vector.  Multiply each component of the vector with the scalar value. For example, the vector A: `(2x, 3y,5z)` multiplied by 2 = `A * 2` = `(4x,6x,10z)`
+Addition and subtraction | For example, to increase or find the distance between 2 game objects: To add two vectors A and B, sum the single components of each vector: `a + b = [(a.x + b.x), (a.y + b.y), (a.z + b.z)]` and subtraction is simply `a - b = [(a.x – b.x), (a.y – b.y), (a.z – b.z)]`
+Dot.product | A float value equal to the magnitudes of two vectors multiplied together and then multiplied by the cosine of the angle between them. Examples: Find the angle between 2 vectors, and determine if they are parallel; [find](https://gamedevelopertips.com/vector-in-game-development/) degree to which an object’s velocity is in the direction of gravity; find how long until a movement crosses a threshold, and more. In Unity use [`Vector3.Dot`](https://docs.unity3d.com/ScriptReference/Vector3.Dot.html). See also: [Vector Calculus: Understanding the Dot Product](https://betterexplained.com/articles/vector-calculus-understanding-the-dot-product/)
+Cross.product | Takes two vectors as input and returns another vector that is perpendicular to the two input vectors. In Unity use [`Vector3.Cross`](https://docs.unity3d.com/ScriptReference/Vector3.Cross.html)
+Linear interpolation (LERP) | [Linear interpolation](https://en.wikipedia.org/wiki/Linear_interpolation) is a mathematical operation to find an intermediate point `β` between two known points. For example, to animate from point A to point B over the course of two seconds at 30 frames per seconds, we would need to find 60 intermediate positions between A and B. In Unity use [`Vector3.Lerp`](https://docs.unity3d.com/ScriptReference/Vector3.Lerp.html)
+Raycasting | Used to find when a line (ray) has hit a specific target. A common example is when a bullet is shot from a gun.
+
+
+
+
+
+
+
+
+
+
+### Unity Terminology
 
 Term | Definition
 --- | ---
@@ -37,6 +83,8 @@ Kinematic | Only Dynamic Rigidbodys | This setting removes the Rigidbody 2D from
 Static | Only Dynamic Rigidbodys | This Rigidbody 2D is designed to not move under simulation at all. If anything collides with it, a Static Rigidbody 2D behaves like an immovable object.
 
 Source: Unity Manual: [RigidBody2D](https://docs.unity3d.com/Manual/class-Rigidbody2D.html)
+
+
 
 
 
