@@ -70,10 +70,6 @@ Term | Definition
 
 
 
-
-
-
-
 ### RigidBody2D Body Type Settings
 
 Type | Collides with | Description
@@ -84,6 +80,19 @@ Static | Only Dynamic Rigidbodys | This Rigidbody 2D is designed to not move und
 
 Source: Unity Manual: [RigidBody2D](https://docs.unity3d.com/Manual/class-Rigidbody2D.html)
 
+
+
+
+
+### Unity Physics Properties and Functions
+
+Function | Definition
+--- | ---
+[`Rigidbody.velocity`](https://docs.unity3d.com/ScriptReference/Rigidbody-velocity.html) | The velocity vector of the rigidbody. Represents the rate of change of position. *Do not modify the velocity directly* as this can result in unrealistic behaviour - use `AddForce` instead. Do not set the velocity of an object every physics step, this will lead to unrealistic physics simulation.
+[`Rigidbody.drag`](https://docs.unity3d.com/ScriptReference/Rigidbody-drag.html) | The drag of the object. Drag can be used to slow down an object. The higher the drag the more the object slows down.
+[`Rigidbody.mass`](https://docs.unity3d.com/ScriptReference/Rigidbody-mass.html) | The mass of the rigidbody. Higher mass objects push lower mass objects more when colliding. Think of a big truck, hitting a small car. A common mistake is to assume that heavy objects fall faster than light ones. This is not true as the speed is dependent on gravity and drag.
+[`Rigidbody.AddForce()`](https://docs.unity3d.com/ScriptReference/Rigidbody.AddForce.html) | Adds a force to the Rigidbody. Force is applied continuously along the direction of the force vector.
+[`Rigidbody.AddTorque()`](https://docs.unity3d.com/ScriptReference/Rigidbody.AddTorque.html) | Adds a torque (physics-based rotation) to the rigidbody.
 
 
 
