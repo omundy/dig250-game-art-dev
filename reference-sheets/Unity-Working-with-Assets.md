@@ -48,7 +48,8 @@ The Addressable Asset system provides an easy way to load assets by â€œaddressâ€
 ](https://docs.unity3d.com/Packages/com.unity.addressables@0.4/manual/AddressableAssetsGettingStarted.html)
 - [Unity Addressables & SpriteAtlas: How to Efficiently Use Sprites](https://thegamedev.guru/unity-addressables/spriteatlas-save-memory/)
 - [Unity Addressables Pooling: Jump In!](https://www.gamasutra.com/blogs/RubenTorresBonet/20191104/353294/Unity_Addressables_Pooling_Jump_In.php), 2019
-
+- [Unity-Technologies/Addressables-Sample](https://github.com/Unity-Technologies/Addressables-Sample)
+- [Unity Forum Loading SpriteSheet Sprites With AssetReference](https://forum.unity.com/threads/loading-spritesheet-sprites-with-assetreference.548155/)
 
 
 ### Sources
