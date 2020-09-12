@@ -6,13 +6,12 @@
 
 
 ##### Table of Contents  
-[Terms](#terms)
-[Sprites](#sprites)
-[Textures](#textures)
+- [Terms](#terms)
+- [Sprites](#sprites)
+- [Textures](#textures)
 
 
 
-<a name="terms"/>
 ### Terms
 
 Term | Definition
@@ -29,13 +28,13 @@ Pixels Per Unit (PPU) | Pixels per unit is a sprite import setting that determin
 
 ### Power of 2
 
-Ideally, Texture dimension sizes should be powers of two on each side. This ensures hardware can efficiently compress images in your game, decreasing required memory thus increasing overall performance. The Textures do not have to be square; that is the width can be different from height. 
+Ideally, [Texture dimension sizes](https://docs.unity3d.com/Manual/ImportingTextures.html#TextureSizes) should be powers of two on each side. This ensures hardware can efficiently compress images in your game, decreasing required memory thus increasing overall performance. The Textures do not have to be square; that is the width can be different from height. 
 
 Power | 2<sup>1</sup> | 2<sup>2</sup> | 2<sup>3</sup> | 2<sup>4</sup> | 2<sup>5</sup> | 2<sup>6</sup> | 2<sup>7</sup> | 2<sup>8</sup> | 2<sup>9</sup> | 2<sup>10</sup> | 2<sup>11</sup> | 2<sup>12</sup>
 --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
 Pixels | 2 | 4 | 8 | 16 | 32 | 64 | 128 | 256 | 512 | 1024 | 2048 | 4096
 
-Source: Unity Manual: [Importing Textures](https://docs.unity3d.com/Manual/ImportingTextures.html#TextureSizes) 
+
 
 
 
@@ -52,7 +51,6 @@ TIFF | ![#00ff00](https://placehold.it/15/00ff00/000000?text=+) | ![#ff0000](htt
 PICT | ![#ff0000](https://placehold.it/15/ff0000/000000?text=+) | ![#ff0000](https://placehold.it/15/ff0000/000000?text=+) | Default image format on old Macs. Lossy compression; no alpha channel.
 PSD | ![#00ff00](https://placehold.it/15/00ff00/000000?text=+) | ![#00ff00](https://placehold.it/15/00ff00/000000?text=+) | Native file format for Photoshop. No compression; has an alpha channel. The main reason to use this file format would be the advantage of using Photoshop files directly.
 
-Source: Unity in Action (2nd ed.) Joseph Hocking
 
 
 
@@ -93,7 +91,7 @@ Tool | Description
 
 Term | Definition
 --- | ---
-[UV mapping](https://en.wikipedia.org/wiki/UV_mapping) | Projecting a 2D image onto a 3D model's surface mapping using UV coordinates. Think about it as either "wrapping" a 3D model with a texture (e.g. 🎁), or "unwrapping" or "unfolding" a 3D model to lay it flat onto a 2D texture. See also: [Intro to UV Mapping video](https://www.youtube.com/watch?v=iIvTUDgaXik)
+[UV mapping](https://en.wikipedia.org/wiki/UV_mapping) | Projecting a 2D image onto a 3D model's surface mapping using UV coordinates. Think about it as either "wrapping" a 3D model with a texture (e.g. 🎁 ), or "unwrapping" or "unfolding" a 3D model to lay it flat onto a 2D texture. See also: [Intro to UV Mapping video](https://www.youtube.com/watch?v=iIvTUDgaXik)
 UV coordinates | The coordinates (`U`,`V`) that control where a texture is positioned on an unwrapped 3D model. The letters (`U`,`V`) denote the axes of the 2D texture because (`X`,`Y`,`Z`) are already used to denote the axes of the 3D object in model space. 
 [Bump map](https://docs.unity3d.com/Manual/StandardShaderMaterialParameterNormalMap.html) | A special kind of texture that adds surface detail. Normal maps can represent fine surface detail much more efficiently than using additional polygons.
 [Normal map](https://docs.unity3d.com/Manual/StandardShaderMaterialParameterNormalMap.html) | A type of bump map that adds surface detail such as bumps, grooves, and scratches to a model which catch the light as if they are represented by real geometry. 
