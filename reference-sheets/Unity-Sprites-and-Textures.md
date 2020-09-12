@@ -100,6 +100,7 @@ UV coordinates | The coordinates (`U`,`V`) that control where a texture is posit
 
 
 ![uv map](https://docs.unity3d.com/uploads/Main/BumpMapColourMapAstrellaExample.jpg)
+
 A character texture atlas, and its corresponding normal map texture atlas
 
 
