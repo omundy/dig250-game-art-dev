@@ -23,9 +23,11 @@ Lightmap UV | Similar to a [texture UV](Unity-Sprites-and-Textures.md#textures) 
 
 
 [![Alt text](https://img.youtube.com/vi/u5RTVMBWabg/0.jpg)](https://www.youtube.com/watch?v=u5RTVMBWabg)
+
 Unite Europe 2017 - Bake it 'til you make it: An intro to Lightmaps (42:17)
 
 [![Alt text](https://img.youtube.com/vi/VnG2gOKV9dw/0.jpg)](https://www.youtube.com/watch?v=VnG2gOKV9dw)
+
 Brackeys: LIGHTING in Unity (16:12)
 
 
