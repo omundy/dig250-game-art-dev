@@ -4,7 +4,85 @@
 
 ## Reference Sheet - Lighting
 
-[Lighting in Unity](https://docs.unity3d.com/Manual/LightingOverview.html) works by approximating how light behaves in the real world.
+[Lighting in Unity](https://docs.unity3d.com/Manual/LightingOverview.html) works by approximating how light behaves in the real world. 
+
+Unity Tutorials
+- [Introduction to Lighting and Rendering](https://learn.unity.com/tutorial/introduction-to-lighting-and-rendering-2019-3) Unity 2019
+- [Lighting - Lights & Shading Basics](https://learn.unity.com/tutorial/lighting-lights-shading-basics#)
+
+Lighting in 3D environments results from rendering 
+
+
+A mesh (3D geometry that defines the structure of an object) uses textures (raster images) to define the image on its surface. The effect of lighting results from the rendering using settings from the material (the asset
+
+
+
+Meshes are the main graphics primitive of Unity. They define the shape of an object.
+
+Materials define how a surface should be rendered, by including references to the Textures it uses, tiling information, Color tints and more. The available options for a Material depend on which Shader the Material is using.
+
+Shaders are small scripts
+ that contain the mathematical calculations and algorithms for calculating the Color of each pixel
+ rendered, based on the lighting input and the Material configuration.
+
+Textures are bitmap images. A Material can contain references to textures, so that the Material’s Shader can use the textures while calculating the surface color of a GameObject
+. In addition to basic Color (Albedo) of a GameObject’s surface, Textures can represent many other aspects of a Material’s surface such as its reflectivity or roughness.
+
+
+
+
+
+
+**Note on rendering pipelines**
+
+There are specific differences in how you use lighting, materials, shaders in Unity depending on which rendering pipeline you use. Currently (Sep 2020), there are three different rendering pipelines, so consider that as you look for resources and information on lighting:
+
+Before you start development, you must decide which render pipeline to use in your Project
+
+
+
+[Lightweight Render Pipeline](https://docs.unity3d.com/Packages/com.unity.render-pipelines.lightweight@6.5/manual/index.html) (LWRP)
+
+
+ Projects made using LWRP are not compatible with the High Definition Render Pipeline or the built-in Unity rendering pipeline. This is because the three render pipelines use different lighting models. Before you start development, you must decide which render pipeline to use in your Project.
+
+Note: Built-in and custom Lit Shaders do not work with the Lightweight Render Pipeline. Instead, LWRP has a new set of standard shaders. If you upgrade a current Project to LWRP, you can upgrade built-in shaders to the new ones.
+
+
+
+
+
+
+The Lightweight Render Pipeline (LWRP) is a prebuilt Scriptable Render Pipeline, made by Unity. The technology offers graphics that are scalable to mobile platforms, and you can also use it for higher-end consoles and PCs. You’re able to achieve quick rendering at a high quality without needing compute shader technology. LWRP uses simplified, physically based Lighting and Materials.
+
+The LWRP uses single-pass forward rendering. Use this pipeline to get optimized real-time performance on several platforms.
+
+The LWRP is supported on the following platforms:
+
+Windows and UWP
+Mac and iOS
+Android
+XBox One
+PlayStation4
+Nintendo Switch
+All current VR platforms
+The Lightweight Render Pipeline is available via two templates: LWRP and LWRP-VR. The LWRP-VR comes with pre-enabled settings specifically for VR. The documentation for both render pipelines is the same. For any questions regarding LWRP-VR, see the LWRP documentation.
+
+Note: Built-in and custom Lit Shaders do not work with the Lightweight Render Pipeline. Instead, LWRP has a new set of standard shaders. If you upgrade a current Project to LWRP, you can upgrade built-in shaders to the new ones.
+
+
+
+
+See these videos for an introduction to graphics in Unity
+
+[How to get Good Graphics in Unity](https://www.youtube.com/watch?v=owZneI02YOU&ab_channel=Brackeys) (8:13)
+[REALTIME LIGHTING in Unity](https://www.youtube.com/watch?v=wwm98VdzD8s&ab_channel=Brackeys) (15:47)
+
+
+https://docs.unity3d.com/Manual/LinearRendering-LinearOrGammaWorkflow.html
+
+
+
 
 
 
@@ -33,9 +111,22 @@ Brackeys: LIGHTING in Unity (16:12)
 
 
 
+### Types of lights in Unity
+
+The following [types of lights](https://docs.unity3d.com/Manual/Lighting.html) are available.
 
 
-
+Term | Definition
+--- | ---
+Point light | A Light that is located at a point in the Scene and emits light in all directions equally
+Spot light | A Light that is located at a point in the Scene and emits light in a cone shape
+Directional | A Light that emits light in one direction only ("the sun")
+Area light | A Light that is defined by a rectangle in the Scene, and emits light all directions uniformly across its surface area but only from one side of the rectangle
+ 
+ 
+ 
+ 
+ 
 
 
 ### Fog in Unity
