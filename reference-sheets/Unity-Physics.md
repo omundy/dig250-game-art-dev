@@ -102,5 +102,6 @@ Function | Definition
 * Chapter 3 in Ferro, Lauren S., and Francesco Sapio. Unity 2017 Game Development. Packt, 2018.
 * Chapter 3 in Hocking, Joseph. Unity in Action: Multiplatform Game Development in C # (2nd Edition). Manning, 2018. 
 * Chapter 3,4,5 in Halpern, Jared. Developing 2D Games with Unity. APress, 2019.
+* See [Unity Movement [RigidBody vs Translate]](https://www.youtube.com/watch?v=ixM2W2tPn6c) (9:00) and [Move in Unity3D - Ultimate Unity Tutorial](https://www.youtube.com/watch?v=fyV77lN1Yl0) (49:23) for discussions of how to move GameObjects with `transform`, `AddForce()`, and `MovePosition()`
 
 
