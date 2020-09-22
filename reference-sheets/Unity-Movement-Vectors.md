@@ -37,7 +37,12 @@ void Update()
 }
 ```
 - A scalar vector is a representation of the magnitude of a GameObject.
-- Quaternions are also vectors, representing a direction and magnitude of change in orientation that you might add to the (`Quaternion.identity`](https://docs.unity3d.com/ScriptReference/Quaternion-identity.html) (an objects zero rotation)
+- Quaternions are also vectors, representing a direction and magnitude of change in orientation that you might add to the [`Quaternion.identity`](https://docs.unity3d.com/ScriptReference/Quaternion-identity.html) (an objects zero rotation)
+
+
+
+- A vector's magnitude is the length of the distance from the origin. In Unity, [`Vector3.magnitude`](https://docs.unity3d.com/ScriptReference/Vector3-magnitude.html) can be used to find the distance between two game objects.
+
 
 
 Some simple vector math 
@@ -55,7 +60,8 @@ Vector3 b = a + v;   // position vector of b
 
 
 
-### Common Vector Operations
+### Other Common Vector Operations
+
 A table of common operations for vectors and their Unity references. See also the [Vector Cookbook](https://docs.unity3d.com/Manual/VectorCookbook.html) and [Unity Tutorial: 3D Physics](https://learn.unity.com/tutorial/3d-physics)
 
 Term | Definition
@@ -91,6 +97,7 @@ Term | Definition
 
 ### Sources
 
+- [Unity Tutorial - Vector Maths](https://learn.unity.com/tutorial/vector-maths)
 * [Vector In Game Development: Understand The Basics Of Vector Math](https://gamedevelopertips.com/vector-in-game-development/)
 * See [Unity Movement [RigidBody vs Translate]](https://www.youtube.com/watch?v=ixM2W2tPn6c) (9:00) and [Move in Unity3D - Ultimate Unity Tutorial](https://www.youtube.com/watch?v=fyV77lN1Yl0) (49:23) for discussions of how to move GameObjects with `transform`, `AddForce()`, and `MovePosition()`
 
