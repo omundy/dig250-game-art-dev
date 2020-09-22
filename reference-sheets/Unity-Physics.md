@@ -49,9 +49,6 @@ Raycasting | Used to find when a line (ray) has hit a specific target. A common 
 
 
 
-
-
-
 ### Unity Terminology
 
 Term | Definition
