@@ -4,12 +4,11 @@
 
 ## Reference Sheet - Unity Movement - Physics 
 
-Please also see the discussion of Vectors in [Unity Movement - Vectors](Unity-Movement-Vectors.md)
+For modifying a GameObject's `transform.position` directly, see: [Unity Movement - Vectors](Unity-Movement-Vectors.md)
 
 
 ### Introductions to game engine physics
 
-* [Vector In Game Development: Understand The Basics Of Vector Math](https://gamedevelopertips.com/vector-in-game-development/)
 * [Unity Tutorial: 3D Physics](https://learn.unity.com/tutorial/3d-physics)
 * Video Game Physics Tutorial: [Part I: An Introduction to Rigid Body Dynamics](https://www.toptal.com/game/video-game-physics-part-i-an-introduction-to-rigid-body-dynamics)
 
