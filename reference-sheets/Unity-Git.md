@@ -79,7 +79,7 @@ The tool will then resolve those conflicts for you automatically. If you don't h
 1. Choose [Commit Merge](images/git-resolve-yaml-desktop.png) when finished
 
 [![yaml desktop](images/git-resolve-yaml-desktop-400w.png)](images/git-resolve-yaml-desktop.png)
-[![yaml atom](images/git-resolve-yaml-atom-400w.png)(images/git-resolve-yaml-atom.png)
+[![yaml atom](images/git-resolve-yaml-atom-400w.png)](images/git-resolve-yaml-atom.png)
 
 
 #### References
