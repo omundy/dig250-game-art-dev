@@ -15,7 +15,7 @@ See [this presentation for an introduction to version control with Unity](https:
 - Use visible .meta files and force assets to save as plain text: In Unity Project Settings > 
   - Editor > Asset Serialization, set Mode = "Force Text"
   - Version Control, set Mode = "Visible Meta Files"
-- Enable Git LFS (Large File Storage) docs
+- Enable [Git LFS](https://git-lfs.github.com/) (Large File Storage)
 - Enable SmartMerge to handle merging of scenes (see below)
 
 
