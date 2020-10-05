@@ -5,6 +5,12 @@
 ## Reference Sheet - Unity Audio 
 
 
+
+This is a great video to get started with audio in Unity: [Introduction to AUDIO in Unity](https://www.youtube.com/watch?v=6OT43pvUyfY&ab_channel=Brackeys)(14:25)
+
+
+
+
 ### Terminology
 
 Term | Definition
