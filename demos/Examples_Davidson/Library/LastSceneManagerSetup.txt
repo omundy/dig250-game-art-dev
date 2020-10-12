@@ -1,5 +1,0 @@
-sceneSetups:
-- path: Assets/Data_Handling/Scenes/Data_Handling.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
