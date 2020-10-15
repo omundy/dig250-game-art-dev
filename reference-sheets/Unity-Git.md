@@ -11,7 +11,7 @@ See [this presentation for an introduction to version control with Unity](https:
 
 ## Unity and Git basics
 
-- Use a Unity-specific [.gitignore file](https://github.com/github/gitignore/blob/master/Unity.gitignore)
+- Use a Unity-specific [.gitignore](https://github.com/github/gitignore/blob/master/Unity.gitignore) and [.gitattributes](https://gist.github.com/FullStackForger/fe2b3da81e60337757fe82d74ebf7d7a) files (see this [article](https://thoughtbot.com/blog/how-to-git-with-unity) for info setting up)
 - Use visible .meta files and force assets to save as plain text: In Unity Project Settings > 
   - Editor > Asset Serialization, set Mode = "Force Text"
   - Version Control, set Mode = "Visible Meta Files"
