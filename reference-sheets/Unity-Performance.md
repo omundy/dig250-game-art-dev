@@ -5,6 +5,8 @@
 ## Reference Sheet - Unity Performance
 
 
+Start with the [Profiler](https://docs.unity3d.com/Manual/Profiler.html). There are lots of [videos](https://www.youtube.com/watch?v=fROTtgZK-Zs) to get you started.
+
 
 ### C# Terminology
 
@@ -17,22 +19,38 @@ Draw calls | Each command the CPU sends to your GPU to draw geometry on your scr
 
 
 
-### General Performance Tips
+## General Performance Tips
 
 * When you need a reference to a component, camera, or script, do so in `Awake()` or `Start()` and store it in a variable accessible by the entire class. This will help the performance of your game because you won't have to get the reference over and over.
 
 
 
+
+
+## Specific Areas for Improvements
+
+
+### Reduce Draw Calls
+
+- [Unity CPU Optimization: Is Your Game… Draw Call Bound?](https://www.gamasutra.com/blogs/RubenTorresBonet/20200513/362872/Unity_CPU_Optimization_Is_Your_Game_Draw_Call_Bound.php) (2020)
+
 ### Garbage Collection
 
-* [Don't concat strings](https://docs.unity3d.com/Manual/UnderstandingAutomaticMemoryManagement.html) in loops or `Update()`.
+- [Unity Tips | Part 1 - Garbage Collection](https://danielilett.com/2019-08-05-unity-tips-1-garbage-collection/), 2019
+- Unity Manual: [Understanding Automatic Memory Management](https://docs.unity3d.com/Manual/UnderstandingAutomaticMemoryManagement.html) 
+    - Don't concat strings in loops or `Update()`.
+
+
+### Other Topics
+
+- [5 Common Misuses of Collections](https://www.jacksondunstan.com/articles/5145)
 
 
 
 ### Sources
-* Unity Manual: [Animation](https://docs.unity3d.com/Manual/AnimationSection.html) and [Unity Scripting Reference](https://docs.unity3d.com/ScriptReference/index.html)
-* Chapter 8 in Halpern, Jared. Developing 2D Games with Unity. APress, 2019.
-* [Unity CPU Optimization: Is Your Game… Draw Call Bound?](https://www.gamasutra.com/blogs/RubenTorresBonet/20200513/362872/Unity_CPU_Optimization_Is_Your_Game_Draw_Call_Bound.php) (2020)
-* [Unity Tips | Part 1 - Garbage Collection](https://danielilett.com/2019-08-05-unity-tips-1-garbage-collection/), 2019
+- [Unity Scripting Reference](https://docs.unity3d.com/ScriptReference/index.html)
+- Chapter 8 in Halpern, Jared. Developing 2D Games with Unity. APress, 2019.
+
+
 
 
