@@ -47,6 +47,36 @@ Draw calls | Each command the CPU sends to your GPU to draw geometry on your scr
 
 
 
+
+## Debugging (this may need to move to its own)
+
+### Loops & Editor Crashes
+
+Be careful with loops! This one for example will cause the editor to crash every time, leaving you no specific line number or clues as to where the cause of the problem lies.
+
+```
+// example function with a logic error and "safety" var
+Vector3 ReturnNewFloatWithError ()
+{
+    float newFloat = -1; // default is -1 so loop starts
+    int safety = 0; // a var to keep track of how many loops have occurred
+
+    // loop until condition is false
+    while (newFloat <= 0) {
+        // create new float (this is the logic error, it should be creating a positive value so the loop stops)
+        newFloat = Random.Range (-1,0);
+        // this is the safety, which realistically should never occur, but can help you find other errors in development
+        if (++safety > 10) {
+            Debug.Log ("ReturnNewFloatWithError() - Safety first!");
+            break;
+        }
+    }
+    return newFloat;
+}
+```
+
+
+
 ### Sources
 - [Unity Scripting Reference](https://docs.unity3d.com/ScriptReference/index.html)
 - Chapter 8 in Halpern, Jared. Developing 2D Games with Unity. APress, 2019.
