@@ -11,19 +11,19 @@ See [this presentation for an introduction to version control with Unity](https:
 
 ## Setup
 
-- Use a Unity-specific [.gitignore](https://github.com/github/gitignore/blob/master/Unity.gitignore) and [.gitattributes](https://gist.github.com/FullStackForger/fe2b3da81e60337757fe82d74ebf7d7a) files (see this [article](https://thoughtbot.com/blog/how-to-git-with-unity) for info setting up)
-- Use visible .meta files and force assets to save as plain text: In Unity Project Settings > 
-  - Editor > Asset Serialization, set Mode = "Force Text"
-  - Version Control, set Mode = "Visible Meta Files"
-- Enable [Git LFS](https://git-lfs.github.com/) (Large File Storage)
-- Enable SmartMerge to handle merging of scenes (see below)
+1. Use a Unity-specific [.gitignore](https://github.com/github/gitignore/blob/master/Unity.gitignore) and [.gitattributes](https://gist.github.com/FullStackForger/fe2b3da81e60337757fe82d74ebf7d7a) files (see this [article](https://thoughtbot.com/blog/how-to-git-with-unity) for info setting up)
+1. Use visible .meta files and force assets to save as plain text: In Unity Project Settings > 
+  1. Editor > Asset Serialization, set Mode = "Force Text"
+  1. Version Control, set Mode = "Visible Meta Files"
+1. Enable [Git LFS](https://git-lfs.github.com/) (Large File Storage)
+1. Enable SmartMerge to handle merging of scenes (see below)
 
 
 ## Workflow tips
 
 - Use prefabs as much as possible to [prevent scene conflicts](https://medium.com/helloiconic/5-must-read-tips-to-use-git-with-unity-e8a308aa83a4).
 - Work in separate branches, to ensure you don’t pollute the master branch
-- Work in separate scenes as much as possible - YAML files are not pretty, readable, or organized 🙄
+- Work in separate scenes as much as possible - YAML files are not pretty, readable, or organized 🙄 When you do work in the same scene avoid reorganizing assets. Use prefabs.
 - Communicate often with your teammates; establish rules at the beginning.
 
 
