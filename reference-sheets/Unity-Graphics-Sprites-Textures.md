@@ -2,7 +2,7 @@
 
 ![unity logo](images/unity-logo-293w.png)
 
-## Reference Sheet - Sprites and Textures
+## Reference Sheet - Graphics > Sprites and Textures
 
 
 ##### Table of Contents  
@@ -17,18 +17,18 @@
 Term | Definition
 --- | ---
 [Texture](https://docs.unity3d.com/Manual/Textures.html) | Any bitmap image in Unity. Can be added to a scene directly by setting its mode to sprite, or by placing it on a [Material](https://docs.unity3d.com/Manual/Materials.html) and attaching it to a 3D object.
-[Sprite](https://docs.unity3d.com/Manual/Sprites.html) | A bitmap image that can be used directly in a (usually 2D) game. Can be repositioned, scaled, and rotated like any other game object in Unity. All Sprites in your Scene contain at least the Transform and Sprite Renderer components. 
+[Sprite](https://docs.unity3d.com/Manual/Sprites.html) | A bitmap image that can be used directly in a (usually 2D) game. Can be repositioned, scaled, and rotated like any other game object in Unity. All Sprites in your Scene contain at least the Transform and Sprite Renderer components.
 [Sprite Renderer](https://docs.unity3d.com/Manual/class-SpriteRenderer.html) | The component that renders 2D sprites and controls how they appear in the scene. The Sprite property of a SpriteRenderer determines which sprite will be shown in the game and can be manipulated in code.
 Sprite Sheet | A texture (bitmap image) containing multiple, smaller images, usually frame-by-frame animations, for 2D games. By packing multiple files into a single texture it reduces the number of images that must be drawn in each frame (a.k.a. "draw calls") thus increasing performance. [View examples](https://www.google.com/search?q=sprite+sheet&safe=off&tbm=isch).
 Texture Atlas | A texture (bitmap image) containing multiple, smaller images, usually tileable textures for walls and other environmental components for 3D games. Essentially the same as a sprite sheet but used in different contexts. [View examples](https://www.google.com/search?q=texture+atlas&safe=off&tbm=isch).
 Lossy | When a file is compressed and data is lost (i.e. it loses quality). Lossless is when every single bit of data remains. Lossy compression results in smaller file sizes but again, with a loss in quality.
-Pixels Per Unit (PPU) | Pixels per unit is a sprite import setting that determines the relationship between pixels (the image scale) and Unity's units. For pixel art you typically use a low PPU, allowing you to easily snap tiles together in a scene, while you want a higher PPU for high resolution graphics. The default is 100. 
+Pixels Per Unit (PPU) | Pixels per unit is a sprite import setting that determines the relationship between pixels (the image scale) and Unity's units. For pixel art you typically use a low PPU, allowing you to easily snap tiles together in a scene, while you want a higher PPU for high resolution graphics. The default is 100.
 
 
 
 ### Power of 2
 
-Ideally, [Texture dimension sizes](https://docs.unity3d.com/Manual/ImportingTextures.html#TextureSizes) should be powers of two on each side. This ensures hardware can efficiently compress images in your game, decreasing required memory thus increasing overall performance. The Textures do not have to be square; that is the width can be different from height. 
+Ideally, [Texture dimension sizes](https://docs.unity3d.com/Manual/ImportingTextures.html#TextureSizes) should be powers of two on each side. This ensures hardware can efficiently compress images in your game, decreasing required memory thus increasing overall performance. The Textures do not have to be square; that is the width can be different from height.
 
 Power | 2<sup>1</sup> | 2<sup>2</sup> | 2<sup>3</sup> | 2<sup>4</sup> | 2<sup>5</sup> | 2<sup>6</sup> | 2<sup>7</sup> | 2<sup>8</sup> | 2<sup>9</sup> | 2<sup>10</sup> | 2<sup>11</sup> | 2<sup>12</sup>
 --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
@@ -92,11 +92,11 @@ Tool | Description
 Term | Definition
 --- | ---
 [UV mapping](https://en.wikipedia.org/wiki/UV_mapping) | Projecting a 2D image onto a 3D model's surface mapping using UV coordinates. Think about it as either "wrapping" a 3D model with a texture (e.g. 🎁 ), or "unwrapping" or "unfolding" a 3D model to lay it flat onto a 2D texture. See also: [Intro to UV Mapping video](https://www.youtube.com/watch?v=iIvTUDgaXik)
-UV coordinates | The coordinates (`U`,`V`) that control where a texture is positioned on an unwrapped 3D model. The letters (`U`,`V`) denote the axes of the 2D texture because (`X`,`Y`,`Z`) are already used to denote the axes of the 3D object in model space. 
+UV coordinates | The coordinates (`U`,`V`) that control where a texture is positioned on an unwrapped 3D model. The letters (`U`,`V`) denote the axes of the 2D texture because (`X`,`Y`,`Z`) are already used to denote the axes of the 3D object in model space.
 [Bump map](https://docs.unity3d.com/Manual/StandardShaderMaterialParameterNormalMap.html) | A special kind of texture that adds surface detail. Normal maps can represent fine surface detail much more efficiently than using additional polygons.
-[Normal map](https://docs.unity3d.com/Manual/StandardShaderMaterialParameterNormalMap.html) | A type of bump map that adds surface detail such as bumps, grooves, and scratches to a model which catch the light as if they are represented by real geometry. 
+[Normal map](https://docs.unity3d.com/Manual/StandardShaderMaterialParameterNormalMap.html) | A type of bump map that adds surface detail such as bumps, grooves, and scratches to a model which catch the light as if they are represented by real geometry.
 [Height map](https://docs.unity3d.com/Manual/StandardShaderMaterialParameterNormalMap.html) | A greyscale Texture that stores height data for an object. Each pixel stores the height difference perpendicular to the face that pixel represents.
-[Surface normals](https://docs.unity3d.com/Manual/StandardShaderMaterialParameterNormalMap.html) | The vector (a.k.a. "normal") representing a line perpendicular to the angle of an object's surface relative to the light. 
+[Surface normals](https://docs.unity3d.com/Manual/StandardShaderMaterialParameterNormalMap.html) | The vector (a.k.a. "normal") representing a line perpendicular to the angle of an object's surface relative to the light.
 
 
 ![uv map](https://docs.unity3d.com/uploads/Main/BumpMapColourMapAstrellaExample.jpg)
@@ -113,10 +113,5 @@ A character texture atlas, and its corresponding normal map texture atlas
 * [Unity Manual](https://docs.unity3d.com/Manual/index.html) and [Unity Scripting Reference](https://docs.unity3d.com/ScriptReference/index.html)
 * Chapter 2 in Ferro, Lauren S., and Francesco Sapio. Unity 2017 Game Development. Packt, 2018.
 * Chapter 4 in Hocking, Joseph. Unity in Action: Multiplatform Game Development in C # (2nd Edition). Manning, 2018.
-* Chapter 1 in Godbold, Ashley, and Simon Jackson. Mastering Unity 2D Game Development (2nd Edition). Packt, 2016. 
+* Chapter 1 in Godbold, Ashley, and Simon Jackson. Mastering Unity 2D Game Development (2nd Edition). Packt, 2016.
 * Chapter 3 in Halpern, Jared. Developing 2D Games with Unity. APress, 2019.
-
-
-
-
-

@@ -2,7 +2,7 @@
 
 ![unity logo](images/unity-logo-293w.png)
 
-## Reference Sheet - Understanding Assets
+## Reference Sheet - Loading Assets
 
 - Assets
 - Resources
@@ -56,4 +56,3 @@ The Addressable Asset system provides an easy way to load assets by â€œaddressâ€
 ### Sources
 * [A guide to AssetBundles and Resources](https://unity3d.com/learn/tutorials/topics/best-practices/guide-assetbundles-and-resources)
 * [How to change a Sprite from a script in Unity ](https://gamedevbeginner.com/how-to-change-a-sprite-from-a-script-in-unity-with-examples/) (2020)
-
