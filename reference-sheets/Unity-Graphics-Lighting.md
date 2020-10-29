@@ -6,12 +6,12 @@
 
 ### Outline
 
-- [Lighting](#Lighting Introduction)
+- [Lighting](#Lighting-Introduction)
 	- [Terminology](#Lighting-Terminology)
 	- [Types](#Lighting-Types)
 	- [Fog](#Fog)
 - [Rendering Pipelines](#Rendering-Pipelines)
-
+	- [Universal Rendering Pipeline (URP)](#universal-rendering-pipeline-urp)
 
 ### Lighting Introduction
 
