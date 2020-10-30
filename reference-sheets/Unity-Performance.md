@@ -66,11 +66,18 @@ Following are main focus areas for considering performance. Consider that there 
 
 ### Optimizing Unity UI
 
-- Any time you change a RectTransform (or any UI element that needs its quads redrawn) it sets a "dirty" flag on the layout parent (Canvas). Sometime later (probably same frame, or the next), a single function call to update the layouts at the root is called if the layout is dirty - meaning if it even needs to be rebuilt. If you change one thing vs. 1000 things the layout will need to be redrawn.
-- Be careful using `Canvas.ForceUpdateCanvases()` because there is a serious performance hit.
-- Unity Tutorial: [Optimizing Unity UI](https://learn.unity.com/tutorial/optimizing-unity-ui#5c7f8528edbc2a002053b5a0)
-- Unity Create: [Some of the best optimization tips for Unity UI](https://create.unity3d.com/Unity-UI-optimization-tips)
-
+- Setup
+    - [Disable Raycast Target property for all non-interactive elements](https://medium.com/@dariarodionovano/unity-ui-best-practices-40964a7a9aba)
+    - [Turn off textures you don't need](https://medium.com/@dariarodionovano/unity-ui-best-practices-40964a7a9aba)
+    - [Use prefabs on nest elements](https://medium.com/@dariarodionovano/unity-ui-best-practices-40964a7a9aba)
+- Runtime 
+    - [Do not use alpha to show / hide elements](https://medium.com/@dariarodionovano/unity-ui-best-practices-40964a7a9aba)
+    - During runtime, any time you change a RectTransform (or any UI element that needs its quads redrawn) with code it sets a "dirty" flag on the layout parent (Canvas). Sometime later (probably in the same frame, or the next), a single function call to update the layouts at the root is called if the layout is dirty - meaning if it even needs to be rebuilt. If you change one thing vs. 1000 things the layout will need to be redrawn.
+    - Be careful using `Canvas.ForceUpdateCanvases()` because there is a serious performance hit.
+- Tutorials and more information
+    - Unity Tutorial: [Optimizing Unity UI](https://learn.unity.com/tutorial/optimizing-unity-ui#5c7f8528edbc2a002053b5a0)
+    - Unity Create: [Some of the best optimization tips for Unity UI](https://create.unity3d.com/Unity-UI-optimization-tips)
+    - [Unity UI Best Practices](https://medium.com/@dariarodionovano/unity-ui-best-practices-40964a7a9aba)
 
 
 ### Other Tips
