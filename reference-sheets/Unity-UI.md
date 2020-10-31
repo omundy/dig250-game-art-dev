@@ -5,6 +5,9 @@
 ## Reference Sheet - Unity UI
 
 
+
+
+
 ### Terminology
 
 Term | Definition
@@ -21,8 +24,9 @@ Anchor Points | Anchors are used with Rect Transforms to anchor a UI element in 
 ![example of anchor](https://docs.unity3d.com/uploads/Main/UI_Anchored2.gif)
 
 
+### UI Performance
 
-
+- Find lots of UI performance tips inside the [class reference sheet on performance](Unity-Performance.md)
 
 
 ### Sources
