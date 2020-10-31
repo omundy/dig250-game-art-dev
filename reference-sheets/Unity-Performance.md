@@ -66,18 +66,26 @@ Following are main focus areas for considering performance. Consider that there 
 
 ### Optimizing Unity UI
 
-- Setup
-    - [Disable Raycast Target property for all non-interactive elements](https://medium.com/@dariarodionovano/unity-ui-best-practices-40964a7a9aba)
-    - [Turn off textures you don't need](https://medium.com/@dariarodionovano/unity-ui-best-practices-40964a7a9aba)
-    - [Use prefabs on nest elements](https://medium.com/@dariarodionovano/unity-ui-best-practices-40964a7a9aba)
-- Runtime 
-    - [Do not use alpha to show / hide elements](https://medium.com/@dariarodionovano/unity-ui-best-practices-40964a7a9aba)
-    - During runtime, any time you change a RectTransform (or any UI element that needs its quads redrawn) with code it sets a "dirty" flag on the layout parent (Canvas). Sometime later (probably in the same frame, or the next), a single function call to update the layouts at the root is called if the layout is dirty - meaning if it even needs to be rebuilt. If you change one thing vs. 1000 things the layout will need to be redrawn.
-    - Be careful using `Canvas.ForceUpdateCanvases()` because there is a serious performance hit.
-- Tutorials and more information
-    - Unity Tutorial: [Optimizing Unity UI](https://learn.unity.com/tutorial/optimizing-unity-ui#5c7f8528edbc2a002053b5a0)
-    - Unity Create: [Some of the best optimization tips for Unity UI](https://create.unity3d.com/Unity-UI-optimization-tips)
-    - [Unity UI Best Practices](https://medium.com/@dariarodionovano/unity-ui-best-practices-40964a7a9aba)
+A good way to begin understanding UI performance is by watching this video: [Unite Europe 2017 - Squeezing Unity: Tips for raising performance
+](https://www.youtube.com/watch?v=_wxitgdx-UI&index=7&list=PLX2vGYjWbI0Rzo8D-vUCFVb_hHGxXWd9j&ab_channel=Unity)
+
+From the video, the first thing to know about UI performance is that during runtime, if you [change even just one element that needs to be redrawn it sets a "dirty" flag on the (first) Canvas parent of that changed object](https://youtu.be/_wxitgdx-UI?t=1648). When a Canvas is marked dirty then **ALL** the geometries in that Canvas need to be recomputed [on that frame](https://docs.unity3d.com/Manual/ExecutionOrder.html) causing a major performance hit. Several of the tips below help to address this issue.
+
+
+#### Tips 
+
+- Organize your UI elements into multiple or nested canvases based on when they are updated. These "islands" will [help to isolate elements that need to be redrawn](https://youtu.be/_wxitgdx-UI?t=1680) so you won't have to redraw all elements.
+- Use prefabs to nest elements [#20](https://medium.com/@dariarodionovano/unity-ui-best-practices-40964a7a9aba)
+- [Disable Raycast Target property for all non-interactive elements](https://medium.com/@dariarodionovano/unity-ui-best-practices-40964a7a9aba) to avoid [the amount of work the raycaster must do on each frame](https://youtu.be/_wxitgdx-UI?t=1944)
+- Turn off Images components you don't need to avoid draw calls [#15](https://medium.com/@dariarodionovano/unity-ui-best-practices-40964a7a9aba)
+- [Do not use alpha to show / hide elements](https://medium.com/@dariarodionovano/unity-ui-best-practices-40964a7a9aba)
+- Be careful using `Canvas.ForceUpdateCanvases()` because there is a serious performance hit.
+
+#### Tutorials and more information
+
+- Unity Tutorial: [Optimizing Unity UI](https://learn.unity.com/tutorial/optimizing-unity-ui#5c7f8528edbc2a002053b5a0)
+- Unity Create: [Some of the best optimization tips for Unity UI](https://create.unity3d.com/Unity-UI-optimization-tips)
+- [Unity UI Best Practices](https://medium.com/@dariarodionovano/unity-ui-best-practices-40964a7a9aba)
 
 
 ### Other Tips
