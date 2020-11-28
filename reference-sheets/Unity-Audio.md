@@ -20,6 +20,14 @@ Term | Definition
 
 
 
+### Using the Audio Mixer
+
+- [Audio tutorial for Unity: the Audio Mixer](https://www.raywenderlich.com/532-audio-tutorial-for-unity-the-audio-mixer)
+- [Understanding Decibels](https://geoffthegreygeek.com/understanding-decibels/?amp)
+- [Audio works in Unity but distorts hugely in build](https://forum.unity.com/threads/audio-works-in-unity-but-distorts-hugely-in-build.572119/)
+
+
+
 
 ## Audio formats for Unity
 
