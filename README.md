@@ -11,6 +11,25 @@ Examples, tutorials, and references for
 
 
 
+## Course Materials
+
+
+### Books
+
+- Halpern, Jared. [Developing 2D Games with Unity](). APress, 2019. [Github](https://github.com/Apress/Devel-2D-Games-Unity)
+- Ferrone, Harrison. [Learning C# By Developing Games with Unity 2020 (5th Ed.)](https://www.packtpub.com/product/learning-c-by-developing-games-with-unity-2020-fifth-edition/9781800207806). Packt, 2019. [Github](https://github.com/PacktPublishing/Learning-C-8-by-Developing-Games-with-Unity-2020)
+
+### Resources
+- [Course repository](https://github.com/omundy/dig250-game-art-dev)
+- Sample projects 
+	- [sample-unity-physics](https://github.com/omundy/sample-unity-physics)
+	- [sample-unity-data](https://github.com/omundy/sample-unity-data)
+	- [sample-unity-project](https://github.com/omundy/sample-unity-project)
+- [Class Reference Sheets](reference-sheets/)
+	
+	
+
+
 ## Thinking about Games
 
 - [The International Journal of Computer Game Research](http://gamestudies.org/)
@@ -27,9 +46,6 @@ Step by step lessons
 
 ### General
 
-- DIG 250 Resources
- 	- Sample projects [sample-unity-physics](https://github.com/omundy/sample-unity-physics)
-	- [Class Reference Sheets](reference-sheets/)
 - Resources from Unity
 	- [Official Unity Tutorials](https://learn.unity.com/) - Cover a range of projects and topics.
 	- Unity [Manual](https://docs.unity3d.com/Manual/) and [Script Reference](https://docs.unity3d.com/ScriptReference/index.html)
@@ -62,11 +78,6 @@ Step by step lessons
 - [A Beginner's Guide to 2D Platform Games with Unity](https://www.amazon.com/Beginners-Guide-Platform-Games-Unity/dp/1520118171) (2016)
 
 
-
-### Course Texts
-
-- Halpern, Jared. [Developing 2D Games with Unity](). APress, 2019. [Github](https://github.com/Apress/Devel-2D-Games-Unity)
-- Ferrone, Harrison. [Learning C# By Developing Games with Unity 2020 (5th Ed.)](https://www.packtpub.com/product/learning-c-by-developing-games-with-unity-2020-fifth-edition/9781800207806). Packt, 2019. [Github](https://github.com/PacktPublishing/Learning-C-8-by-Developing-Games-with-Unity-2020)
 
 
 ### Other Recommended Books
