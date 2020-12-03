@@ -63,14 +63,18 @@ Step by step lessons
 
 
 
-### Books
+### Course Texts
 
-- (**course text**) Halpern, Jared. [Developing 2D Games with Unity](). APress, 2019. [Github](https://github.com/Apress/Devel-2D-Games-Unity)
-- (**course text**) Ferrone, Harrison. [Learning C# By Developing Games with Unity 2019 (4rd Ed.)](https://www.packtpub.com/game-development/learning-c-developing-games-unity-2019-fourth-edition). Packt, 2019. [Github](https://github.com/PacktPublishing/Learning-C-by-Developing-Games-with-Unity-2019)
+- Halpern, Jared. [Developing 2D Games with Unity](). APress, 2019. [Github](https://github.com/Apress/Devel-2D-Games-Unity)
+- Ferrone, Harrison. [Learning C# By Developing Games with Unity 2020 (5th Ed.)](https://www.packtpub.com/product/learning-c-by-developing-games-with-unity-2020-fifth-edition/9781800207806). Packt, 2019. [Github](https://github.com/PacktPublishing/Learning-C-8-by-Developing-Games-with-Unity-2020)
+
+
+### Other Recommended Books
 - DaGraca, Micael, and Greg Lukosek. [Learning C# 7 By Developing Games with Unity 2017 (3rd Ed.)](https://www.packtpub.com/game-development/learning-c-7-developing-games-unity-2017-third-edition). Packt, 2017. [Github](https://github.com/PacktPublishing/Learning-C-7-By-Developing-Games-with-Unity-2017-Third-Edition)
 - Hocking, Joseph. [Unity in Action: Multiplatform Game Development in C # (2nd Edition)](https://www.manning.com/books/unity-in-action-second-edition). Manning, 2018.
 - Ferro, Lauren S., and Francesco Sapio. [Unity 2017 Game Development](https://www.packtpub.com/game-development/unity-2017-2d-game-development-projects). Packt, 2018.
 - Godbold, Ashley, and Simon Jackson. [Mastering Unity 2D Game Development (2nd Edition)](https://www.oreilly.com/library/view/mastering-unity-2d/9781786463456/). Packt, 2016.
+- Thorn, Alan. [Mastering Unity Scripting](https://www.amazon.com/dp/B00SYOBY2C/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1). Packt, 2015.
 
 
 ### Forums
