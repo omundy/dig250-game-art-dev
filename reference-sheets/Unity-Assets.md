@@ -53,6 +53,17 @@ The Addressable Asset system provides an easy way to load assets by “address�
 - [Unity Forum Loading SpriteSheet Sprites With AssetReference](https://forum.unity.com/threads/loading-spritesheet-sprites-with-assetreference.548155/)
 
 
+
+
+
+### Unity Project Architecture
+
+Folder | Description | Check into source control | Notes
+--- | --- | --- | ---
+/Assets | Where Unity stores all your project files | ✅ | Do not delete
+/Library | Cached files Unity generates when opening your project the first time. | ❌  | It is fine to delete this entire folder (to save space), but do not delete individual files contained within. 
+
+
 ### Sources
 * [A guide to AssetBundles and Resources](https://unity3d.com/learn/tutorials/topics/best-practices/guide-assetbundles-and-resources)
 * [How to change a Sprite from a script in Unity ](https://gamedevbeginner.com/how-to-change-a-sprite-from-a-script-in-unity-with-examples/) (2020)
