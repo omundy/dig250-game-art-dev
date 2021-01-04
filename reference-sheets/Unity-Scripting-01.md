@@ -36,6 +36,9 @@ Term | Definition
 [Namespace](https://docs.unity3d.com/Manual/Namespaces.html) | Help to prevent naming conflicts by organizing our class names into collections referred to using the chosen prefix. An example of this simplified access: instead of typing `UnityEngine.Debug.Log()` we can type `Debug.Log()` by writing `using UnityEngine`.
 [Scope](https://unity3d.com/learn/tutorials/topics/scripting/scope-and-access-modifiers) | A variable can be either of global or local scope. A global variable is a variable declared in the main body of the source code, outside all functions, while a local variable is one declared within the body of a function or a block. [Wikipedia](https://en.wikipedia.org/wiki/Scope_(computer_science)).
 [Scriptable objects](https://unity3d.com/learn/tutorials/modules/beginner/live-training-archive/scriptable-objects) | Scriptable objects are reusable data containers defined via C# script and saved as Assets. They reduce memory usage by storing references to a single instance of a data set. Because they inherit from `ScriptableObject` class they cannot be attached to GameObjects as they do not inherit from MonoBehaviour.
+[Operators] | Operator symbols represent the arithmetic, assignment, relational, and logical functionality that types can perform. Arithmetic operators (`+, -, *, /, %`) represent basic math functions, while assignment operators (`=, +=, -=, *=, /=`) perform math and assignment functions together on a given value. Relational (`==, >, <, >=, <=, !=`) and logical (`&&, ||, !`) operators evaluate conditions between multiple values, such as greater than, less than, and equal to. [Read more about C# operators](https://www.tutlane.com/tutorial/csharp/csharp-operators-arithmetic-relational-logical-assignment-precedence).
+
+
 
 
 ### Tips
@@ -51,4 +54,7 @@ Term | Definition
 * Chapter 1 in Hocking, Joseph. Unity in Action: Multiplatform Game Development in C # (2nd Edition). Manning, 2018.
 * Chapter 1 in DaGraca & Lukosek. Learning C# 7 By Developing Games with Unity 2017 (3rd Edition). Packt, 2017.
 * Chapter 5 in Halpern, Jared. Developing 2D Games with Unity. APress, 2019.
+* Chapters 1–4 in Ferrone. Learning C# by Developing Games with Unity 2020 (5th Edition). Packt, 2020.
+
+
 
