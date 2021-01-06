@@ -20,15 +20,16 @@ Outline
 
 ## General information
 
-To publish and distribute your game you generally need the following for each platform on which you intend to distribute. I'll use an iOS game as an example, to illustrate the points: 
+To publish and distribute your game you generally need the following for each platform on which you intend to distribute. I'll describe the process for distributing an iOS game and then explain these steps in detail below ...
 
-> To publish an iOS game, you'll click Build in Unity. Unity will compile all your code and assets and send it to XCode which will further compile the project, sign the files, install it on your device to test, or upload the packaged game to the App Store.
+> To publish an iOS game, you'll 1. click Build in Unity. Unity will compile all your code and assets and send it to 2. XCode which will further compile the project, 3. using the developer identity, 4. sign the files, 5. install it on your test device, and finally 6. upload the packaged game to accompany your images and text and make it available on the App Store.
 
-1. A build that translates your Unity game assets and code into native code for the platform you are targeting. 
-1. The software to package your code (XCode in the example)
-1. A developer account to identify you (an Apple Developer account)
-1. The tokens or security keys needed to code sign your project (identifies you as the developer and guarantees the software you upload is your own)
-1. Distribution page where you enter text and images about your game (like on the [iOS app store](https://apps.apple.com/us/app/the-speed-of-thinking/id1263001692)) 
+1. A build that translates your Unity game assets and code into native code for the platform you are targeting 
+2. The software that packages your code and assets (XCode in the example)
+3. A developer account to identify you (an Apple Developer account)
+4. The tokens or security keys needed to code sign your project (identifies you as the developer and that software you upload is your own)
+5. A device to test the game locally (iPad or iPhone)
+6. Distribution page where you enter text and images about your game (like on the [iOS app store](https://apps.apple.com/us/app/the-speed-of-thinking/id1263001692)) 
 
 
 
