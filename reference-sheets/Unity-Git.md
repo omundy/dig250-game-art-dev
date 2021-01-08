@@ -5,7 +5,11 @@
 ## Reference Sheet - Unity + Git
 
 
-See [this presentation for an introduction to version control with Unity](https://docs.google.com/presentation/d/1phoKp9d7BjhM0scs78rim6DtcUGoJAy4L31eDrR3zGE/edit#slide=id.g9b165dbc7b_0_0)
+Presentations to review before setup
+- [An introduction to version control with Unity](https://docs.google.com/presentation/d/1phoKp9d7BjhM0scs78rim6DtcUGoJAy4L31eDrR3zGE/edit#slide=id.g9b165dbc7b_0_0)
+- [Git & Github Desktop](https://docs.google.com/presentation/d/1vtK6LoqwF4rQQZZy-ovuEgsYUwwMRXsqDVMOjAPSBt0/edit#slide=id.g9125938793_0_11)
+
+
 
 
 
@@ -24,6 +28,7 @@ See [this presentation for an introduction to version control with Unity](https:
 - Work in separate branches, to ensure you don’t pollute the master branch
 - Work in separate scenes as much as possible - YAML files are not pretty, readable, or organized 🙄 When you do work in the same scene avoid reorganizing assets. Use prefabs.
 - Communicate often with your teammates; establish rules at the beginning.
+- Try using https://unity.github.com/
 
 
 ## Dealing with issues
@@ -107,7 +112,7 @@ but it [does not exist](https://assetstore.unity.com/?q=P4Connect&orderBy=1)
 - [Unity Best Practices](https://github.com/jaayap/Unity_Best_Practices/blob/master/En/Versioning.md/#versioning--git--unity)
 - Github Documentation: [Installing Git Large File Storage
 ](https://docs.github.com/en/free-pro-team@latest/github/managing-large-files/installing-git-large-file-storage))
-
+- [How to Git with Unity](https://thoughtbot.com/blog/how-to-git-with-unity)
 
 
 
