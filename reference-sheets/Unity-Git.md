@@ -111,8 +111,8 @@ but it [does not exist](https://assetstore.unity.com/?q=P4Connect&orderBy=1)
 
 - [Unity Best Practices](https://github.com/jaayap/Unity_Best_Practices/blob/master/En/Versioning.md/#versioning--git--unity)
 - Github Documentation: [Installing Git Large File Storage
-](https://docs.github.com/en/free-pro-team@latest/github/managing-large-files/installing-git-large-file-storage))
+](https://docs.github.com/en/free-pro-team@latest/github/managing-large-files/installing-git-large-file-storage)
 - [How to Git with Unity](https://thoughtbot.com/blog/how-to-git-with-unity)
-
+- [SO: How to use Git for Unity3D source control?](https://stackoverflow.com/questions/18225126/how-to-use-git-for-unity3d-source-control)
 
 
