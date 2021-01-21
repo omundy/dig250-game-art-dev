@@ -10,3 +10,7 @@
 	path = book-assets/Unity-2017-2D-Game-Development-Projects
 	url = https://github.com/PacktPublishing/Unity-2017-2D-Game-Development-Projects
 	ignore = dirty
+[submodule "book-assets/Learning-C-8-by-Developing-Games-with-Unity-2020"]
+	path = book-assets/Learning-C-8-by-Developing-Games-with-Unity-2020
+	url = https://github.com/PacktPublishing/Learning-C-8-by-Developing-Games-with-Unity-2020
+	ignore = dirty
