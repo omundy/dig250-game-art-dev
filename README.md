@@ -14,20 +14,24 @@ Examples, tutorials, and references for
 ### Course Materials
 
 
+#### Resources
+- [Course repository](https://github.com/omundy/dig250-game-art-dev)
+- Sample projects
+	- [sample-unity-physics](https://github.com/omundy/sample-unity-physics)
+	- [sample-unity-animation](https://github.com/omundy/sample-unity-animation)
+	- [sample-unity-data](https://github.com/omundy/sample-unity-data)
+	- [sample-unity-project](https://github.com/omundy/sample-unity-project)
+- [Class Reference Sheets](reference-sheets/)
+
+
 #### Books
 
 - Halpern, Jared. [Developing 2D Games with Unity](). APress, 2019. [Github](https://github.com/Apress/Devel-2D-Games-Unity)
 - Ferrone, Harrison. [Learning C# By Developing Games with Unity 2020 (5th Ed.)](https://www.packtpub.com/product/learning-c-by-developing-games-with-unity-2020-fifth-edition/9781800207806). Packt, 2019. [Github](https://github.com/PacktPublishing/Learning-C-8-by-Developing-Games-with-Unity-2020)
 
-#### Resources
-- [Course repository](https://github.com/omundy/dig250-game-art-dev)
-- Sample projects 
-	- [sample-unity-physics](https://github.com/omundy/sample-unity-physics)
-	- [sample-unity-data](https://github.com/omundy/sample-unity-data)
-	- [sample-unity-project](https://github.com/omundy/sample-unity-project)
-- [Class Reference Sheets](reference-sheets/)
-	
-	
+
+
+
 
 
 ## Thinking about Games
