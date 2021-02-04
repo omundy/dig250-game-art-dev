@@ -1,5 +1,7 @@
 *.DS_Store
 /[Ll]ibrary/
+# ignore all libraries
+[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
 /[Bb]uild/

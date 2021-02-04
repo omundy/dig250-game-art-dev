@@ -24,6 +24,7 @@ ScriptedImporter:
     isReadable: 0
     streamingMipmaps: 1
     streamingMipmapsPriority: 0
+    vTOnly: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -42,6 +43,9 @@ ScriptedImporter:
     textureType: 8
     textureShape: 1
     singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
     filterMode: 1
     aniso: 1
     mipBias: 0
@@ -61,6 +65,7 @@ ScriptedImporter:
     maxTextureSizeSet: 0
     compressionQualitySet: 0
     textureFormatSet: 0
+    applyGammaDecoding: 0
   spriteImportData:
   - name: 
     originalName: 
@@ -2389,6 +2394,10 @@ ScriptedImporter:
   importedTextureWidth: 512
   importedTextureHeight: 1024
   documentSize: {x: 1024, y: 1024}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
   textureActualWidth: 512
   textureActualHeight: 1024
   spritePackingTag: 
@@ -2558,64 +2567,12 @@ ScriptedImporter:
         height: 667
       spriteId: 8e331590548fd4d08acdd86cdf33c6d8
       bones: 130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000000e0000000f0000001000000011000000120000000d0000000c0000000b0000000a00000009000000080000000700000006000000050000000400000003000000020000000100000000000000
+      parentGroup: 0
+      order: 0
     dimension: {x: 0, y: 0}
-  boneGOs:
-  - go: {fileID: 8353358144445769939, guid: e4b35676e0b9546078040a64e4f1876e, type: 3}
-    index: 0
-  - go: {fileID: -1895483351207222944, guid: e4b35676e0b9546078040a64e4f1876e, type: 3}
-    index: 1
-  - go: {fileID: 1653287848097423146, guid: e4b35676e0b9546078040a64e4f1876e, type: 3}
-    index: 2
-  - go: {fileID: 3858031691044639997, guid: e4b35676e0b9546078040a64e4f1876e, type: 3}
-    index: 3
-  - go: {fileID: -8518796113417935792, guid: e4b35676e0b9546078040a64e4f1876e, type: 3}
-    index: 4
-  - go: {fileID: 5446009805343769394, guid: e4b35676e0b9546078040a64e4f1876e, type: 3}
-    index: 5
-  - go: {fileID: 2004827641707778068, guid: e4b35676e0b9546078040a64e4f1876e, type: 3}
-    index: 6
-  - go: {fileID: -4236042120782109532, guid: e4b35676e0b9546078040a64e4f1876e, type: 3}
-    index: 7
-  - go: {fileID: -7233596745181584537, guid: e4b35676e0b9546078040a64e4f1876e, type: 3}
-    index: 8
-  - go: {fileID: -2591733960588533225, guid: e4b35676e0b9546078040a64e4f1876e, type: 3}
-    index: 9
-  - go: {fileID: 3253637354132743345, guid: e4b35676e0b9546078040a64e4f1876e, type: 3}
-    index: 10
-  - go: {fileID: 8910969931957032776, guid: e4b35676e0b9546078040a64e4f1876e, type: 3}
-    index: 11
-  - go: {fileID: -3140283030141493177, guid: e4b35676e0b9546078040a64e4f1876e, type: 3}
-    index: 12
-  - go: {fileID: 8107346839487475681, guid: e4b35676e0b9546078040a64e4f1876e, type: 3}
-    index: 13
-  - go: {fileID: 2554144917824051470, guid: e4b35676e0b9546078040a64e4f1876e, type: 3}
-    index: 14
-  - go: {fileID: 3837113990930613439, guid: e4b35676e0b9546078040a64e4f1876e, type: 3}
-    index: 15
-  - go: {fileID: -5809454015859113492, guid: e4b35676e0b9546078040a64e4f1876e, type: 3}
-    index: 16
-  - go: {fileID: -3143865062863645651, guid: e4b35676e0b9546078040a64e4f1876e, type: 3}
-    index: 17
-  - go: {fileID: 4457956849597166788, guid: e4b35676e0b9546078040a64e4f1876e, type: 3}
-    index: 18
-  - go: {fileID: 6952699287929804696, guid: e4b35676e0b9546078040a64e4f1876e, type: 3}
-    index: 19
-  - go: {fileID: 1649531849018341727, guid: e4b35676e0b9546078040a64e4f1876e, type: 3}
-    index: 20
-  - go: {fileID: -8557931968203617611, guid: e4b35676e0b9546078040a64e4f1876e, type: 3}
-    index: 21
-  - go: {fileID: 6371308396181518499, guid: e4b35676e0b9546078040a64e4f1876e, type: 3}
-    index: 22
-  - go: {fileID: -7988021862801354616, guid: e4b35676e0b9546078040a64e4f1876e, type: 3}
-    index: 23
-  - go: {fileID: -9134620008022656544, guid: e4b35676e0b9546078040a64e4f1876e, type: 3}
-    index: 24
-  - go: {fileID: -3070083643724433203, guid: e4b35676e0b9546078040a64e4f1876e, type: 3}
-    index: 25
-  - go: {fileID: 4012814103737737518, guid: e4b35676e0b9546078040a64e4f1876e, type: 3}
-    index: 26
-  - go: {fileID: -7771744353294294287, guid: e4b35676e0b9546078040a64e4f1876e, type: 3}
-    index: 27
-  - go: {fileID: -7727980911410436431, guid: e4b35676e0b9546078040a64e4f1876e, type: 3}
-    index: 28
+    characterGroups: []
   generateGOHierarchy: 0
+  textureAssetName: ii_jvcc2dhl0-2 Texture
+  prefabAssetName: ii_jvcc2dhl0-2 Prefab
+  spriteLibAssetName: ii_jvcc2dhl0-2 Sprite Lib
+  secondarySpriteTextures: []

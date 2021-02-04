@@ -24,6 +24,7 @@ ScriptedImporter:
     isReadable: 0
     streamingMipmaps: 1
     streamingMipmapsPriority: 0
+    vTOnly: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -42,6 +43,9 @@ ScriptedImporter:
     textureType: 8
     textureShape: 1
     singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
     filterMode: 1
     aniso: 1
     mipBias: 0
@@ -61,6 +65,7 @@ ScriptedImporter:
     maxTextureSizeSet: 0
     compressionQualitySet: 0
     textureFormatSet: 0
+    applyGammaDecoding: 0
   spriteImportData:
   - name: 
     originalName: 
@@ -2900,6 +2905,10 @@ ScriptedImporter:
   importedTextureWidth: 1024
   importedTextureHeight: 1024
   documentSize: {x: 1024, y: 1024}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
   textureActualWidth: 1024
   textureActualHeight: 1024
   spritePackingTag: 
@@ -3169,104 +3178,12 @@ ScriptedImporter:
         height: 801
       spriteId: fb0a5af62047f43f0a47af20e0b49636
       bones: 000000002b000000010000002c000000020000002d000000030000002e000000040000002f0000000500000030000000060000000700000009000000080000000a0000000b0000000c0000000d0000000e0000000f00000010000000110000001700000016000000150000001400000013000000120000001e0000001d0000001c0000001b0000001a0000001900000018000000230000002200000021000000200000001f0000002a000000280000002700000026000000250000002400000029000000
+      parentGroup: 0
+      order: 0
     dimension: {x: 0, y: 0}
-  boneGOs:
-  - go: {fileID: -3055894107242793583, guid: 975ddb6ab11ea4588ba26af6d0334089, type: 3}
-    index: 0
-  - go: {fileID: -1259222435207067398, guid: 975ddb6ab11ea4588ba26af6d0334089, type: 3}
-    index: 1
-  - go: {fileID: 6992237616595583860, guid: 975ddb6ab11ea4588ba26af6d0334089, type: 3}
-    index: 2
-  - go: {fileID: 1468072930817077438, guid: 975ddb6ab11ea4588ba26af6d0334089, type: 3}
-    index: 3
-  - go: {fileID: -8262135427907122946, guid: 975ddb6ab11ea4588ba26af6d0334089, type: 3}
-    index: 4
-  - go: {fileID: 1648044705306469596, guid: 975ddb6ab11ea4588ba26af6d0334089, type: 3}
-    index: 5
-  - go: {fileID: 405471585961911, guid: 975ddb6ab11ea4588ba26af6d0334089, type: 3}
-    index: 6
-  - go: {fileID: 3377119887523533646, guid: 975ddb6ab11ea4588ba26af6d0334089, type: 3}
-    index: 7
-  - go: {fileID: 1923222840575650904, guid: 975ddb6ab11ea4588ba26af6d0334089, type: 3}
-    index: 8
-  - go: {fileID: -5604247285984397257, guid: 975ddb6ab11ea4588ba26af6d0334089, type: 3}
-    index: 9
-  - go: {fileID: 1718515602707531093, guid: 975ddb6ab11ea4588ba26af6d0334089, type: 3}
-    index: 10
-  - go: {fileID: 5983846014070907315, guid: 975ddb6ab11ea4588ba26af6d0334089, type: 3}
-    index: 11
-  - go: {fileID: 3523268296320816001, guid: 975ddb6ab11ea4588ba26af6d0334089, type: 3}
-    index: 12
-  - go: {fileID: -1582642236497067259, guid: 975ddb6ab11ea4588ba26af6d0334089, type: 3}
-    index: 13
-  - go: {fileID: 2226390299834124904, guid: 975ddb6ab11ea4588ba26af6d0334089, type: 3}
-    index: 14
-  - go: {fileID: 4766522363409316166, guid: 975ddb6ab11ea4588ba26af6d0334089, type: 3}
-    index: 15
-  - go: {fileID: -6661118049569882371, guid: 975ddb6ab11ea4588ba26af6d0334089, type: 3}
-    index: 16
-  - go: {fileID: -7255367330970188458, guid: 975ddb6ab11ea4588ba26af6d0334089, type: 3}
-    index: 17
-  - go: {fileID: -879965428485056580, guid: 975ddb6ab11ea4588ba26af6d0334089, type: 3}
-    index: 18
-  - go: {fileID: -645352208557883747, guid: 975ddb6ab11ea4588ba26af6d0334089, type: 3}
-    index: 19
-  - go: {fileID: 1218547162647129690, guid: 975ddb6ab11ea4588ba26af6d0334089, type: 3}
-    index: 20
-  - go: {fileID: 7203751498153063181, guid: 975ddb6ab11ea4588ba26af6d0334089, type: 3}
-    index: 21
-  - go: {fileID: 8422361646211813958, guid: 975ddb6ab11ea4588ba26af6d0334089, type: 3}
-    index: 22
-  - go: {fileID: -8318310179246563168, guid: 975ddb6ab11ea4588ba26af6d0334089, type: 3}
-    index: 23
-  - go: {fileID: 2362057986228698505, guid: 975ddb6ab11ea4588ba26af6d0334089, type: 3}
-    index: 24
-  - go: {fileID: 1483557787484089271, guid: 975ddb6ab11ea4588ba26af6d0334089, type: 3}
-    index: 25
-  - go: {fileID: 6762966498603136983, guid: 975ddb6ab11ea4588ba26af6d0334089, type: 3}
-    index: 26
-  - go: {fileID: -5889801289043845325, guid: 975ddb6ab11ea4588ba26af6d0334089, type: 3}
-    index: 27
-  - go: {fileID: -4546745526864109451, guid: 975ddb6ab11ea4588ba26af6d0334089, type: 3}
-    index: 28
-  - go: {fileID: 5523628636094407925, guid: 975ddb6ab11ea4588ba26af6d0334089, type: 3}
-    index: 29
-  - go: {fileID: -5973303687929079420, guid: 975ddb6ab11ea4588ba26af6d0334089, type: 3}
-    index: 30
-  - go: {fileID: -3198437317650446589, guid: 975ddb6ab11ea4588ba26af6d0334089, type: 3}
-    index: 31
-  - go: {fileID: -1565558125453103964, guid: 975ddb6ab11ea4588ba26af6d0334089, type: 3}
-    index: 32
-  - go: {fileID: -6602168627136216482, guid: 975ddb6ab11ea4588ba26af6d0334089, type: 3}
-    index: 33
-  - go: {fileID: -4708674106838774053, guid: 975ddb6ab11ea4588ba26af6d0334089, type: 3}
-    index: 34
-  - go: {fileID: -3446969469333483565, guid: 975ddb6ab11ea4588ba26af6d0334089, type: 3}
-    index: 35
-  - go: {fileID: 9096858434689447119, guid: 975ddb6ab11ea4588ba26af6d0334089, type: 3}
-    index: 36
-  - go: {fileID: -1287107302937954326, guid: 975ddb6ab11ea4588ba26af6d0334089, type: 3}
-    index: 37
-  - go: {fileID: -9150027202324763719, guid: 975ddb6ab11ea4588ba26af6d0334089, type: 3}
-    index: 38
-  - go: {fileID: 542430865300850482, guid: 975ddb6ab11ea4588ba26af6d0334089, type: 3}
-    index: 39
-  - go: {fileID: -4232121624549652791, guid: 975ddb6ab11ea4588ba26af6d0334089, type: 3}
-    index: 40
-  - go: {fileID: -1890573922435807528, guid: 975ddb6ab11ea4588ba26af6d0334089, type: 3}
-    index: 41
-  - go: {fileID: -2523961400328749644, guid: 975ddb6ab11ea4588ba26af6d0334089, type: 3}
-    index: 42
-  - go: {fileID: -8270279404442949951, guid: 975ddb6ab11ea4588ba26af6d0334089, type: 3}
-    index: 43
-  - go: {fileID: -2445686059150627251, guid: 975ddb6ab11ea4588ba26af6d0334089, type: 3}
-    index: 44
-  - go: {fileID: -4065154431962448132, guid: 975ddb6ab11ea4588ba26af6d0334089, type: 3}
-    index: 45
-  - go: {fileID: -3437481159990249434, guid: 975ddb6ab11ea4588ba26af6d0334089, type: 3}
-    index: 46
-  - go: {fileID: -3866844937934724595, guid: 975ddb6ab11ea4588ba26af6d0334089, type: 3}
-    index: 47
-  - go: {fileID: 4572392726655572247, guid: 975ddb6ab11ea4588ba26af6d0334089, type: 3}
-    index: 48
+    characterGroups: []
   generateGOHierarchy: 0
+  textureAssetName: ii_jvcc2dhl0-1 Texture
+  prefabAssetName: ii_jvcc2dhl0-1 Prefab
+  spriteLibAssetName: ii_jvcc2dhl0-1 Sprite Lib
+  secondarySpriteTextures: []
