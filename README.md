@@ -15,7 +15,7 @@ Examples, tutorials, and references for
 <!-- TOC depthFrom:2 depthTo:2 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [Course Materials](#course-materials)
-- [Thinking about Games](#thinking-about-games)
+- [Game Criticism](#game-criticism)
 - [Unity Tutorials and References](#unity-tutorials-and-references)
 - [C# Scripting](#c-scripting)
 - [Game Genres](#game-genres)
@@ -55,7 +55,7 @@ Examples, tutorials, and references for
 
 
 
-## Thinking about Games
+## Game Criticism
 
 Websites, journals, etc. for discussing games and game production
 
@@ -176,10 +176,11 @@ Links to general Unity tutorials and documentation
 
 #### Resources
 - [Unity Asset Store](https://assetstore.unity.com)
-- [OpenGameArt.org](OpenGameArt.org)
-- [itch.io/game-assets](https://itch.io/game-assets)
-- [pixeldudesmaker](https://0x72.itch.io/pixeldudesmaker) procedurally-generation sprite tool by [0x72](https://0x72.itch.io)
-- 16x16 Dungeon Tileset [version 1](https://0x72.itch.io/16x16-dungeon-tileset) and [version 2](https://0x72.itch.io/dungeontileset-ii) by [0x72](https://0x72.itch.io)
+- [OpenGameArt.org](https://OpenGameArt.org)
+- [itch.io/game-assets](https://itch.io/game-assets/free)
+- [gamedevmarket](https://www.gamedevmarket.net/)
+- [/r/gameassets/](https://www.reddit.com/r/gameassets/)
+- [pixeldudesmaker](https://0x72.itch.io/pixeldudesmaker) procedurally-generation sprite tool; 16x16 Dungeon Tileset [version 1](https://0x72.itch.io/16x16-dungeon-tileset) and [version 2](https://0x72.itch.io/dungeontileset-ii) by [0x72](https://0x72.itch.io)
 - [Silkscreen](https://www.1001fonts.com/silkscreen-font.html) a font by Jason Kottke
 
 
