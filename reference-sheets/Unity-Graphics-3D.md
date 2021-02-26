@@ -5,11 +5,7 @@
 ## Reference Sheet - Graphics > 3D Objects
 
 
-
-
-
-
-
+3D rendering in Unity uses Meshes, Materials, Shaders and Textures. These assets have a close relationship, and are often encapsulated in a single model.
 
 
 
@@ -27,6 +23,7 @@ A material contains properties and textures, and shaders dictate what properties
 
 Term | Definition
 --- | ---
+Model | A package containing the mesh, materials, shaders, textures, and optionally, animations and skeleton (animation rig) for a 3D character or object.
 Mesh | The main graphics primitive of Unity that defines the **shape** of an object.
 [Mesh Renderer](https://docs.unity3d.com/Manual/class-MeshRenderer.html) | The component that displays the geometry and material of a 3D game object.
 Material | Defines **how** a surface should be rendered. Using options defined in the shader,  referenced textures and their tiling settings, and lighting in the scene, a material controls what the surface looks like, including its color tint and how shiny or smooth it appears.
