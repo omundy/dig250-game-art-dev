@@ -192,14 +192,13 @@ Links to general Unity tutorials and documentation
 ## Version Control and Collaboration
 
 #### Version Control
-- DIG 245 [Git & Github Desktop slides](https://docs.google.com/presentation/d/1vtK6LoqwF4rQQZZy-ovuEgsYUwwMRXsqDVMOjAPSBt0/edit)
-- [Github Cheatsheet](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf) and [Github Markdown Cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
-- Brackeys [How to use GitHub with Unity](https://www.youtube.com/watch?v=qpXxcvS-g3g) and [Unity + Git notes](https://stackoverflow.com/questions/18225126/how-to-use-git-for-unity3d-source-control)
+- Class presentations [Git & Github Desktop slides](https://docs.google.com/presentation/d/1vtK6LoqwF4rQQZZy-ovuEgsYUwwMRXsqDVMOjAPSBt0/edit) and [Unity Collaboration and Version Control](https://docs.google.com/presentation/d/1phoKp9d7BjhM0scs78rim6DtcUGoJAy4L31eDrR3zGE/edit#slide=id.g432bd6f119_0_0)
+- Brackeys [How to use GitHub with Unity](https://www.youtube.com/watch?v=qpXxcvS-g3g)
 - [Unity Collaborate](https://unity3d.com/unity/features/collaborate)
 
 #### Other Collaboration Tools
 - [Boords](https://boords.com/) - Collaborative storyboarding with drawings, dialogue, events. See [their blog](https://boords.com/blog/) for examples.
-
+- Google Drawings - Good for working out the flow of information, narrative, mechanics. Like pencil / paper but with undo :-)
 
 
 
