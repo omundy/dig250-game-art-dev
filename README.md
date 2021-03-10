@@ -180,7 +180,7 @@ Links to general Unity tutorials and documentation
 - [itch.io/game-assets](https://itch.io/game-assets/free)
 - [gamedevmarket](https://www.gamedevmarket.net/)
 - [/r/gameassets/](https://www.reddit.com/r/gameassets/)
-- [pixeldudesmaker](https://0x72.itch.io/pixeldudesmaker) procedurally-generation sprite tool; 16x16 Dungeon Tileset [version 1](https://0x72.itch.io/16x16-dungeon-tileset) and [version 2](https://0x72.itch.io/dungeontileset-ii) by [0x72](https://0x72.itch.io)
+- [pixeldudesmaker](https://0x72.itch.io/pixeldudesmaker) and [pixeldudesmakermaker](https://0x72.itch.io/pixeldudesmakermaker) procedurally-generation sprite tools; 16x16 Dungeon Tileset [version 1](https://0x72.itch.io/16x16-dungeon-tileset) and [version 2](https://0x72.itch.io/dungeontileset-ii) by [0x72](https://0x72.itch.io)
 - [Silkscreen](https://www.1001fonts.com/silkscreen-font.html) a font by Jason Kottke
 
 
