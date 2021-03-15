@@ -10,13 +10,25 @@
 ## How to use Git & Github Desktop
 
 - [An introduction to version control with Unity](https://docs.google.com/presentation/d/1phoKp9d7BjhM0scs78rim6DtcUGoJAy4L31eDrR3zGE/edit#slide=id.g9b165dbc7b_0_0)
-- [Git & Github Desktop](https://docs.google.com/presentation/d/1vtK6LoqwF4rQQZZy-ovuEgsYUwwMRXsqDVMOjAPSBt0/edit#slide=id.g9125938793_0_11)
+- [Git & Github Desktop](https://docs.google.com/presentation/d/1vtK6LoqwF4rQQZZy-ovuEgsYUwwMRXsqDVMOjAPSBt0/edit#slide=id.g9125938793_0_11) class presentation
 - [Github Cheatsheet](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf) and [Github Markdown Cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 
 
+## How to create a Github Repository for your Unity project
+[slide](https://docs.google.com/presentation/d/1vtK6LoqwF4rQQZZy-ovuEgsYUwwMRXsqDVMOjAPSBt0/edit#slide=id.ga9a9dc793f_0_0)
 
-## Setup your project
+1. Create a new project with Unity Hub. This will add a new folder to your computer with the Unity files inside.
+1. Move to this folder on the command line, for example `cd ~/Documents/my-new-project`
+1. Type `git init` to initialize the directory as a new Git repository
+1. In Github Desktop, choose File > Add Local Repository and choose your folder.
+1. In Github Desktop, publish the repository online.
+
+
+
+
+
+## Set up your Unity project to work with Git
 
 1. Use a Unity-specific [.gitignore](https://github.com/github/gitignore/blob/master/Unity.gitignore) and [.gitattributes](https://gist.github.com/FullStackForger/fe2b3da81e60337757fe82d74ebf7d7a) files (see this [article](https://thoughtbot.com/blog/how-to-git-with-unity) for info setting up)
 1. Use visible .meta files and force assets to save as plain text: In Unity Project Settings > Version Control, set Mode = "Visible Meta Files"
@@ -97,12 +109,12 @@ The tool will then resolve those conflicts for you automatically. If you don't h
 
 
 
-#### Notes on other methods 
+#### Notes on other methods
 
 (Perforce, which provides more automation but looks like a serious pain to set up)
 
 - [Unity Forum thread](https://forum.unity.com/threads/smart-merge-not-working.315903/) (dead?) and [Reddit Thread](https://www.reddit.com/r/Unity3D/comments/39bdq5/how_to_solve_scene_conflicts_with_unitys_smart/)
-- The [Perforce installation instructions](https://www.perforce.com/video-tutorials/vcs/installing-and-configuring-p4connect-unity) mention "P4Connect" connect on the asset store 
+- The [Perforce installation instructions](https://www.perforce.com/video-tutorials/vcs/installing-and-configuring-p4connect-unity) mention "P4Connect" connect on the asset store
 but it [does not exist](https://assetstore.unity.com/?q=P4Connect&orderBy=1)
 - Perforce and P4V seem extra complicated to setup, with the only benefit a GUI to complete the merging. They are available on homebrew using `brew cask install p4v` and `brew cask install perforce`
 
@@ -117,5 +129,3 @@ but it [does not exist](https://assetstore.unity.com/?q=P4Connect&orderBy=1)
 ](https://docs.github.com/en/free-pro-team@latest/github/managing-large-files/installing-git-large-file-storage)
 - [How to Git with Unity](https://thoughtbot.com/blog/how-to-git-with-unity)
 - [SO: How to use Git for Unity3D source control?](https://stackoverflow.com/questions/18225126/how-to-use-git-for-unity3d-source-control)
-
-
