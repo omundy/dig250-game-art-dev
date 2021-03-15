@@ -16,6 +16,7 @@ Examples, tutorials, and references for
 
 - [Course Materials](#course-materials)
 - [Game Criticism](#game-criticism)
+- [Inspiration](#inspiration)
 - [Unity Tutorials and References](#unity-tutorials-and-references)
 - [C# Scripting](#c-scripting)
 - [Game Genres](#game-genres)
@@ -43,12 +44,15 @@ Examples, tutorials, and references for
 	- [sample-unity-animation](https://github.com/omundy/sample-unity-animation)
 	- [sample-unity-data](https://github.com/omundy/sample-unity-data)
 	- [sample-unity-project](https://github.com/omundy/sample-unity-project)
+- [Past Student Games](https://www.youtube.com/playlist?list=PLhpnnpt3tw-RVS2YHtLUYwG86B1zS771q)
 
 
 #### Books
 
 - Halpern, Jared. [Developing 2D Games with Unity](). APress, 2019. [Github](https://github.com/Apress/Devel-2D-Games-Unity)
 - Ferrone, Harrison. [Learning C# By Developing Games with Unity 2020 (5th Ed.)](https://www.packtpub.com/product/learning-c-by-developing-games-with-unity-2020-fifth-edition/9781800207806). Packt, 2019. [Github](https://github.com/PacktPublishing/Learning-C-8-by-Developing-Games-with-Unity-2020)
+
+
 
 
 
@@ -64,6 +68,15 @@ Websites, journals, etc. for discussing games and game production
 - [Gamasutra](http://www.gamasutra.com/)
 - [Another Castle Podcast](http://gamedesignadvance.com/?page_id=1616)
 - [Polygon](https://www.polygon.com/)
+
+
+
+
+
+## Inspiration
+
+- [unity.com/madewith](https://unity.com/madewith)
+- #madewithunity on [Twitter](https://twitter.com/search?q=madewithunity), [Instagram](https://www.instagram.com/explore/tags/madewithunity/), and [youtube](https://www.youtube.com/results?search_query=made+with+Unity)
 
 
 
