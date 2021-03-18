@@ -19,7 +19,7 @@
 
 ## How to create a new Unity project and make it a Git Repository
 
-#### Create a Unity project
+#### Create a new Unity project
 
 1. In Unity Hub, on the Projects tab, Click "NEW"
 1. Name your project (e.g. `dig250-final-project`)
@@ -28,13 +28,13 @@
 1. In Unity Hub, click the three dots on the project and "Reveal in Finder"*
 1. CMD+C to copy the project folder. This will copy the path for the next step.
 
-#### Initialize Git in the Unity project
+#### Initialize Git inside your Unity project
 
 1. Using the command line, move to the newly-created Unity project folder by typing `cd ` and then pasting the path you copied from the Finder* (e.g. `cd ~/Documents/dig250-final-project`)
 1. Confirm you are in the Unity project **root directory** `ls -la` (you will see the project folders like `Assets/`, etc.)
 1. Type `git init` [to initialize the directory as a new Git repository](https://docs.google.com/presentation/d/1vtK6LoqwF4rQQZZy-ovuEgsYUwwMRXsqDVMOjAPSBt0/edit#slide=id.ga9a9dc793f_0_0)
 
-#### Add your project to Github Desktop
+#### Add your Unity project to Github Desktop
 
 1. Open your project in Github Desktop using one of the following:
 	- If you have the [Github Command Line Tool installed](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/launching-github-desktop-from-the-command-line), while in the project folder type `github .`
