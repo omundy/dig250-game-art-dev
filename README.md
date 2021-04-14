@@ -46,9 +46,10 @@ Examples, tutorials, and references for
 - Github repository [omundy/dig250-game-art-dev](https://github.com/omundy/dig250-game-art-dev)
 - Course [Reference Sheets](reference-sheets/)
 - Sample projects
-	- [sample-unity-physics](https://github.com/omundy/sample-unity-physics)
 	- [sample-unity-animation](https://github.com/omundy/sample-unity-animation)
 	- [sample-unity-data](https://github.com/omundy/sample-unity-data)
+	- [sample-unity-interaction](https://github.com/omundy/sample-unity-interaction)
+	- [sample-unity-movement](https://github.com/omundy/sample-unity-movement)
 - [Past Student Games](https://www.youtube.com/playlist?list=PLhpnnpt3tw-RVS2YHtLUYwG86B1zS771q)
 
 
