@@ -69,11 +69,15 @@ Websites, journals, etc. for discussing games and game production
 - [Gamasutra](http://www.gamasutra.com/)
 - [Another Castle Podcast](http://gamedesignadvance.com/?page_id=1616)
 - [Polygon](https://www.polygon.com/)
+- [USC Games Professor Master Class](https://www.youtube.com/playlist?list=PLZGiVOEVP9AWp3GltYuAH4G_64OjmdKns)
 
 ### Inspiration
 
 - [unity.com/madewith](https://unity.com/madewith)
 - #madewithunity on [Twitter](https://twitter.com/search?q=madewithunity), [Instagram](https://www.instagram.com/explore/tags/madewithunity/), and [youtube](https://www.youtube.com/results?search_query=made+with+Unity)
+
+
+
 
 
 
