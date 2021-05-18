@@ -45,8 +45,8 @@ Problems
 
 The Addressable Asset system provides an easy way to load assets by “address”. It handles asset management overhead by simplifying content pack creation and deployment. The Addressable Asset system uses asynchronous loading to support loading from any location with any collection of dependencies. Whether you use direct references, traditional asset bundles, or Resource folders for asset management, Addressable Assets provide a simpler way to make your game more dynamic.
 
-- Unity [Getting started with Addressable Assets
-](https://docs.unity3d.com/Packages/com.unity.addressables@0.4/manual/AddressableAssetsGettingStarted.html)
+- Unity [Simplify your content management with Addressables](https://unity.com/how-to/simplify-your-content-management-addressables)
+- Unity [Getting started with Addressable Assets](https://docs.unity3d.com/Packages/com.unity.addressables@0.4/manual/AddressableAssetsGettingStarted.html)
 - [Unity Addressables & SpriteAtlas: How to Efficiently Use Sprites](https://thegamedev.guru/unity-addressables/spriteatlas-save-memory/)
 - [Unity Addressables Pooling: Jump In!](https://www.gamasutra.com/blogs/RubenTorresBonet/20191104/353294/Unity_Addressables_Pooling_Jump_In.php), 2019
 - [Unity-Technologies/Addressables-Sample](https://github.com/Unity-Technologies/Addressables-Sample)
@@ -61,7 +61,7 @@ The Addressable Asset system provides an easy way to load assets by “address�
 Folder | Description | Check into source control | Notes
 --- | --- | --- | ---
 /Assets | Where Unity stores all your project files | ✅ | Do not delete
-/Library | Cached files Unity generates when opening your project the first time. | ❌  | It is fine to delete this entire folder (to save space), but do not delete individual files contained within. 
+/Library | Cached files Unity generates when opening your project the first time. | ❌  | It is fine to delete this entire folder (to save space), but do not delete individual files contained within.
 
 
 ### Sources
