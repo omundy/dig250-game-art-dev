@@ -75,7 +75,11 @@ crashlytics-build.properties
 # SINCE THIS REPO HAS UNITY PROJECT DEEP INSIDE
 [Ll]ibrary/
 [Tt]emp/
-
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
 
 # Windows
 Thumbs.db
