@@ -1,6 +1,6 @@
 
 
-![unity logo](images/unity-logo-293w.png)
+![unity logo](../assets/img/logos/unity-logo-293w.png)
 
 ## Reference Sheet - Unity Performance
 
@@ -11,7 +11,7 @@ Increasing performance in your game means lowering the work required by the CPU,
 - You should also [regularly check](https://www.youtube.com/watch?v=fROTtgZK-Zs) the [Profiler Window](https://docs.unity3d.com/Manual/ProfilerWindow.html) to look for (and deal with) obvious spikes in  so you are aware of any issues in your project. More performance terms, tips, and resources are listed below.
 
 
-![profiler](images/profiler.png)
+![profiler](../assets/img/profiler.png)
 
 
 ### C# Terminology
@@ -40,7 +40,7 @@ The following sections address specific areas for considering performance, start
 
 ## Graphics Performance
 
-- Use [spritesheets (a.k.a. texture atlas) to group similar bitmap images](images/draw-calls-sprite-sheet.png) and reduce the draw calls to your GPU
+- Use [spritesheets (a.k.a. texture atlas) to group similar bitmap images](../assets/img/draw-calls-sprite-sheet.png) and reduce the draw calls to your GPU
 - Ensure you use pixel resolutions that are Power of 2 (128,256,512,1024, etc.) which can be compressed better.
 
 

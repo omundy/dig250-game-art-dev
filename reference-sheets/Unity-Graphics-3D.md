@@ -1,6 +1,6 @@
 
 
-![unity logo](images/unity-logo-293w.png)
+![unity logo](../assets/img/logos/unity-logo-293w.png)
 
 ## Reference Sheet - Graphics > 3D Objects
 
@@ -13,7 +13,7 @@
 
 
 
-![material](images/material.jpg)
+![material](../assets/img/material.jpg)
 
 A material contains properties and textures, and shaders dictate what properties and textures a material can have.
 

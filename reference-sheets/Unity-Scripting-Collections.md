@@ -1,8 +1,8 @@
 
 
-![unity logo](images/unity-logo-293w.png)
+![unity logo](../assets/img/logos/unity-logo-293w.png)
 
-## Reference Sheet - Unity C# Scripting - 04
+## Reference Sheet - Unity C# Scripting - Collections
 
 * Storing and using data in multiples and collections
 
@@ -47,7 +47,7 @@ public struct NPC
 }
 // create instance using constructor
 NPC badguy1 = new NPC(1, "Dr. Evil", false);
-// test 
+// test
 Console.Write(badguy1.Name); // prints Dr. Evil
 ```
 
@@ -108,7 +108,7 @@ print (intList[0]); // prints 10
 ### Dictionaries
 
 * Dictionaries store a collection of Keys and Values
-* The Dictionary<TKey, TValue> class is a generic collection class in the System.Collection.Generics namespace. 
+* The Dictionary<TKey, TValue> class is a generic collection class in the System.Collection.Generics namespace.
 * TKey denotes the type of key and TValue is the type of TValue.
 
 ```C#
@@ -126,8 +126,8 @@ if ( dict.ContainsKey("greeting") ){
 
 ### Scriptable Objects
 
-* Data containers specific to Unity that can be saved as assets in a project
-* Can also be used to help serialize objects and can be instantiated in a scene 
+- Data containers specific to Unity that can be saved as assets in a project
+- Can also be used to help serialize objects and can be instantiated in a scene
 
 ```C#
 using UnityEngine;
@@ -160,7 +160,14 @@ public class Thing : MonoBehaviour
 
 ### Sharing data across components, objects, scenes, etc.
 
-* There are several ways to do this, depending on the complexity of your project. 
+* There are several ways to do this, depending on the complexity of your project.
+
+
+0. Scriptable Objects (above) are a great way to architect and share data across your game. See:
+
+- [Achieve better Scene workflow with ScriptableObjects](https://blog.unity.com/technology/achieve-better-scene-workflow-with-scriptableobjects) (2020)
+- [Unity Atoms — Tiny modular pieces utilizing the power of Scriptable Objects](https://medium.com/@adamramberg/unity-atoms-tiny-modular-pieces-utilizing-the-power-of-scriptable-objects-e8add1b95201) (2018)
+
 
 
 1. To get data from one script from another
@@ -168,11 +175,11 @@ public class Thing : MonoBehaviour
 * violates the Single Responsibility Principle (the S in [SOLID](https://en.wikipedia.org/wiki/SOLID))
 ```C#
 // attached to Enemy GameObject
-public class EnemyScript : MonoBehaviour 
+public class EnemyScript : MonoBehaviour
 {
     public float damage;
 }
-public class GameController : MonoBehaviour 
+public class GameController : MonoBehaviour
 {
     void Start() {
         // note: this is the least efficient method to find an object in the scene
@@ -205,7 +212,7 @@ Globals.Score += 100;
 
 4. [Observer design pattern](https://en.wikipedia.org/wiki/Observer_pattern)
 
-* This is not technically a way to share data but a way to send messages between different objects. 
+* This is not technically a way to share data but a way to send messages between different objects.
 * A software design pattern in which an object, called the subject, maintains a list of its dependents, called observers, and notifies them automatically of any state changes, usually by calling one of their methods.
 * Mainly used to implement distributed event handling systems, in "event driven" software, in a way that encourages "decoupling" of objects (there aren't a lot of dependencies that can be broken if name or position changes)
 * See this Unity tutorial [Create a Simple Messaging System with Events](https://learn.unity.com/tutorial/create-a-simple-messaging-system-with-events) (also this [variation](https://medium.com/@johntucker_48673/discovering-unity-eventmanager-a040285d0690) using the same EventManager class from Unity)
@@ -225,8 +232,9 @@ More information
 
 ### JSON
 
-Coming soon
+JSON [provides many advantages over Scriptable Objects](https://answers.unity.com/questions/1447032/what-are-the-pros-and-cons-of-scriptableobjects-vs.html).
 
+See [Unity-Scripting-Collections-JSON.md](Unity-Scripting-Collections-JSON.md) for an in-depth look at using JSON data in your Unity project.
 
 
 
@@ -235,4 +243,3 @@ Coming soon
 * TutorialsTeacher: C# [Structs](https://www.tutorialsteacher.com/csharp/csharp-struct), [Arrays](https://www.tutorialsteacher.com/csharp/array-csharp), [ArrayLists](https://www.tutorialsteacher.com/csharp/csharp-arraylist), [Lists](https://www.tutorialsteacher.com/csharp/csharp-list), [Dictionaries](https://www.tutorialsteacher.com/csharp/csharp-dictionary)
 * W3Schools: C# [Arrays](https://www.w3schools.com/cs/cs_arrays.asp)
 * [How to use arrays, lists, and dictionaries in Unity for 3D game development](https://hub.packtpub.com/arrays-lists-dictionaries-unity-3d-game-development/)
-

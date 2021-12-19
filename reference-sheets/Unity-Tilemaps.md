@@ -1,11 +1,11 @@
 
 
-![unity logo](images/unity-logo-293w.png)
+![unity logo](../assets/img/logos/unity-logo-293w.png)
 
 ## Reference Sheet - Unity Tilemaps
 
 
-[![tilemap basics](images/tilemap.gif)](https://www.youtube.com/watch?v=fmNtibNWPhc)
+[![tilemap basics](../assets/img/tilemap.gif)](https://www.youtube.com/watch?v=fmNtibNWPhc)
 * Unity Tilemap: [The Basics](https://www.youtube.com/watch?v=fmNtibNWPhc) (3:48)
 * Unity Tutorial: [Intro to 2D World building w/ Tilemap](https://unity3d.com/learn/tutorials/topics/2d-game-creation/intro-2d-world-building-w-tilemap) (parts 1–8)
 
@@ -55,7 +55,7 @@ Cinemachine | Cinemachine is a controller that can automate all types of camera 
 The camera setting that renders objects with `perspective` intact (lines converge on the horizon) or `orthographic`, which renders objects uniformly, with no sense of perspective. 
 
 
-![cinemachine](images/cinemachine.gif)
+![cinemachine](../assets/img/cinemachine.gif)
 
 **Cinemachine** 
 Cinemachine used in a 2D top-down game to follow the player.

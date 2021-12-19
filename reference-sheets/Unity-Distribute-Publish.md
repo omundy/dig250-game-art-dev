@@ -1,5 +1,5 @@
 
-![unity logo](images/unity-logo-293w.png)
+![unity logo](../assets/img/logos/unity-logo-293w.png)
 
 ## Reference Sheet - Unity - Distribution & Publishing
 

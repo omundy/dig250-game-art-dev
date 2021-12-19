@@ -1,13 +1,13 @@
 
 
-![unity logo](images/unity-logo-293w.png)
+![unity logo](../assets/img/logos/unity-logo-293w.png)
 
 ## Reference Sheet - Game Programming Patterns & Principles
 
 
 
-- Game development is clearly its own world, however many of these patterns and principles are applicable across all programming environments.
-- Many of the patterns and principles below are discussed in [Game programming patterns in Unity](https://github.com/Habrador/Unity-Programming-Patterns) by Erik Nordeus.
+- Game development is clearly its own world, however many of these patterns and principles are applicable across all programming environments. See [Game programming patterns in Unity](https://github.com/Habrador/Unity-Programming-Patterns) by Erik Nordeus for an in-depth look at game patterns.
+
 
 
 
@@ -19,7 +19,7 @@
 
 > "...if you find yourself writing the same line, or lines, of code over and over, it's time to rethink and reorganize. This usually take the form of a new method to hold the repeated code, making it easier to modify and call that functionality elsewhere." – Ferrone
 
-The DRY principle reduces repetition in your code, replacing it with abstractions to avoid redundancy. The most common way is to wrap data and behaviors inside a function or method that can be called every time they are needed. 
+The DRY principle reduces repetition in your code, replacing it with abstractions to avoid redundancy. The most common way is to wrap data and behaviors inside a function or method that can be called every time they are needed.
 
 
 

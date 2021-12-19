@@ -1,6 +1,6 @@
 
 
-![unity logo](images/unity-logo-293w.png)
+![unity logo](../assets/img/logos/unity-logo-293w.png)
 
 ## Reference Sheet - Unity + Git
 
@@ -127,12 +127,12 @@ The tool will then resolve those conflicts for you automatically. If you don't h
 1. Switch into the branch and test that everything works
 1. Switch back to master branch and choose Branch > Merge into current branch ...
 1. Select the branch you want and SmartMerge should take care of everything
-1. If SmartMerge finds issues it will [prompt](images/git-resolve-yaml-desktop.png) you to open the default editor used to resolve the conflicts (in my case, Atom).
-1. Open each file in [Atom and scroll to select which conflicting text to keep]((images/git-resolve-yaml-atom.png))
-1. Choose [Commit Merge](images/git-resolve-yaml-desktop.png) when finished
+1. If SmartMerge finds issues it will [prompt](../assets/img/git-resolve-yaml-desktop.png) you to open the default editor used to resolve the conflicts (in my case, Atom).
+1. Open each file in [Atom and scroll to select which conflicting text to keep]((../assets/img/git-resolve-yaml-atom.png))
+1. Choose [Commit Merge](../assets/img/git-resolve-yaml-desktop.png) when finished
 
-[![yaml desktop](images/git-resolve-yaml-desktop-400w.png)](images/git-resolve-yaml-desktop.png)
-[![yaml atom](images/git-resolve-yaml-atom-400w.png)](images/git-resolve-yaml-atom.png)
+[![yaml desktop](../assets/img/git-resolve-yaml-desktop-400w.png)](../assets/img/git-resolve-yaml-desktop.png)
+[![yaml atom](../assets/img/git-resolve-yaml-atom-400w.png)](../assets/img/git-resolve-yaml-atom.png)
 
 
 #### References

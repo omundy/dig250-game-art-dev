@@ -1,5 +1,5 @@
 
-![game controller](reference-sheets/images/controller-xs.png)
+![game controller](assets/img/logos/controller-xs.png)
 
 <h1>Game Art and Development</h1>
 
@@ -257,6 +257,10 @@ Links to general Unity tutorials and documentation
 	- Reference Sheets [Unity-Building-to-iOS](reference-sheets/Unity-Building-to-iOS.md) and [Unity-Building-to-Android](reference-sheets/Unity-Building-to-Android.md)
 	- Presentations [Mobile Development](https://docs.google.com/presentation/d/1jIeEjiSi3EL9ll9FDn5NzqfLtURdpYC6pDDelZLHsE8/edit#slide=id.g432bd6f119_0_0)
 - Unity Manual [Unity Remote](https://docs.unity3d.com/Manual/UnityRemote5.html)
+    1. Install Unity Remote on your mobile device
+    1. Install iOS package in your Unity installation
+    1. Plug the device in
+    1. Make sure you select the device in Unity > Player Settings > Editor
 - Asset Store [Fingers - Touch Gestures Asset for Unity](https://assetstore.unity.com/packages/tools/input-management/fingers-touch-gestures-for-unity-41076) - $20
 
 
