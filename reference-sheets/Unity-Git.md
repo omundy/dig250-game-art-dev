@@ -14,77 +14,119 @@ Presentation comments ...
 
 ---
 
+## Introduction
+
+- Git is a free and open source distributed version control system.
+- It can be used with any language or code environment, and works great with Unity.
+- Review these slides to learn how to install and use Git and Github: [Git & Github Desktop](https://docs.google.com/presentation/d/1vtK6LoqwF4rQQZZy-ovuEgsYUwwMRXsqDVMOjAPSBt0/edit#slide=id.g9125938793_0_11) class presentation
+
+Feel free to follow along with a video about Git and Unity
+
+- Brackey’s [How to use GitHub with Unity](https://www.youtube.com/watch?v=qpXxcvS-g3g) (7:26)
+- [GitHub Desktop Quick Intro](https://www.youtube.com/watch?v=77W2JSL7-r8) (15:29)
+- [Git & GitHub Crash Course For Beginners](https://www.youtube.com/watch?v=SWYqp7iY_Tc) (32:41)
+
+
+---
+
+## Setup a Unity Project for Git
+
+Here is an overview of the steps. You can skip 1-4 if you [fork](https://docs.google.com/presentation/d/1vtK6LoqwF4rQQZZy-ovuEgsYUwwMRXsqDVMOjAPSBt0/edit#slide=id.gad119073e1_0_6) any of the class [sample-unity-* projects](https://github.com/omundy?tab=repositories&q=unity&type=&language=&sort=)
+
+1. Create a new Unity project
+2. Start tracking files
+3. Check project settings and add a .gitignore
+4. First commit and push the project to Github
+5. Add your team to the repo on Github
+6. Advanced project options
+7. Workflow tips
+8. Dealing with issues
+
+---
 
 
 
 
 
-## How to use Git & Github Desktop
 
-- Presentations
-	- [An introduction to version control with Unity](https://docs.google.com/presentation/d/1phoKp9d7BjhM0scs78rim6DtcUGoJAy4L31eDrR3zGE/edit#slide=id.g9b165dbc7b_0_0)
-	- [Git & Github Desktop](https://docs.google.com/presentation/d/1vtK6LoqwF4rQQZZy-ovuEgsYUwwMRXsqDVMOjAPSBt0/edit#slide=id.g9125938793_0_11) class presentation
-- References
-	- [Github Cheatsheet](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf) and [Github Markdown Cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+## 1. Create a new Unity project
 
+1. In Unity Hub, click "New Project"
+1. Select a template, name and location. These instructions will use the name `dig250-final-project` and location `/Users/username/Documents/Github/` as an example.
+1. Unity will add a new project folder to your computer.
 
 
-## How to create a new Unity project and make it a Git Repository
+---
 
-#### Create a new Unity project
+## 2. Track Unity project with Git
 
-1. In Unity Hub, on the Projects tab, Click "NEW"
-1. Name your project (e.g. `dig250-final-project`)
-1. Choose a location (e.g. inside your `~/Documents/` with your other Unity projects).
-1. Click "Create" and Unity Hub will add a new folder to your computer with the project files inside.
-1. In Unity Hub, click the three dots on the project and "Reveal in Finder"*
-1. CMD+C to copy the project folder path for the next step.
+1. Find the project folder in Finder or Explorer. Click the dots and "Reveal in ..."
+2. <a href="../assets/img/git-setup-drag-github.png">Drag the folder into Github Desktop. </a>
+3. Since it isn't yet, Github will prompt you to "create a repository" there.
 
-#### Initialize Git inside your Unity project
+<details>
+<summary>Manual option to track Unity project with Git 🐢</summary>
 
-1. Using the command line, move to the newly-created Unity project folder by typing `cd ` and then pasting the path you copied from the Finder* (e.g. `cd ~/Documents/dig250-final-project`)
-1. Confirm you are in the Unity project **root directory** `ls -la` (you will see the project folders like `Assets/`, etc.)
-1. Type `git init` [to initialize the directory as a new Git repository](https://docs.google.com/presentation/d/1vtK6LoqwF4rQQZZy-ovuEgsYUwwMRXsqDVMOjAPSBt0/edit#slide=id.ga9a9dc793f_0_0)
+1. Use Terminal to `cd` into the Unity project folder: `cd ~/Documents/dig250-final-project`. Confirm you are in the project **root directory** and can see project folders like **Assets**: `ls -la`
+2. [Initialize the directory as a new Git repository](https://docs.google.com/presentation/d/1vtK6LoqwF4rQQZZy-ovuEgsYUwwMRXsqDVMOjAPSBt0/edit#slide=id.ga9a9dc793f_0_0): `git init`
+3. In Github Desktop, choose File > Add Local Repository and select the project folder. (Alternately, add the project with [Github Command Line Tool](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/launching-github-desktop-from-the-command-line): `github .`)
 
-#### Add your Unity project to Github Desktop
-
-1. Open your project in Github Desktop using one of the following:
-	- If you have the [Github Command Line Tool installed](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/launching-github-desktop-from-the-command-line), while in the project folder type `github .`
-	- Alternately, from Github Desktop, choose File > Add Local Repository and select the project folder.
-1. Save this [`.gitignore`](https://www.gitignore.io/api/unity,macos,windows) file to the project root.
-	- Do not let your OS append `.txt` to the end of the file name.
-	- The `.gitignore` works if you cannot not see the `/Library/` directory in Github Desktop > Changes.
-1. Add a message and create your first commit.
-1. Publish the repository online.
+</details>
 
 
+---
 
-*Or the Windows equivalent
+## 3. Basic Unity + Git setup
 
-
-## Set up your Unity project to work with Git
-
-### Basic
-
-1. Use a Unity-specific `.gitignore`
-	- The [version linked above](https://www.gitignore.io/api/unity,macos,windows) also includes OS-specific ignore content.
-	- [This](https://github.com/github/gitignore/blob/master/Unity.gitignore) is another recommended version via this [tutorial](https://thoughtbot.com/blog/how-to-git-with-unity).
+1. Add a Unity-specific `.gitignore` file to the project root:
+    - [This version](https://www.gitignore.io/api/unity,macos,windows) also includes OS-specific ignore content.
+    - [This one](https://github.com/github/gitignore/blob/master/Unity.gitignore) is also [recommended](https://thoughtbot.com/blog/how-to-git-with-unity).
+    - Do not let your OS append `.txt` to the end of the file name.
+    - You will know the `.gitignore` works if you cannot not see the `/Library/` directory in Github Desktop > Changes.
 1. Use visible `.meta` files
 	- In Unity Project Settings > Version Control, set Mode = "Visible Meta Files"
 1. Force assets to save as plain text
 	- In Unity Project Settings > Editor > Asset Serialization, set Mode = "Force Text"
 1. Enable [Git LFS](https://git-lfs.github.com/) (Large File Storage)
 
-
-### Advanced - More control over scene merging
-
-1. Enable SmartMerge to handle merging of scenes ([see below](#setup-smartmerge))
-1. Use a Unity-specific [.gitattributes](https://gist.github.com/FullStackForger/fe2b3da81e60337757fe82d74ebf7d7a) file
+<a href="../assets/img/git-setup-visible-meta-files.png"><img width="375" src="../assets/img/git-setup-visible-meta-files.png"></a>
+<a href="../assets/img/git-setup-asset-serialization.png"><img width="375" src="../assets/img/git-setup-asset-serialization.png"></a>
 
 
 
+---
 
-## Workflow tips
+## 4. First commit and push the project to Github
+
+In Github Desktop:
+
+1. Add a message and create your first commit.
+1. Push to pblish the repository online. Make it public for now.
+
+
+
+
+
+---
+
+## 5. Set up Unity and Git for a team
+
+1. Everyone in your team will need
+   1. Unity, Git, and Github Desktop installed on their computers
+   1. A [Github account](https://github.com/)
+2. One person in the group will
+   1. Create the project with Git using the above instructions
+   1. Add team members as "collaborators" in github.com repository Settings > Manage Access
+
+
+
+
+
+
+
+---
+
+## 6. Workflow tips
 
 - Use prefabs as much as possible to [prevent scene conflicts](https://medium.com/helloiconic/5-must-read-tips-to-use-git-with-unity-e8a308aa83a4).
 - Work in separate branches, to ensure you don’t pollute the master branch
@@ -93,7 +135,10 @@ Presentation comments ...
 
 
 
-## Dealing with issues
+
+---
+
+## 7. Dealing with issues
 - Clear caches (local package cache, [global package cache](https://docs.unity3d.com/Manual/upm-cache.html)) in case of corrupted packages, and let Unity rebuild them the next time it resolves your dependencies.
 - Clear the Library folder
 - Delete your project's cache, located at <project path>/Library/PackageCache, to force the Package Manager to rebuild the caches and re-install them in your project.
@@ -102,11 +147,27 @@ Presentation comments ...
 
 
 
-## Setup SmartMerge
+
+
+---
+
+## 8. Advanced Setup - Setup SmartMerge
+
+SmartMerge allows for more control over scene merging
+
+1. Enable SmartMerge to handle merging of scenes ([see below](#setup-smartmerge))
+1. Use a Unity-specific [.gitattributes](https://gist.github.com/FullStackForger/fe2b3da81e60337757fe82d74ebf7d7a) file to make sure Git LFS works correctly
+
+
+
+### Setup SmartMerge
 
 Unity comes with its own UnityYAMLMerge tool to make scene merges with Git go smoothly.
 
-### Mac instructions
+- Unity Manual: [SmartMerge](https://docs.unity3d.com/Manual/SmartMerge.html)
+- [anacat/unity-mergetool](https://github.com/anacat/unity-mergetool)
+
+#### Mac instructions
 
 - Assumes you have Git, Unity Hub, Unity <version> installed and have followed the setup instructions above
 - Windows-specific paths can be found [here](https://github.com/anacat/unity-mergetool)
@@ -134,7 +195,10 @@ git mergetool
 The tool will then resolve those conflicts for you automatically. If you don't have a fallback tool, you'll just get a message stating this, but you'll still be able to resolve the conflitcs in your editor. Then to run `git add .` in order to save the changes made, and then `git rebase --continue` when rebasing or `git merge --continue` when merging.
 
 
-### You can also do this with Github Desktop / Atom
+
+---
+
+#### You can also do this with Github Desktop / Atom
 
 1. Switch into the branch and test that everything works
 1. Switch back to master branch and choose Branch > Merge into current branch ...
@@ -147,14 +211,11 @@ The tool will then resolve those conflicts for you automatically. If you don't h
 [![yaml atom](../assets/img/git-resolve-yaml-atom-400w.png)](../assets/img/git-resolve-yaml-atom.png)
 
 
-#### References
-
-- Unity Manual: [SmartMerge](https://docs.unity3d.com/Manual/SmartMerge.html)
-- [anacat/unity-mergetool](https://github.com/anacat/unity-mergetool)
 
 
+---
 
-#### Notes on other methods
+#### Alt. method: Perforce
 
 (Perforce, which provides more automation but looks like a serious pain to set up)
 
@@ -167,8 +228,15 @@ but it [does not exist](https://assetstore.unity.com/?q=P4Connect&orderBy=1)
 
 
 
+
+
+
+---
+
 ## References
 
+- [Unity Collaboration and Version Control](https://docs.google.com/presentation/d/1phoKp9d7BjhM0scs78rim6DtcUGoJAy4L31eDrR3zGE/edit#slide=id.g9b165dbc7b_0_0)
+- [Github Cheatsheet](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf) and [Github Markdown Cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 - [Unity Best Practices](https://github.com/jaayap/Unity_Best_Practices/blob/master/En/Versioning.md/#versioning--git--unity)
 - Github Documentation: [Installing Git Large File Storage
 ](https://docs.github.com/en/free-pro-team@latest/github/managing-large-files/installing-git-large-file-storage)
