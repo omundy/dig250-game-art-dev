@@ -1,5 +1,5 @@
 
-![unity logo](../assets/img/logos/unity-logo-293w.png)
+<img width="275" src="../assets/img/logos/logo-unity-b-w.png">
 
 ## Reference Sheet - Unity - Distribution & Publishing
 

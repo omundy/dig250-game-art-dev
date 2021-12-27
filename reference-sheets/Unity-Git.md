@@ -1,8 +1,20 @@
+<!-- paginate: true -->
+
+[<](../README.md)
+
+<img width="275" src="../assets/img/logos/logo-unity-b-w.png">
+
+# Unity + Git
 
 
-![unity logo](../assets/img/logos/unity-logo-293w.png)
+<!--
+Presentation comments ...
+-->
 
-## Reference Sheet - Unity + Git
+
+---
+
+
 
 
 
