@@ -17,30 +17,29 @@ Presentation comments ...
 ## Introduction
 
 - Git is a free and open source distributed version control system.
-- It can be used with any language or code environment, and works great with Unity.
-- Review these slides to learn how to install and use Git and Github: [Git & Github Desktop](https://docs.google.com/presentation/d/1vtK6LoqwF4rQQZZy-ovuEgsYUwwMRXsqDVMOjAPSBt0/edit#slide=id.g9125938793_0_11) class presentation
+- GitHub is the place to share code (repositories) with friends, co-workers, classmates.
+- Git can be used with any language or code environment, and works great with Unity.
 
-Feel free to follow along with a video about Git and Unity
 
-- Brackey’s [How to use GitHub with Unity](https://www.youtube.com/watch?v=qpXxcvS-g3g) (7:26)
-- [GitHub Desktop Quick Intro](https://www.youtube.com/watch?v=77W2JSL7-r8) (15:29)
-- [Git & GitHub Crash Course For Beginners](https://www.youtube.com/watch?v=SWYqp7iY_Tc) (32:41)
+
 
 
 ---
 
 ## Setup a Unity Project for Git
 
-Here is an overview of the steps. You can skip 1-4 if you [fork](https://docs.google.com/presentation/d/1vtK6LoqwF4rQQZZy-ovuEgsYUwwMRXsqDVMOjAPSBt0/edit#slide=id.gad119073e1_0_6) any of the class [sample-unity-* projects](https://github.com/omundy?tab=repositories&q=unity&type=&language=&sort=)
+Start here: [Git & Github Desktop](https://docs.google.com/presentation/d/1vtK6LoqwF4rQQZZy-ovuEgsYUwwMRXsqDVMOjAPSBt0/edit#slide=id.g9125938793_0_11). Then, review the steps below to setup Unity + Git.
 
-1. Create a new Unity project
-2. Start tracking files
-3. Check project settings and add a .gitignore
-4. First commit and push the project to Github
-5. Add your team to the repo on Github
-6. Advanced project options
-7. Workflow tips
-8. Dealing with issues
+Skip 1-4 if you [fork](https://docs.google.com/presentation/d/1vtK6LoqwF4rQQZZy-ovuEgsYUwwMRXsqDVMOjAPSBt0/edit#slide=id.gad119073e1_0_6) any of the class [sample-unity-* projects](https://github.com/omundy?tab=repositories&q=unity&type=&language=&sort=)
+
+1. [Create a new Unity project](#1-create-a-new-unity-project)
+1. [Track Unity project with Git](#2-track-unity-project-with-git)
+1. [Basic Unity + Git setup](#3-basic-unity--git-setup)
+1. [First commit and push the project to Github](#4-first-commit-and-push-the-project-to-github)
+1. [Set up Unity and Git for a team](#5-set-up-unity-and-git-for-a-team)
+1. [Team workflow tips](#6-team-workflow-tips)
+1. [Dealing with issues](#7-dealing-with-issues)
+1. [Advanced Setup with SmartMerge](#8-advanced-setup-with-smartmerge)
 
 ---
 
@@ -52,7 +51,8 @@ Here is an overview of the steps. You can skip 1-4 if you [fork](https://docs.go
 ## 1. Create a new Unity project
 
 1. In Unity Hub, click "New Project"
-1. Select a template, name and location. These instructions will use the name `dig250-final-project` and location `/Users/username/Documents/Github/` as an example.
+1. Select a template, name and location. These instructions will use the example name `dig250-final-project` and location `/Users/username/Documents/Github/`
+   - Note: [Don't save git repositories, Unity projects, and other app files in cloud-synced folders](https://github.com/omundy/dig250-game-art-dev/blob/master/reference-sheets/Unity-Git.md)
 1. Unity will add a new project folder to your computer.
 
 
@@ -101,7 +101,7 @@ Here is an overview of the steps. You can skip 1-4 if you [fork](https://docs.go
 In Github Desktop:
 
 1. Add a message and create your first commit.
-1. Push to pblish the repository online. Make it public for now.
+1. Push to publish the repository online. Make it public for now.
 
 
 
@@ -111,12 +111,20 @@ In Github Desktop:
 
 ## 5. Set up Unity and Git for a team
 
-1. Everyone in your team will need
-   1. Unity, Git, and Github Desktop installed on their computers
-   1. A [Github account](https://github.com/)
-2. One person in the group will
-   1. Create the project with Git using the above instructions
-   1. Add team members as "collaborators" in github.com repository Settings > Manage Access
+1. One team member should:
+    1. Create the project with Git using the above instructions
+    1. Add team members as "collaborators" in github.com repository Settings > Manage Access
+2. Then everyone in the team should:
+    1. Ensure Unity, Git, and Github Desktop is installed on their computers
+    1. Have a [Github account](https://github.com/)
+    1. Clone the team project:
+        1. Go to your team repo page on github.com
+        1. Click Code > Open with Github Desktop
+    1. Confirm setup:
+        1. Add or edit a test file in the project
+        1. Commit your change and push to the repo.
+        1. Everyone else, pull the changes.
+
 
 
 
@@ -126,7 +134,7 @@ In Github Desktop:
 
 ---
 
-## 6. Workflow tips
+## 6. Team workflow tips
 
 - Use prefabs as much as possible to [prevent scene conflicts](https://medium.com/helloiconic/5-must-read-tips-to-use-git-with-unity-e8a308aa83a4).
 - Work in separate branches, to ensure you don’t pollute the master branch
@@ -151,7 +159,7 @@ In Github Desktop:
 
 ---
 
-## 8. Advanced Setup - Setup SmartMerge
+## 8. Advanced Setup with SmartMerge
 
 SmartMerge allows for more control over scene merging
 
@@ -228,7 +236,13 @@ but it [does not exist](https://assetstore.unity.com/?q=P4Connect&orderBy=1)
 
 
 
+---
 
+## Videos
+
+- [GitHub Desktop Quick Intro](https://www.youtube.com/watch?v=77W2JSL7-r8) (15:29)
+- [Git & GitHub Crash Course For Beginners](https://www.youtube.com/watch?v=SWYqp7iY_Tc) (32:41)
+- Brackey’s [How to use GitHub with Unity](https://www.youtube.com/watch?v=qpXxcvS-g3g) (7:26)
 
 
 ---
