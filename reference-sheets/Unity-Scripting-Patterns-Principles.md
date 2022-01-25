@@ -54,10 +54,25 @@ The Singleton pattern is most often used to store and access global variables ac
 
 
 
+## Naming Conventions
+
+From (Unity3D Managers vs Controllers)[https://www.youtube.com/watch?v=T39tyyQjFSQ&ab_channel=JasonWeimann]
+
+- Managers
+    - Manage entities, find / search
+    - Has a collection of things
+    - An "NPCManager"
+    - Often a Singleton
+- Controllers
+    - Attached to an entity
+    - Part of a behavior
+    - Sometimes the word is omitted: "NPC" (instead of "NPCController")
+    - "AnimationController"
 
 
 
 
 ### Sources
+
 - [Unity Scripting Reference](https://docs.unity3d.com/ScriptReference/index.html)
 - Chapter 4 in Ferrone. Learning C# by Developing Games with Unity 2020 (5th Edition). Packt, 2020.

@@ -140,7 +140,7 @@ In Github Desktop:
 - Work in separate branches, to ensure you don’t pollute the master branch
 - Work in separate scenes as much as possible - YAML files are not pretty, readable, or organized 🙄 When you do work in the same scene avoid reorganizing assets. Use prefabs.
 - Communicate often with your teammates; establish rules at the beginning.
-
+- More tips: http://madwomb.com/tutorials/GameDesign_UnityGithub.html
 
 
 
