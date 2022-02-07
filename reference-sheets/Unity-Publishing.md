@@ -54,11 +54,12 @@ After you create an Itch account and your game page...
 1. Verify your Butler installation: `butler -V` (should print the version)
 1. [Login to Butler](https://itch.io/docs/butler/login.html): `butler login`
 1. [Push your game to Itch with Butler](https://itch.io/docs/butler/pushing.html)
-```
+
+```bash
 # cd into directory
 cd /Users/owenmundy/Documents/_code/Unity/tally-tracker-explorer/_Releases/
 
-# some examples publish scripts
+# some example publish scripts
 butler push gamefile username/gamename:channel --userversion 1.0.0
 butler push TheSpeedofThinking.zip sneakawaystudio/TheSpeedofThinking:win --userversion 1.1.0
 butler push 20210105-tally-tracker-explorer-0.1.5-mac.zip sneakawaystudio/tally-tracker-explorer:mac --userversion 0.1.5
@@ -69,7 +70,7 @@ butler push 20210105-tally-tracker-explorer-0.1.5-win.zip sneakawaystudio/tally-
 
 Add images, text, video, etc. telling others about your game. Some examples:
 
-https://adriaan.itch.io/hidden-folks
-https://sokpop.itch.io/simmiland
-https://afterburn.itch.io/golf-peaks
-https://arhpositive.itch.io/wave-of-democracy
+- https://adriaan.itch.io/hidden-folks
+- https://sokpop.itch.io/simmiland
+- https://afterburn.itch.io/golf-peaks
+- https://arhpositive.itch.io/wave-of-democracy
