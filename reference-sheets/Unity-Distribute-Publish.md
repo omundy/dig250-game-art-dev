@@ -20,7 +20,7 @@ Outline
 
 ## General information
 
-To publish and distribute your game you generally need the following for each platform on which you intend to distribute. 
+To publish and distribute your game you generally need the following for each platform on which you intend to distribute.
 
 I'll start with an example ...
 
@@ -33,7 +33,7 @@ In the example above we have ...
 3. A developer account to identify you (an Apple Developer account)
 4. A token or key to code sign your project (to identify you and your software, like a notary in real life)
 5. A device to test the game locally (iPad or iPhone)
-6. A distribution page where you enter text and images about your game (like on the [iOS app store](https://apps.apple.com/us/app/the-speed-of-thinking/id1263001692)) 
+6. A distribution page where you enter text and images about your game (like on the [iOS app store](https://apps.apple.com/us/app/the-speed-of-thinking/id1263001692))
 
 
 
@@ -45,6 +45,14 @@ Basically described in the example above. Also see information on building...
 1. [iOS](Unity-Building-to-iOS.md)
 1. [Android](Unity-Building-to-Android.md)
 
+
+
+
+## Screenshots and App Store Media
+
+- [Complete Guide to Product Page Creative Requirements: App Store Screenshots, Icon & Video](https://www.storemaven.com/academy/product-page-creative-requirements-guide/) (2022)
+- [Guide to App Store Screenshots: Sizes, Styles and ASO Best Practices](https://splitmetrics.com/blog/app-store-screenshots-aso-guide/) (2021)
+- [Google: Add preview assets to showcase your app](https://support.google.com/googleplay/android-developer/answer/9866151)
 
 
 
@@ -67,12 +75,18 @@ After you create an Itch account and your game page...
 # cd into directory
 cd /Users/owenmundy/Documents/_code/Unity/tally-tracker-explorer/_Releases/
 
-# some examples
+# some examples publish scripts
 butler push gamefile username/gamename:channel --userversion 1.0.0
 butler push TheSpeedofThinking.zip sneakawaystudio/TheSpeedofThinking:win --userversion 1.1.0
 butler push 20210105-tally-tracker-explorer-0.1.5-mac.zip sneakawaystudio/tally-tracker-explorer:mac --userversion 0.1.5
 butler push 20210105-tally-tracker-explorer-0.1.5-win.zip sneakawaystudio/tally-tracker-explorer:win --userversion 0.1.5
 ```
 
+#### Set up your Itch page
 
+Add images, text, video, etc. telling others about your game. Some examples:
 
+https://adriaan.itch.io/hidden-folks
+https://sokpop.itch.io/simmiland
+https://afterburn.itch.io/golf-peaks
+https://arhpositive.itch.io/wave-of-democracy

@@ -1,0 +1,1 @@
+The version of this package is 1.1

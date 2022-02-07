@@ -1,0 +1,16 @@
+This package was intended to use along with this book:
+
+Unity 2017 2D
+ Game Development 
+Projects (Packt Publishing)
+
+
+However, we also suggest to read:
+
+Unity UI Cookbook (https://www.packtpub.com/game-development/unity-ui-cookbook)
+
+Gamification with Unity 5.x (https://www.packtpub.com/game-development/gamification-unity-5x)
+
+Getting Started with Unity 5.x 2D Game Development (https://www.packtpub.com/game-development/getting-started-unity-5x-2d-game-development)
+
+Unity 5.x 2D Game Development Blueprints (https://www.packtpub.com/game-development/unity-5x-2d-game-development-blueprints)
