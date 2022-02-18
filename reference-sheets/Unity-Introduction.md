@@ -2,7 +2,7 @@
 
 <img width="275" src="../assets/img/logos/logo-unity-b-w.png">
 
-## Reference Sheet - Intro to Unity 
+## Reference Sheet - Intro to Unity
 
 
 
@@ -24,10 +24,10 @@ Parenting | In the Hierarchy, when you drag a game object onto another, the form
 [Inspector](https://docs.unity3d.com/Manual/UsingTheInspector.html) | Displays detailed information about the currently selected game object, including all attached components and their properties, and allows you to modify the functionality of GameObjects in your Scene.
 Play Mode | When the editor enters play mode the project begins to run and simulate game play. In play mode changes you make are not saved so leave play mode before resuming work.
 [Camera](https://docs.unity3d.com/Manual/CamerasOverview.html) | A game object with a Camera component that renders your players’ view of the game. Can be moved and repositioned (e.g. a "first-person shooter").
-[Gizmos](https://docs.unity3d.com/Manual/GizmosMenu.html) | Gizmos are icons that stand in place of objects in the Scene view that don’t necessarily have representations like the camera, lighting or colliders. 
+[Gizmos](https://docs.unity3d.com/Manual/GizmosMenu.html) | Gizmos are icons that stand in place of objects in the Scene view that don’t necessarily have representations like the camera, lighting or colliders.
 
 
-### Platforms 
+### Platforms
 
 [Platforms](https://unity3d.com/unity/features/multiplatform) you can build to with Unity
 
@@ -45,10 +45,10 @@ Play Mode | When the editor enters play mode the project begins to run and simul
 **Scene Movement (2D Mode)**
 * Pan - Right Click + Drag
 * Zoom - Mouse scroll wheel
-* Select - F key or double click
+* Fit selected object in window - F key or double click
 * Arrow Keys - Move around
 
-**[Transform Tools](https://docs.unity3d.com/Manual/SceneViewNavigation.html)** 
+**[Transform Tools](https://docs.unity3d.com/Manual/SceneViewNavigation.html)**
 
 ![toolbar](https://docs.unity3d.com/uploads/Main/UI-ViewTool.png)
 
@@ -82,14 +82,5 @@ Play Mode | When the editor enters play mode the project begins to run and simul
 ### Sources
 * [Unity Manual](https://docs.unity3d.com/Manual/index.html) and [Unity Scripting Reference](https://docs.unity3d.com/ScriptReference/index.html)
 * Chapter 1 in Ferro, Lauren S., and Francesco Sapio. Unity 2017 Game Development. Packt, 2018.
-* Chapter 1 in Hocking, Joseph. Unity in Action: Multiplatform Game Development in C # (2nd Edition). Manning, 2018. 
-* Chapter 2 in Halpern, Jared. Developing 2D Games with Unity. APress, 2019. 
-
-
-
-
-
-
-
-
-
+* Chapter 1 in Hocking, Joseph. Unity in Action: Multiplatform Game Development in C # (2nd Edition). Manning, 2018.
+* Chapter 2 in Halpern, Jared. Developing 2D Games with Unity. APress, 2019.
