@@ -5,7 +5,7 @@
 ## Reference Sheet - Graphics > Sprites and Textures
 
 
-##### Table of Contents  
+##### Table of Contents
 - [Terms](#terms)
 - [Sprites](#sprites)
 - [Textures](#textures)
@@ -41,15 +41,15 @@ Pixels | 2 | 4 | 8 | 16 | 32 | 64 | 128 | 256 | 512 | 1024 | 2048 | 4096
 ### Unity image formats
 
 Type | Lossless | Alpha | Description
---- | :--- | --- | ---
-PNG | ![#00ff00](https://placehold.it/15/00ff00/000000?text=+) | ![#00ff00](https://placehold.it/15/00ff00/000000?text=+) | Commonly used on the web. Lossless compression; has an alpha channel.
-JPG | ![#ff0000](https://placehold.it/15/ff0000/000000?text=+) | ![#ff0000](https://placehold.it/15/ff0000/000000?text=+) | Commonly used on the web. Lossy compression; no alpha channel.
-GIF | ![#ff0000](https://placehold.it/15/ff0000/000000?text=+) | ![#ff0000](https://placehold.it/15/ff0000/000000?text=+) | Commonly used on the web. Lossy compression; no alpha channel.
-BMP | ![#00ff00](https://placehold.it/15/00ff00/000000?text=+) | ![#ff0000](https://placehold.it/15/ff0000/000000?text=+) | Default image format on Windows. No compression; no alpha channel.
-TGA | ![#00ff00](https://placehold.it/15/00ff00/000000?text=+) | ![#00ff00](https://placehold.it/15/00ff00/000000?text=+) | Commonly used for 3D graphics; obscure everywhere else. No or lossless compression; has an alpha channel.
-TIFF | ![#00ff00](https://placehold.it/15/00ff00/000000?text=+) | ![#ff0000](https://placehold.it/15/ff0000/000000?text=+) | Commonly used for digital photography and publishing. No or lossless compression; no alpha channel.
-PICT | ![#ff0000](https://placehold.it/15/ff0000/000000?text=+) | ![#ff0000](https://placehold.it/15/ff0000/000000?text=+) | Default image format on old Macs. Lossy compression; no alpha channel.
-PSD | ![#00ff00](https://placehold.it/15/00ff00/000000?text=+) | ![#00ff00](https://placehold.it/15/00ff00/000000?text=+) | Native file format for Photoshop. No compression; has an alpha channel. The main reason to use this file format would be the advantage of using Photoshop files directly.
+:---: | :---: | :---: | ---
+PNG | ✅ | ✅ | Commonly used on the web. Lossless compression; has an alpha channel.
+JPG | ❌ | ❌ | Commonly used on the web. Lossy compression; no alpha channel.
+GIF | ❌ | ❌ | Commonly used on the web. Lossy compression; no alpha channel.
+BMP | ✅ | ❌ | Default image format on Windows. No compression; no alpha channel.
+TGA | ✅ | ✅ | Commonly used for 3D graphics; obscure everywhere else. No or lossless compression; has an alpha channel.
+TIFF | ✅ | ❌ | Commonly used for digital photography and publishing. No or lossless compression; no alpha channel.
+PICT | ❌ | ❌ | Default image format on old Macs. Lossy compression; no alpha channel.
+PSD | ✅ | ✅ | Native file format for Photoshop. No compression; has an alpha channel. The main reason to use this file format would be the advantage of using Photoshop files directly.
 
 
 
