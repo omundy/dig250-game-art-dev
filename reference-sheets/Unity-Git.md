@@ -240,9 +240,11 @@ but it [does not exist](https://assetstore.unity.com/?q=P4Connect&orderBy=1)
 
 ## Videos
 
-- [GitHub Desktop Quick Intro](https://www.youtube.com/watch?v=77W2JSL7-r8) (15:29)
-- [Git & GitHub Crash Course For Beginners](https://www.youtube.com/watch?v=SWYqp7iY_Tc) (32:41)
-- Brackey’s [How to use GitHub with Unity](https://www.youtube.com/watch?v=qpXxcvS-g3g) (7:26)
+- Unity+Git
+	- Infallible Code [How to Setup a Git Repository for a Unity Project](https://www.youtube.com/watch?v=_ewoEQFEURg) (13:55) (2022)
+	- Brackeys [How to use GitHub with Unity](https://www.youtube.com/watch?v=qpXxcvS-g3g) (7:26) (2017)
+- Git+Github
+
 
 
 ---
