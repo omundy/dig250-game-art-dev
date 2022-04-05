@@ -4,6 +4,7 @@
 
 # Unity Performance
 
+See the sample project here: https://github.com/omundy/dig250-unity-performance
 
 
 ## Frame Per Second (FPS)
