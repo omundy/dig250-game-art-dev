@@ -67,7 +67,7 @@ Many performance gains can come from reducing and reusing CPU or memory.
 - [Regularly check](https://www.youtube.com/watch?v=fROTtgZK-Zs) the [Profiler Window](https://docs.unity3d.com/Manual/ProfilerWindow.html) to identify obvious dips in performance.
 - Since changes in one "performance area" can affect others, test everything as you make each improvement.
 
-![profiler](../assets/img/profiler.png)
+![profiler](../assets/img/performance-profiler.png)
 
 
 
@@ -89,8 +89,13 @@ Many performance gains can come from reducing and reusing CPU or memory.
 
 ### How to lower your draw calls
 
-- Use [spritesheets (a.k.a. texture atlas) to group similar bitmap images](../assets/img/draw-calls-sprite-sheet.png) and reduce the draw calls to your GPU
+- Use [spritesheets (a.k.a. texture atlas) to group similar bitmap images](../assets/img/performance-draw-calls-sprite-sheet.png) and reduce the draw calls to your GPU
 - Use pixel resolutions that are Power of 2 (128,256,512,1024, etc.) which can be compressed better.
+
+![profiler](../assets/img/performance-draw-calls-sprite-sheet.png)
+
+
+
 
 
 ### More on Graphics Performance
