@@ -30,7 +30,7 @@ Presentation comments ...
 
 Start here: [Git & Github Desktop](https://docs.google.com/presentation/d/1vtK6LoqwF4rQQZZy-ovuEgsYUwwMRXsqDVMOjAPSBt0/edit#slide=id.g9125938793_0_11). Then, review the steps below to setup Unity + Git.
 
-Skip 1-4 if you [fork](https://docs.google.com/presentation/d/1vtK6LoqwF4rQQZZy-ovuEgsYUwwMRXsqDVMOjAPSBt0/edit#slide=id.gad119073e1_0_6) any of the class [sample-unity-* projects](https://github.com/omundy?tab=repositories&q=unity&type=&language=&sort=)
+Skip 1-4 if you [fork](https://docs.google.com/presentation/d/1vtK6LoqwF4rQQZZy-ovuEgsYUwwMRXsqDVMOjAPSBt0/edit#slide=id.gad119073e1_0_6) any of the class [dig250-unity-* projects](https://github.com/omundy?tab=repositories&q=unity&type=&language=&sort=)
 
 1. [Create a new Unity project](#1-create-a-new-unity-project)
 1. [Track Unity project with Git](#2-track-unity-project-with-git)
