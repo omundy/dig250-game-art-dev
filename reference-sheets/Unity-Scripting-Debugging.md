@@ -11,12 +11,18 @@
 
 
 
+### Profiler and Debugging
 
+- Unity [Profiler](https://docs.unity3d.com/Manual/Profiler.html)
+	- View while in editor OR
+	- Profile your application by [attaching the Profiler to a build](https://docs.unity3d.com/2021.3/Documentation/Manual/profiler-profiling-applications.html) (check `Development Build`, `Autoconnect Profiler`, `Deep Profiler Support`, and `Script Debugging` in build settings)
+- Unity [Log file locations](https://docs.unity3d.com/Manual/LogFiles.html)
 
 
 
 
 ### Error handling
+
 - [Exception handling](https://forum.unity.com/threads/exception-handling-how-it-work.289511/#post-1910871)
 
 
