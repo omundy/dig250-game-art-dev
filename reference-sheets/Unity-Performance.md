@@ -151,6 +151,13 @@ If you have a lot of UI in your game start with this video Unite Europe 2017: [S
 
 
 
+## Static vs Dynamic GameObjects
+
+
+- Marking an object as static (the check box at top right of the Inspector) "can save on runtime calculations, and potentially improve performance." ([Unity](https://docs.unity3d.com/Manual/StaticObjects.html)), depending on things like the overall number and complexity of the objects involved, whether or not you use lighting in your game.
+- Keep in mind that this will increase the filesize of your build (and thus memory during play) "Using static batching requires additional memory for storing the combined geometry."
+
+
 
 
 ## More Performance Tips
