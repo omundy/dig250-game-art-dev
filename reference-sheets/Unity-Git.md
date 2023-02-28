@@ -87,7 +87,9 @@ Skip 1-4 if you [fork](https://docs.google.com/presentation/d/1vtK6LoqwF4rQQZZy-
 	- In Unity Project Settings > Version Control, set Mode = "Visible Meta Files"
 1. Force assets to save as plain text
 	- In Unity Project Settings > Editor > Asset Serialization, set Mode = "Force Text"
-1. Enable [Git LFS](https://git-lfs.github.com/) (Large File Storage)
+1. Enable [Git LFS](https://adamwreed93.medium.com/how-to-set-up-git-lfs-into-your-unity-project-9fd276305fe7) (Large File Storage)
+	- Install using `git lfs install` or the [installer files](https://git-lfs.github.com/)
+	- Add a [`.gitattributes`](https://gist.github.com/FullStackForger/fe2b3da81e60337757fe82d74ebf7d7a) file to make sure Unity and Git LFS work correctly
 
 <a href="../assets/img/git-setup-visible-meta-files.png"><img width="375" src="../assets/img/git-setup-visible-meta-files.png"></a>
 <a href="../assets/img/git-setup-asset-serialization.png"><img width="375" src="../assets/img/git-setup-asset-serialization.png"></a>
@@ -164,7 +166,6 @@ In Github Desktop:
 SmartMerge allows for more control over scene merging
 
 1. Enable SmartMerge to handle merging of scenes ([see below](#setup-smartmerge))
-1. Use a Unity-specific [.gitattributes](https://gist.github.com/FullStackForger/fe2b3da81e60337757fe82d74ebf7d7a) file to make sure Git LFS works correctly
 
 
 
