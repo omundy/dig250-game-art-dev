@@ -198,7 +198,7 @@ public class GameManager : MonoBehaviour
 
 
 
-### [Singleton pattern](http://wiki.unity3d.com/index.php/Singleton)
+### 2. [Singleton pattern](http://wiki.unity3d.com/index.php/Singleton)
 
 - Pro(s):
     - Generally reusable.
@@ -213,7 +213,7 @@ Follow this tutorial to use Singletons: John French [Singletons in Unity (done r
 
 
 
-### A static class
+### 3. A static class
 
 - Pro(s):
     - Fields on a `public static` class are not an instance and therefore do not need to be recreated for each scene
@@ -240,7 +240,7 @@ public class MyScript : MonoBehaviour
 
 
 
-### Multiscene loading
+### 4. Multiscene loading
 
 One scene is the "main" and loads / unloads other scenes as needed. Some links to information.
 
@@ -251,7 +251,7 @@ One scene is the "main" and loads / unloads other scenes as needed. Some links t
 
 
 
-### Events (the [Observer design pattern](https://en.wikipedia.org/wiki/Observer_pattern))
+### 5. Passing Events (the [Observer design pattern](https://en.wikipedia.org/wiki/Observer_pattern))
 
 - This is not technically a way to share data but a way to send messages between different objects.
 - A software design pattern in which an object, called the subject, maintains a list of its dependents, called observers, and notifies them automatically of any state changes, usually by calling one of their methods.
@@ -262,25 +262,22 @@ One scene is the "main" and loads / unloads other scenes as needed. Some links t
 
 
 
-### [PlayerPrefs](https://docs.unity3d.com/ScriptReference/PlayerPrefs.html)
+### 6. [PlayerPrefs](https://docs.unity3d.com/ScriptReference/PlayerPrefs.html)
 - also preserves data for the next time game is run
 
 
-More information
-- [Unity Tutorial: Preserving Data between Scene Loading/Switching](https://www.youtube.com/watch?v=WchH-JCwVI8) (1:10:49)
 
 
-
-
-
-### Scriptable Objects
+### 7. Scriptable Objects
 
 - (see above) are another way to architect and share data across your game. See:
     - [Achieve better Scene workflow with ScriptableObjects](https://blog.unity.com/technology/achieve-better-scene-workflow-with-scriptableobjects) (2020)
     - [Unity Atoms — Tiny modular pieces utilizing the power of Scriptable Objects](https://medium.com/@adamramberg/unity-atoms-tiny-modular-pieces-utilizing-the-power-of-scriptable-objects-e8add1b95201) (2018)
 
+    
+    
 
-### JSON
+### 8. JSON
 
 JSON [provides many advantages over Scriptable Objects](https://answers.unity.com/questions/1447032/what-are-the-pros-and-cons-of-scriptableobjects-vs.html).
 
@@ -289,6 +286,8 @@ See [Unity-Scripting-Collections-JSON.md](Unity-Scripting-Collections-JSON.md) f
 
 
 ### Sources
+
+- [Unity Tutorial: Preserving Data between Scene Loading/Switching](https://www.youtube.com/watch?v=WchH-JCwVI8) (1:10:49)
 - Unity Script Reference: [Array](https://docs.unity3d.com/ScriptReference/Array.html), [Scriptable Objects](https://docs.unity3d.com/Manual/class-ScriptableObject.html), Tutorials [Lists and Dictionaries](https://learn.unity.com/tutorial/lists-and-dictionaries), [Introduction to Scriptable Objects](https://learn.unity.com/tutorial/introduction-to-scriptable-objects)
 - TutorialsTeacher: C# [Structs](https://www.tutorialsteacher.com/csharp/csharp-struct), [Arrays](https://www.tutorialsteacher.com/csharp/array-csharp), [ArrayLists](https://www.tutorialsteacher.com/csharp/csharp-arraylist), [Lists](https://www.tutorialsteacher.com/csharp/csharp-list), [Dictionaries](https://www.tutorialsteacher.com/csharp/csharp-dictionary)
 - W3Schools: C# [Arrays](https://www.w3schools.com/cs/cs_arrays.asp)
