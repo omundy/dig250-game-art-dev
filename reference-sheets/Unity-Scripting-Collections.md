@@ -213,14 +213,14 @@ Follow this tutorial to use Singletons: John French [Singletons in Unity (done r
 
 
 
-### 3. A static class
+### 3. A static variable or class
 
 - Pro(s):
     - Fields on a `public static` class are not an instance and therefore do not need to be recreated for each scene
     - Allows you to make data accessible to all objects, across all scenes (globally)...
 - Con(s):
     - Slightly more complicated
-    - For data only. Classes using this CANNOT have methods attached.
+    - Mixing and [static and instances](https://www.youtube.com/watch?v=JRRlAzBh-6U&t=2s) (14:30) sometimes creates issues
 
 ```c#
 public static class Globals
@@ -237,9 +237,20 @@ public class MyScript : MonoBehaviour
     }
 }
 ```
+    
+Static classes
+    - Can only contains static members (properties & methods)
+    - Cannot be instantiated
+    - Is sealed
+    - Cannot contain instance constructors
+    
+Static members (properties & methods)
+    - Can only be referrenced by the type name (creating an instance to get the prop is not required)
+    - Only one copy of the static member exists, regardless of the number of instances of the class created
+    - Static methods should be "pure" -> They will always do the same thing and don't care about state (except state passed to them)
 
-
-
+    
+    
 ### 4. Multiscene loading
 
 One scene is the "main" and loads / unloads other scenes as needed. Some links to information.
