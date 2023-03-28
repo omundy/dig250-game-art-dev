@@ -54,3 +54,18 @@ Probably the most complicated of the methods since it is new to Unity / C# as of
 
 - [Async-Await instead of coroutines in Unity](http://www.stevevermeulen.com/index.php/2017/09/using-async-await-in-unity3d-2017/)
 - [Using async/await in Unity](https://randompoison.github.io/posts/unity-async/), 2019
+
+An untested example...
+
+```c#
+public async void StartAttack()
+{
+    bool taskFinished = await Attack();
+}
+
+public async Task<bool> Attack()
+{
+    await Task.Delay(10);
+    return true;
+}
+```
