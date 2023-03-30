@@ -198,16 +198,18 @@ public class GameManager : MonoBehaviour
 
 
 
-### 2. [Singleton pattern](http://wiki.unity3d.com/index.php/Singleton)
+### 2. Singleton pattern
+
+Excellent tutorial showing how to use ["Master Singletons" (service locators) in Unity](https://gamedevbeginner.com/singletons-in-unity-the-right-way) (2021)
 
 - Pro(s):
     - Generally reusable.
     - Can exist across multiple scenes with `DontDestroyOnLoad`
     - Classes using this can also have methods
 - Con(s):
-    - Some complicated aspects.
+    - Creates global variables if not done correctly
 
-Follow this tutorial to use Singletons: John French [Singletons in Unity (done right)](https://gamedevbeginner.com/singletons-in-unity-the-right-way) (2021)
+
 
 
 
