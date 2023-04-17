@@ -10,6 +10,12 @@
 - Always keep the console open
 
 
+### Debug.Log tips
+
+- Add a comma + gameObject name to be able to highlight the object in the scene `Debug.Log(gameObject.name, gameObject);`
+- Use `Debug.LogWarning("string")` or `Debug.LogError("string")` to improve your logs
+
+
 
 ### Profiler and Debugging
 
