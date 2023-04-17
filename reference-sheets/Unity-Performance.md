@@ -47,18 +47,20 @@ Many performance gains can come from reducing and reusing CPU or memory.
 - See more about [Object Pooling in Unity](https://www.raywenderlich.com/847-object-pooling-in-unity)
 
 
+### Strings increase garbage
+
+In Unity, retrieving strings from game Objects will create a duplicate of the string, which will need to be garbage collected. Some ways to save memory:
+
+- Don't use `gameObject.tag == "string"`; Using `CompareTag(string)` instead does not add to the heap resulting in a ~27% increase in performance. See: Unity 5 Game Optimization by Chris Dickinson and [Unity forum](https://answers.unity.com/questions/200820/is-comparetag-better-than-gameobjecttag-performanc.html)
+- Don't concat strings in loops or `Update()`. See: Unity Manual: [Understanding Automatic Memory Management](https://docs.unity3d.com/Manual/performance-garbage-collection-best-practices.html)
+
+
+
 ### More on Garbage Collection
 
 - Daniel Ilett [Unity Tips: Garbage Collection](https://danielilett.com/2019-08-05-unity-tips-1-garbage-collection/), 2019
-- Unity Manual: [Understanding Automatic Memory Management](https://docs.unity3d.com/Manual/UnderstandingAutomaticMemoryManagement.html)
-    - ^ Don't concat strings in loops or `Update()`.
+- Unity Manual: [Garbage collection best practices](https://docs.unity3d.com/Manual/performance-garbage-collection-best-practices.html)
 - Unity Tutorial: [Fixing Performance Problems](https://learn.unity.com/tutorial/fixing-performance-problems-2019-3-1)
-
-
-
-
-
-
 
 
 
