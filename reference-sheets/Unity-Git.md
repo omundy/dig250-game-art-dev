@@ -83,13 +83,13 @@ Skip 1-4 if you [fork](https://docs.google.com/presentation/d/1vtK6LoqwF4rQQZZy-
     - [This one](https://github.com/github/gitignore/blob/master/Unity.gitignore) is also [recommended](https://thoughtbot.com/blog/how-to-git-with-unity).
     - Do not let your OS append `.txt` to the end of the file name.
     - You will know the `.gitignore` works if you cannot not see the `/Library/` directory in Github Desktop > Changes.
-1. Use visible `.meta` files
-	- In Unity Project Settings > Version Control, set Mode = "Visible Meta Files"
-1. Force assets to save as plain text
-	- In Unity Project Settings > Editor > Asset Serialization, set Mode = "Force Text"
-1. Enable [Git LFS](https://adamwreed93.medium.com/how-to-set-up-git-lfs-into-your-unity-project-9fd276305fe7) (Large File Storage)
-	- Install using `git lfs install` or the [installer files](https://git-lfs.github.com/)
-	- Add a [`.gitattributes`](https://gist.github.com/FullStackForger/fe2b3da81e60337757fe82d74ebf7d7a) file to make sure Unity and Git LFS work correctly
+1. Unity Settings
+	1. Use visible `.meta` files: In Unity Project Settings > Version Control, set Mode = "Visible Meta Files"
+	2. Force assets to save as plain text: In Unity Project Settings > Editor > Asset Serialization, set Mode = "Force Text"
+1. Install [Git LFS](https://adamwreed93.medium.com/how-to-set-up-git-lfs-into-your-unity-project-9fd276305fe7) (Large File Storage)
+	1. Install Git LFS `brew install git-lfs` (Mac version, requires [Homebrew](https://brew.sh/)) (more [instructions](https://git-lfs.com/))
+	2. Change to your project directory and initialize `git lfs install`
+	3. Add a [`.gitattributes`](https://gist.github.com/FullStackForger/fe2b3da81e60337757fe82d74ebf7d7a) file to make sure Unity and Git LFS work correctly
 
 <a href="../assets/img/git-setup-visible-meta-files.png"><img width="375" src="../assets/img/git-setup-visible-meta-files.png"></a>
 <a href="../assets/img/git-setup-asset-serialization.png"><img width="375" src="../assets/img/git-setup-asset-serialization.png"></a>
