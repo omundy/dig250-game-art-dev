@@ -139,7 +139,7 @@ In Github Desktop:
 ## 6. Team workflow tips
 
 - Communicate often with your teammates; establish rules at the beginning.
-- Commit your work often, using descriptive names for the commits and branches for your work.
+- Commit your work often, using [descriptive names for the commits and branches](https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/) for your work.
 - Work in separate branches - this ensures you don’t pollute the `main` branch.
 - Work in separate scenes - YAML files are not pretty, readable, or organized 🙄 When you do work in the same scene avoid reorganizing assets. 
 - Use prefabs as much as possible to [prevent scene conflicts](https://medium.com/helloiconic/5-must-read-tips-to-use-git-with-unity-e8a308aa83a4).
