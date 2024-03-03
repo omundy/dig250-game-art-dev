@@ -41,7 +41,7 @@ Examples, tutorials, and references for
 ## Course Materials
 
 - Texts
-	- Halpern, Jared. [Developing 2D Games with Unity](). APress, 2019. [Github](https://github.com/Apress/Devel-2D-Games-Unity)
+	- Halpern, Jared. [Developing 2D Games with Unity](https://www.apress.com/gp/developing-2d-games-with-unity-ranks--1-on-amazon/16676390). APress, 2019. [Github](https://github.com/Apress/Devel-2D-Games-Unity)
 	- Ferrone, Harrison. [Learning C# By Developing Games with Unity 2020 (5th Ed.)](https://www.packtpub.com/product/learning-c-by-developing-games-with-unity-2020-fifth-edition/9781800207806). Packt, 2019. [Github](https://github.com/PacktPublishing/Learning-C-8-by-Developing-Games-with-Unity-2020)
 - Github repository [omundy/dig250-game-art-dev](https://github.com/omundy/dig250-game-art-dev)
 - Course [Reference Sheets](reference-sheets/)
