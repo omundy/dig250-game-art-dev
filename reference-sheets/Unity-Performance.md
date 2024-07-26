@@ -172,6 +172,21 @@ If you have a lot of UI in your game start with this video Unite Europe 2017: [S
 
 
 
+## Editor Performance
+
+General best practices include: 
+
+1. Restart Unity once a while
+2. Delete the contents of the project Library (resets package caches and others that Unity rebuilds). Quit Unity, delete contents, then start again.
+3. Use Assembly definitions
+
+
+
+### (Experimental) Editor Iteration Profiler
+
+https://discussions.unity.com/t/introducing-the-editor-iteration-profiler/794996
+
+
 
 ### Sources
 - [Unity Scripting Reference](https://docs.unity3d.com/ScriptReference/index.html)
