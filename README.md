@@ -50,6 +50,7 @@ Examples, tutorials, and references for
 	- [dig250-unity-data](https://github.com/omundy/dig250-unity-data)
 	- [dig250-unity-interaction](https://github.com/omundy/dig250-unity-interaction)
 	- [dig250-unity-movement](https://github.com/omundy/dig250-unity-movement)
+	- [dig250-unity-mobile](https://github.com/omundy/dig250-unity-mobile)
 - [Past Student Games](https://www.youtube.com/playlist?list=PLhpnnpt3tw-RVS2YHtLUYwG86B1zS771q)
 
 
