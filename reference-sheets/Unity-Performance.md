@@ -141,6 +141,7 @@ If you have a lot of UI in your game start with this video Unite Europe 2017: [S
 - Turn off Images components you don't need to avoid draw calls [#15](https://medium.com/@dariarodionovano/unity-ui-best-practices-40964a7a9aba)
 - [Do not use alpha to show / hide elements](https://medium.com/@dariarodionovano/unity-ui-best-practices-40964a7a9aba)
 - Be careful using `Canvas.ForceUpdateCanvases()` because there is a serious performance hit.
+- How to hide a Canvas [Disable the Canvas Component itself](https://create.unity.com/Unity-UI-optimization-tips)
 
 
 ### UI performance resources
