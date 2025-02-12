@@ -7,7 +7,7 @@
 See the sample project here: https://github.com/omundy/dig250-unity-performance
 
 
-> "Profiling should not be an afterthought or something left until the final stages of development. Instead, integrate profiling into your development process from the very beginning." —Eugene Martynenko, [10 Tips for Optimizing Performance in Unity Games](https://pinglestudio.com/blog/10-tips-for-optimizing-performance-in-unity-games)
+> "Profiling should not be an afterthought or something left until the final stages of development. Instead, integrate profiling into your development process from the very beginning." —Eugene Martynenko[^1]
 
 
 
@@ -26,7 +26,23 @@ See the sample project here: https://github.com/omundy/dig250-unity-performance
 
 Many performance gains can come from reducing and reusing CPU or memory.
 
-- When you need a reference to a component, camera, or script, do so in `Awake()` or `Start()` and store the reference in a variable accessible by the entire class. This improves performance because your script won't have to look up the same reference over and over in `Update()`. [1](#1) 
+1. **Always Cache References** - When you need a reference to a component, property, camera, or script, do so in `Awake()` or `Start()` and store the reference in a variable accessible by the entire class. This improves performance because your script won't have to look up the same reference over and over in `Update()`. [^2] 
+
+```c#
+Rigidbody rb; // do this for components...
+Vector3 distanceToEnemy; // variables...
+Camera cam; // the main camera...
+Transform myTransform; // and the transform
+private void Awake() {
+  rb = GetComponent<Rigidbody>();
+  cam = Camera.main;
+  myTransform = transform;
+}
+void Update() {
+  distanceToEnemy = myTransform.position - enemyPosition;
+}
+```
+
 
 
 
@@ -163,10 +179,19 @@ If you have a lot of UI in your game start with this video Unite Europe 2017: [S
 
 
 
+## Bake Your Lighting
+
+![image](https://github.com/user-attachments/assets/e210159b-409a-4839-8312-aa82a2969a19)
+
+Depending on your game's requirements, baking your lights can increase performance a lot, especially on mobile. A [lightmap](https://docs.unity3d.com/Manual/Lightmappers.html) is essentialy a texture that includes surface information like color (albedo) and relief (normals), as it is seen with direct and indirect *static* lights in the scene. The data baked into lightmaps cannot change at runtime. Real-time lights can be overlaid and used additively on top of a lightmapped scene, but cannot interactively change the lightmaps themselves.
+
+
+
+
+
 ## More Performance Tips
 
 - Know how the camera frustrum and clipping planes work https://docs.unity3d.com/Manual/UnderstandingFrustum.html
-- Did you bake lighting?
 - Did you bake your fonts ([change from dynamic to static](https://youtu.be/NY1xKqCIj3c?t=849))
 - Consider the [Order of Execution for Event Functions](https://docs.unity3d.com/Manual/ExecutionOrder.html) and make sure you aren't causing extra work.
 
@@ -191,7 +216,9 @@ https://discussions.unity.com/t/introducing-the-editor-iteration-profiler/794996
 
 ### Sources
 
-1. Fahir Mehovic. “[Optimize Your Games In Unity – The Ultimate Guide.](https://awesometuts.com/blog/optimize-unity-game/)” (2021)
+[^1]: Martynenko, Eugene. “[10 Tips for Optimizing Performance in Unity Games.](https://pinglestudio.com/blog/10-tips-for-optimizing-performance-in-unity-games)” (2024)
+[^2]: Fahir Mehovic. “[Optimize Your Games In Unity – The Ultimate Guide.](https://awesometuts.com/blog/optimize-unity-game/)” (2021)
+
 
 - [Unity Scripting Reference](https://docs.unity3d.com/ScriptReference/index.html)
 - Chapter 8 in Halpern, Jared. Developing 2D Games with Unity. APress, 2019.
