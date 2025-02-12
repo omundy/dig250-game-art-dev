@@ -7,16 +7,17 @@
 See the sample project here: https://github.com/omundy/dig250-unity-performance
 
 
+> "Profiling should not be an afterthought or something left until the final stages of development. Instead, integrate profiling into your development process from the very beginning." —Eugene Martynenko, [10 Tips for Optimizing Performance in Unity Games](https://pinglestudio.com/blog/10-tips-for-optimizing-performance-in-unity-games)
+
+
+
+
+
 ## Frame Per Second (FPS)
 
-- To increase your game's performance, simply lessen the work of the CPU, GPU, memory, and network.
 - The most important metric of a performant game is a high Frames Per Second (FPS) rate, accessed in the Stats window (Game View).
+- To increase your game's performance, simply lessen the work of the CPU, GPU, memory, and network.
 - A frame rate of 60 FPS is optimal. Anything less than 30 FPS will cause noticeable stutter.
-
-
-
-
-
 
 
 
@@ -25,8 +26,7 @@ See the sample project here: https://github.com/omundy/dig250-unity-performance
 
 Many performance gains can come from reducing and reusing CPU or memory.
 
-- When you need a reference to a component, camera, or script, do so in `Awake()` or `Start()` and store the reference in a variable accessible by the entire class.
-- This improves performance because your script won't have to look up the same reference over and over in `Update()`.
+- When you need a reference to a component, camera, or script, do so in `Awake()` or `Start()` and store the reference in a variable accessible by the entire class. This improves performance because your script won't have to look up the same reference over and over in `Update()`. [1](#1) 
 
 
 
@@ -190,6 +190,9 @@ https://discussions.unity.com/t/introducing-the-editor-iteration-profiler/794996
 
 
 ### Sources
+
+1. Fahir Mehovic. “[Optimize Your Games In Unity – The Ultimate Guide.](https://awesometuts.com/blog/optimize-unity-game/)” (2021)
+
 - [Unity Scripting Reference](https://docs.unity3d.com/ScriptReference/index.html)
 - Chapter 8 in Halpern, Jared. Developing 2D Games with Unity. APress, 2019.
 - Tomas Macek [The 10 Most Common Mistakes That Unity Developers Make](https://www.toptal.com/unity-unity3d/top-unity-development-mistakes)
