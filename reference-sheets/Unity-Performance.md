@@ -119,15 +119,19 @@ In Unity, retrieving strings from game Objects will create a duplicate of the st
 
 ### More on Graphics Performance
 
-- Unity Manual: [Mobile Optimization](https://docs.unity3d.com/Manual/MobileOptimisation.html)
 - Unity Manual: [Optimizing graphics performance](https://docs.unity3d.com/Manual/OptimizingGraphicsPerformance.html)
 - [Unity CPU Optimization: Is Your Game… Draw Call Bound?](https://www.gamasutra.com/blogs/RubenTorresBonet/20200513/362872/Unity_CPU_Optimization_Is_Your_Game_Draw_Call_Bound.php) (2020)
 
 
 
 
+## Mobile Optimization
 
-
+- [Best Practices to Improve Performance on Mobile Builds in Unity](https://backtrace.io/blog/best-practices-to-improve-performance-on-mobile-builds)
+  - Object Pooling
+  - Dynamic Framerate
+  - Reuse lists (instead of arrays)
+- Unity Manual: [Mobile Optimization](https://docs.unity3d.com/Manual/MobileOptimisation.html)
 
 
 
