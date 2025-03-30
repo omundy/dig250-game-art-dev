@@ -272,7 +272,7 @@ One scene is the "main" and loads / unloads other scenes as needed. Allows you t
 - Mainly used to implement distributed event handling systems, in "event driven" software, in a way that encourages "decoupling" of objects (there aren't a lot of dependencies that can be broken if name or position changes)
 - See this Unity tutorial [Create a Simple Messaging System with Events](https://learn.unity.com/tutorial/create-a-simple-messaging-system-with-events) (also this [variation](https://medium.com/@johntucker_48673/discovering-unity-eventmanager-a040285d0690) using the same EventManager class from Unity)
 - MSDN: [Observer design pattern](https://docs.microsoft.com/en-us/dotnet/standard/events/observer-design-pattern?redirectedfrom=MSDN)
-
+- ⚠️ Can introduce issues with asynchronous calls and managing state (e.g. managing multiple windows doesn't allow you to know which is currently open)
 
 
 
