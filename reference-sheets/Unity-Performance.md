@@ -7,16 +7,17 @@
 See the sample project here: https://github.com/omundy/dig250-unity-performance
 
 
+> "Profiling should not be an afterthought or something left until the final stages of development. Instead, integrate profiling into your development process from the very beginning." —Eugene Martynenko[^1]
+
+
+
+
+
 ## Frame Per Second (FPS)
 
-- To increase your game's performance, simply lessen the work of the CPU, GPU, memory, and network.
 - The most important metric of a performant game is a high Frames Per Second (FPS) rate, accessed in the Stats window (Game View).
+- To increase your game's performance, simply lessen the work of the CPU, GPU, memory, and network.
 - A frame rate of 60 FPS is optimal. Anything less than 30 FPS will cause noticeable stutter.
-
-
-
-
-
 
 
 
@@ -25,8 +26,23 @@ See the sample project here: https://github.com/omundy/dig250-unity-performance
 
 Many performance gains can come from reducing and reusing CPU or memory.
 
-- When you need a reference to a component, camera, or script, do so in `Awake()` or `Start()` and store the reference in a variable accessible by the entire class.
-- This improves performance because your script won't have to look up the same reference over and over in `Update()`.
+1. **Always Cache References** - When you need a reference to a component, property, camera, or script, do so in `Awake()` or `Start()` and store the reference in a variable accessible by the entire class. This improves performance because your script won't have to look up the same reference over and over in `Update()`. [^2] 
+
+```c#
+Rigidbody rb; // do this for components...
+Vector3 distanceToEnemy; // variables...
+Camera cam; // the main camera...
+Transform myTransform; // and the transform
+private void Awake() {
+  rb = GetComponent<Rigidbody>();
+  cam = Camera.main;
+  myTransform = transform;
+}
+void Update() {
+  distanceToEnemy = myTransform.position - enemyPosition;
+}
+```
+
 
 
 
@@ -103,15 +119,19 @@ In Unity, retrieving strings from game Objects will create a duplicate of the st
 
 ### More on Graphics Performance
 
-- Unity Manual: [Mobile Optimization](https://docs.unity3d.com/Manual/MobileOptimisation.html)
 - Unity Manual: [Optimizing graphics performance](https://docs.unity3d.com/Manual/OptimizingGraphicsPerformance.html)
 - [Unity CPU Optimization: Is Your Game… Draw Call Bound?](https://www.gamasutra.com/blogs/RubenTorresBonet/20200513/362872/Unity_CPU_Optimization_Is_Your_Game_Draw_Call_Bound.php) (2020)
 
 
 
 
+## Mobile Optimization
 
-
+- [Best Practices to Improve Performance on Mobile Builds in Unity](https://backtrace.io/blog/best-practices-to-improve-performance-on-mobile-builds)
+  - Object Pooling
+  - Dynamic Framerate
+  - Reuse lists (instead of arrays)
+- Unity Manual: [Mobile Optimization](https://docs.unity3d.com/Manual/MobileOptimisation.html)
 
 
 
@@ -141,6 +161,7 @@ If you have a lot of UI in your game start with this video Unite Europe 2017: [S
 - Turn off Images components you don't need to avoid draw calls [#15](https://medium.com/@dariarodionovano/unity-ui-best-practices-40964a7a9aba)
 - [Do not use alpha to show / hide elements](https://medium.com/@dariarodionovano/unity-ui-best-practices-40964a7a9aba)
 - Be careful using `Canvas.ForceUpdateCanvases()` because there is a serious performance hit.
+- How to hide a Canvas [Disable the Canvas Component itself](https://create.unity.com/Unity-UI-optimization-tips)
 
 
 ### UI performance resources
@@ -162,10 +183,19 @@ If you have a lot of UI in your game start with this video Unite Europe 2017: [S
 
 
 
+## Bake Your Lighting
+
+![image](https://github.com/user-attachments/assets/e210159b-409a-4839-8312-aa82a2969a19)
+
+Depending on your game's requirements, baking your lights can increase performance a lot, especially on mobile. A [lightmap](https://docs.unity3d.com/Manual/Lightmappers.html) is essentialy a texture that includes surface information like color (albedo) and relief (normals), as it is seen with direct and indirect *static* lights in the scene. The data baked into lightmaps cannot change at runtime. Real-time lights can be overlaid and used additively on top of a lightmapped scene, but cannot interactively change the lightmaps themselves.
+
+
+
+
+
 ## More Performance Tips
 
 - Know how the camera frustrum and clipping planes work https://docs.unity3d.com/Manual/UnderstandingFrustum.html
-- Did you bake lighting?
 - Did you bake your fonts ([change from dynamic to static](https://youtu.be/NY1xKqCIj3c?t=849))
 - Consider the [Order of Execution for Event Functions](https://docs.unity3d.com/Manual/ExecutionOrder.html) and make sure you aren't causing extra work.
 
@@ -189,6 +219,11 @@ https://discussions.unity.com/t/introducing-the-editor-iteration-profiler/794996
 
 
 ### Sources
+
+[^1]: Martynenko, Eugene. “[10 Tips for Optimizing Performance in Unity Games.](https://pinglestudio.com/blog/10-tips-for-optimizing-performance-in-unity-games)” (2024)
+[^2]: Fahir Mehovic. “[Optimize Your Games In Unity – The Ultimate Guide.](https://awesometuts.com/blog/optimize-unity-game/)” (2021)
+
+
 - [Unity Scripting Reference](https://docs.unity3d.com/ScriptReference/index.html)
 - Chapter 8 in Halpern, Jared. Developing 2D Games with Unity. APress, 2019.
 - Tomas Macek [The 10 Most Common Mistakes That Unity Developers Make](https://www.toptal.com/unity-unity3d/top-unity-development-mistakes)

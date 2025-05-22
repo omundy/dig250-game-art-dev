@@ -48,23 +48,32 @@ After you create an Itch account and your game page...
 
 #### Upload your game to Itch with Butler
 
-1. [Install](https://itch.io/docs/butler/installing.html) the Itch app and login
+1. In Unity, **Build** the project to Mac and/or Windows
+1. [Install](https://itch.io/docs/butler/installing.html) the [Itch app](https://itch.io/app) and login
 1. Inside the Itch app, search for Butler and install
-1. Mac only: Add to path: `export PATH="$PATH:$HOME/Library/Application Support/itch/apps/butler"`
+1. (Mac) Add to path: `export PATH="$PATH:$HOME/Library/Application Support/itch/apps/butler"`
 1. Verify your Butler installation: `butler -V` (should print the version)
 1. [Login to Butler](https://itch.io/docs/butler/login.html): `butler login`
-1. [Push your game to Itch with Butler](https://itch.io/docs/butler/pushing.html)
+1. [Push your game to Itch with Butler](https://itch.io/docs/butler/pushing.html) (e.g. `butler push gamefile username/gamename:channel --userversion 1.0.0`
 
 ```bash
-# cd into directory
-cd /Users/owenmundy/Documents/_code/Unity/tally-tracker-explorer/_Releases/
-
-# some example publish scripts
-butler push gamefile username/gamename:channel --userversion 1.0.0
+cd ~/Documents/_code/Unity/tally-tracker-explorer/_Releases/
 butler push TheSpeedofThinking.zip sneakawaystudio/TheSpeedofThinking:win --userversion 1.1.0
+```
+
+```bash
+cd ~/Documents/_code/Unity/Tally\ Tracker\ Explorer/tally-tracker-explorer/_Releases
 butler push 20210105-tally-tracker-explorer-0.1.5-mac.zip sneakawaystudio/tally-tracker-explorer:mac --userversion 0.1.5
 butler push 20210105-tally-tracker-explorer-0.1.5-win.zip sneakawaystudio/tally-tracker-explorer:win --userversion 0.1.5
 ```
+
+```bash
+cd ~/Documents/_code/Unity/_Builds/Pillage\ Party/Pillage\ Party_MacOS/
+butler push PillageParty_macOS.app sneakawaystudio/pillage-party:mac --userversion 0.1.12
+butler push PillageParty_Windows.app sneakawaystudio/pillage-party:win --userversion 0.1.12
+```
+
+
 
 #### Set up your Itch page
 

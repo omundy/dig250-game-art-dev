@@ -160,8 +160,8 @@ public class Thing : MonoBehaviour
 
 ## Sharing data between Game Objects
 
-- There are several ways to do this, depending on the complexity of your project.
-- Some of these allow you to share across Scenes as well
+- There are several ways to manage state (share data) between objects in Unity.
+- The method(s) you use will depend on whether you are dealing only with objects in a scene, or data to be shared over several scenes or even over different play sessions.
 
 
 
@@ -251,16 +251,17 @@ Static members (properties & methods)
     - Only one copy of the static member exists, regardless of the number of instances of the class created
     - Static methods should be "pure" -> They will always do the same thing and don't care about state (except state passed to them)
 
-    
+
+
+
     
 ### 4. Multiscene loading
 
-One scene is the "main" and loads / unloads other scenes as needed. Some links to information.
+One scene is the "main" and loads / unloads other scenes as needed. Allows you to share / reuse not only data, but objects, UI, etc.
 
-- https://docs.unity3d.com/Manual/MultiSceneEditing.html
-- https://www.jambit.com/en/latest-info/toilet-papers/unity-persistent-objects-between-scenes-in-a-simple-way/
-- https://www.youtube.com/watch?v=zObWVOv1GlE
-
+- [Additive Async Multi-Scene Loading in Unity](https://www.youtube.com/watch?v=JFP-cCFID7o) (16:58) - several parts of the game UI, world, global state are different scenes 
+- [How to work with multiple scenes in Unity](https://www.youtube.com/watch?v=zObWVOv1GlE) (12:11) - also shows loading / unloading map areas
+- [`SceneManagement.LoadSceneMode.Additive`](https://docs.unity3d.com/ScriptReference/SceneManagement.LoadSceneMode.Additive.html)
 
 
 
@@ -271,13 +272,14 @@ One scene is the "main" and loads / unloads other scenes as needed. Some links t
 - Mainly used to implement distributed event handling systems, in "event driven" software, in a way that encourages "decoupling" of objects (there aren't a lot of dependencies that can be broken if name or position changes)
 - See this Unity tutorial [Create a Simple Messaging System with Events](https://learn.unity.com/tutorial/create-a-simple-messaging-system-with-events) (also this [variation](https://medium.com/@johntucker_48673/discovering-unity-eventmanager-a040285d0690) using the same EventManager class from Unity)
 - MSDN: [Observer design pattern](https://docs.microsoft.com/en-us/dotnet/standard/events/observer-design-pattern?redirectedfrom=MSDN)
-
+- ⚠️ Can introduce issues with asynchronous calls and managing state (e.g. managing multiple windows doesn't allow you to know which is currently open)
 
 
 
 ### 6. [PlayerPrefs](https://docs.unity3d.com/ScriptReference/PlayerPrefs.html)
-- also preserves data for the next time game is run
 
+- Can also preserve data for the next time game is run
+- Can be slow, not dependable for anything other than basic preferences.
 
 
 
