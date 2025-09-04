@@ -57,6 +57,19 @@ After you create an Itch account and your game page...
 1. [Push your game to Itch with Butler](https://itch.io/docs/butler/pushing.html) (e.g. `butler push gamefile username/gamename:channel --userversion 1.0.0`
 
 ```bash
+cd ~/Documents/_code/Unity/_Builds/SuperBirthdayWorld/Mac 
+butler push SuperBirthdayWorld-v.07.app sneakawaystudio/super-birthday-world:mac --userversion 07
+# On Mac, Unity buids many Windows files to a single .app 
+butler push SuperBirthdayWorld-v.07.app sneakawaystudio/super-birthday-world:win --userversion 07
+```
+
+```bash
+cd ~/Documents/_code/Unity/_Builds/Pillage\ Party/Pillage\ Party_MacOS/
+butler push PillageParty_macOS.app sneakawaystudio/pillage-party:mac --userversion 0.1.12
+butler push PillageParty_Windows.app sneakawaystudio/pillage-party:win --userversion 0.1.12
+```
+
+```bash
 cd ~/Documents/_code/Unity/tally-tracker-explorer/_Releases/
 butler push TheSpeedofThinking.zip sneakawaystudio/TheSpeedofThinking:win --userversion 1.1.0
 ```
@@ -65,12 +78,6 @@ butler push TheSpeedofThinking.zip sneakawaystudio/TheSpeedofThinking:win --user
 cd ~/Documents/_code/Unity/Tally\ Tracker\ Explorer/tally-tracker-explorer/_Releases
 butler push 20210105-tally-tracker-explorer-0.1.5-mac.zip sneakawaystudio/tally-tracker-explorer:mac --userversion 0.1.5
 butler push 20210105-tally-tracker-explorer-0.1.5-win.zip sneakawaystudio/tally-tracker-explorer:win --userversion 0.1.5
-```
-
-```bash
-cd ~/Documents/_code/Unity/_Builds/Pillage\ Party/Pillage\ Party_MacOS/
-butler push PillageParty_macOS.app sneakawaystudio/pillage-party:mac --userversion 0.1.12
-butler push PillageParty_Windows.app sneakawaystudio/pillage-party:win --userversion 0.1.12
 ```
 
 
