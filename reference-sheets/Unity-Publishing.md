@@ -48,8 +48,11 @@ After you create an Itch account and your game page...
 
 #### Upload your game to Itch with Butler
 
+> butler is the command-line helper for itch.io, used for uploading and managing game builds.
+
 1. In Unity, **Build** the project to Mac and/or Windows
-1. [Install](https://itch.io/docs/butler/installing.html) the [Itch app](https://itch.io/app) and login
+1. Install the [Itch app](https://itch.io/app) and login.
+    1. Alternately, use Homebrew on macOS to install the itch.io desktop client, which includes butler `brew install --cask itch` [more on command line](https://itch.io/docs/butler/installing.html)
 1. Inside the Itch app, search for Butler and install
 1. (Mac) Add to path: `export PATH="$PATH:$HOME/Library/Application Support/itch/apps/butler"`
 1. Verify your Butler installation: `butler -V` (should print the version)
