@@ -46,18 +46,31 @@ As you can see, it is not a simple task. However, if possible you should use [Un
 
 After you create an Itch account and your game page...
 
-#### Upload your game to Itch with Butler
+### Upload your game to Itch with Butler
 
 > butler is the command-line helper for itch.io, used for uploading and managing game builds.
 
-1. In Unity, **Build** the project to Mac and/or Windows
+1. In Unity, **Build** the project to Mac, Windows, and/or Linux
 1. Install the [Itch app](https://itch.io/app) and login.
     1. Alternately, use Homebrew on macOS to install the itch.io desktop client, which includes butler `brew install --cask itch` [more on command line](https://itch.io/docs/butler/installing.html)
-1. Inside the Itch app, search for Butler and install
-1. (Mac) Add to path: `export PATH="$PATH:$HOME/Library/Application Support/itch/apps/butler"`
-1. Verify your Butler installation: `butler -V` (should print the version)
-1. [Login to Butler](https://itch.io/docs/butler/login.html): `butler login`
+    1. Inside the Itch app, search for Butler and install
+    1. (Mac) Add to path: `export PATH="$PATH:$HOME/Library/Application Support/itch/apps/butler"`
+    1. Verify your Butler installation: `butler -V` (should print the version)
+    1. [Login to Butler](https://itch.io/docs/butler/login.html): `butler login`
+1. Zip up your build
 1. [Push your game to Itch with Butler](https://itch.io/docs/butler/pushing.html) (e.g. `butler push gamefile username/gamename:channel --userversion 1.0.0`
+
+
+### Butler examples
+
+- The `gamename` is the game's hyphen-formatted title (part of the Itch.io URL (e.g. https://sneakawaystudio.itch.io/`super-birthday-world`)
+- The `-v` [fixes](https://itch.io/t/746828/butler-issue-context-deadline-exceeded) butler issue `context deadline exceeded`
+
+```bash
+cd ~/Documents/_code/Unity/_Builds/PC-Mac-Linux/Itch-20251014/
+butler push TheSpeedOfThinking-Mac.zip sneakawaystudio/the-speed-of-thinking:mac --userversion 1.0.10 -v
+butler push TheSpeedOfThinking-Win.zip sneakawaystudio/the-speed-of-thinking:win --userversion 1.0.10 -v
+```
 
 ```bash
 cd ~/Documents/_code/Unity/_Builds/SuperBirthdayWorld/Mac 
@@ -70,11 +83,6 @@ butler push SuperBirthdayWorld-v.07.app sneakawaystudio/super-birthday-world:win
 cd ~/Documents/_code/Unity/_Builds/Pillage\ Party/Pillage\ Party_MacOS/
 butler push PillageParty_macOS.app sneakawaystudio/pillage-party:mac --userversion 0.1.12
 butler push PillageParty_Windows.app sneakawaystudio/pillage-party:win --userversion 0.1.12
-```
-
-```bash
-cd ~/Documents/_code/Unity/tally-tracker-explorer/_Releases/
-butler push TheSpeedofThinking.zip sneakawaystudio/TheSpeedofThinking:win --userversion 1.1.0
 ```
 
 ```bash
