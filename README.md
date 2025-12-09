@@ -1,12 +1,13 @@
 
-![game controller](assets/img/logos/controller-xs.png)
+![game controller](assets/img/logos/controller-icon-xs.png)
 
-<h1>Game Art and Development</h1>
+<h1>Game Dev | Art</h1>
 
 Examples, tutorials, and references for
 
-- ART 270 Art for Games
 - DIG 250 Game Development
+- DIG 255 / ART 270 Art for Games
+- DIG 350 Advanced Game Development
 
 
 **Contents**
@@ -46,11 +47,13 @@ Examples, tutorials, and references for
 - Github repository [omundy/dig250-game-art-dev](https://github.com/omundy/dig250-game-art-dev)
 - Course [Reference Sheets](reference-sheets/)
 - Sample projects
+	- [dig250-unity-movement](https://github.com/omundy/dig250-unity-movement)
 	- [dig250-unity-animation](https://github.com/omundy/dig250-unity-animation)
 	- [dig250-unity-data](https://github.com/omundy/dig250-unity-data)
 	- [dig250-unity-interaction](https://github.com/omundy/dig250-unity-interaction)
-	- [dig250-unity-movement](https://github.com/omundy/dig250-unity-movement)
 	- [dig250-unity-mobile](https://github.com/omundy/dig250-unity-mobile)
+	- [dig250-unity-physics-sound](https://github.com/omundy/dig250-unity-physics-sound)
+	- [dig250-unity-performance](https://github.com/omundy/dig250-unity-performance)
 - [Past Student Games](https://www.youtube.com/playlist?list=PLhpnnpt3tw-RVS2YHtLUYwG86B1zS771q)
 
 
