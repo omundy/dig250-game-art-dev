@@ -52,9 +52,26 @@ Skip 1-4 if you [fork](https://docs.google.com/presentation/d/1vtK6LoqwF4rQQZZy-
 
 1. In Unity Hub, click "New Project"
 1. Select a template, name and location. These instructions will use the example name `dig250-final-project` and location `/Users/username/Documents/Github/`
-   - Note: [Don't save git repositories, Unity projects, and other app files in cloud-synced folders](https://github.com/omundy/dig250-game-art-dev/blob/master/reference-sheets/Unity-Git.md)
-1. Unity will add a new project folder to your computer.
+1. Unity will add a new project folder and files to your computer.
 
+
+
+<details>
+<summary>⚠️ Don't save git repositories, Unity projects, and other app files in cloud-synced folders</summary>
+
+It is strongly advised not to save version control repositories (such as Git), Unity projects, or other development files in cloud-synced folders like OneDrive or Google Drive. 
+This practice can lead to several problems:
+- **File Corruption and Synchronization Conflicts**: Version control systems and development environments make frequent, rapid changes to many small files. Cloud services may struggle to sync these changes in real-time, leading to synchronization conflicts, incomplete file uploads, or repository corruption [1].
+- **Performance Issues**: The continuous scanning and syncing performed by cloud services can significantly slow down your development environment and build processes [1].
+- **Wasted Bandwidth**: Large binary files often found in game development (e.g., textures, audio clips) can consume significant bandwidth as the cloud service constantly re-uploads them [1]. 
+
+Recommended Practices
+- Instead of using general cloud-synced folders, use industry-standard solutions designed for development workflows:
+- Remote Repositories: Use dedicated hosting services such as GitHub, GitLab, or Bitbucket to back up your Git repositories [1].
+- Cloud Storage for Large Assets: For large binary assets in Unity projects, consider using a Git extension like Git LFS (Large File Storage) [1].
+- Dedicated Backup Solutions: Use dedicated backup software for local project files that don't rely on real-time syncing. 
+
+</details>
 
 ---
 
