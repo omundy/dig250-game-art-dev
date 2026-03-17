@@ -100,9 +100,10 @@ Recommended Practices
     - [This one](https://github.com/github/gitignore/blob/master/Unity.gitignore) is also [recommended](https://thoughtbot.com/blog/how-to-git-with-unity).
     - Do not let your OS append `.txt` to the end of the file name.
     - You will know the `.gitignore` works if you cannot not see the `/Library/` directory in Github Desktop > Changes.
-1. Unity Settings
-	1. Use visible `.meta` files: In Unity Project Settings > Version Control, set Mode = "Visible Meta Files"
-	2. Force assets to save as plain text: In Unity Project Settings > Editor > Asset Serialization, set Mode = "Force Text"
+1. Unity > Edit > Unity Project Settings... >
+	1. Editor > Asset Serialization > **Mode** = `Force Text` (forces assets to save as plain text)
+	2. Version Control > **Mode** = `Visible Meta Files`
+	3. Version Control > Unity Version Control > **Unity VCS** = `Disabled`
 1. Install [Git LFS](https://adamwreed93.medium.com/how-to-set-up-git-lfs-into-your-unity-project-9fd276305fe7) (Large File Storage)
 	1. Install Git LFS `brew install git-lfs` (Mac version, requires [Homebrew](https://brew.sh/)) (more [instructions](https://git-lfs.com/))
 	2. Change to your project directory and initialize `git lfs install`
@@ -119,7 +120,7 @@ Recommended Practices
 
 In Github Desktop:
 
-1. Add a message and create your first commit.
+1. Add a message (e.g. `Initial commit`) and create your first commit.
 1. Push to publish the repository online. Make it public for now.
 
 
