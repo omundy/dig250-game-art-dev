@@ -223,6 +223,7 @@ Excellent tutorial showing how to use ["Master Singletons" (service locators) in
 - Con(s):
     - Slightly more complicated
     - Mixing and [static and instances](https://www.youtube.com/watch?v=JRRlAzBh-6U&t=2s) (14:30) sometimes creates issues
+    - You can't attach to GameObjects so to see (or debug) the values you have to access the data from a Monobehviour
 
 ```c#
 public static class Globals
@@ -251,6 +252,8 @@ Static members (properties & methods)
     - Only one copy of the static member exists, regardless of the number of instances of the class created
     - Static methods should be "pure" -> They will always do the same thing and don't care about state (except state passed to them)
 
+Examples
+    - [Static GameManager example](https://gist.github.com/kurtdekker/50faa0d78cd978375b2fe465d55b282b)
 
 
 
