@@ -26,12 +26,11 @@ Examples, tutorials, and references for
 	- [Storytelling](#storytelling)
 	- [Dialog](#dialog)
 	- [Game Art](#game-art)
-	- [Sound / Audio](#sound-audio)
+	- [Sound / Audio](#sound--audio)
 	- [Version Control](#version-control)
 	- [Collaboration and Prototyping](#collaboration-and-prototyping)
 	- [Mobile Development](#mobile-development)
-	- [Performance & Optimization](#performance-optimization)
-- [Past Books](#past-books)
+	- [Performance \& Optimization](#performance--optimization)
 
 <!-- /TOC -->
 
@@ -213,6 +212,7 @@ Links to general Unity tutorials and documentation
 	- [gamedevmarket](https://www.gamedevmarket.net/)
 	- [/r/gameassets/](https://www.reddit.com/r/gameassets/)
 	- [pixeldudesmaker](https://0x72.itch.io/pixeldudesmaker) and [pixeldudesmakermaker](https://0x72.itch.io/pixeldudesmakermaker) procedurally-generation sprite tools; 16x16 Dungeon Tileset [version 1](https://0x72.itch.io/16x16-dungeon-tileset) and [version 2](https://0x72.itch.io/dungeontileset-ii) by [0x72](https://0x72.itch.io)
+	- [kingbell](https://kingbell.itch.io/) pixel art generators (characters, buildings, etc.)
 	- [Silkscreen](https://www.1001fonts.com/silkscreen-font.html) a pixel font by Jason Kottke
 
 
