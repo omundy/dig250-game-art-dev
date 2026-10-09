@@ -1,5 +1,5 @@
 
-![game controller](assets/img/logos/controller-icon-xs.png)
+![game controller](assets/img/logos/game-controller.png)
 
 <h1>Game Dev | Art</h1>
 
