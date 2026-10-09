@@ -53,6 +53,7 @@ Examples, tutorials, and references for
 	- [dig250-unity-mobile](https://github.com/omundy/dig250-unity-mobile)
 	- [dig250-unity-physics-sound](https://github.com/omundy/dig250-unity-physics-sound)
 	- [dig250-unity-performance](https://github.com/omundy/dig250-unity-performance)
+    - [Art-for-Games](https://github.com/omundy/Art-for-Games)	
 - [Past Student Games](https://www.youtube.com/playlist?list=PLhpnnpt3tw-RVS2YHtLUYwG86B1zS771q)
 
 
