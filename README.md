@@ -227,6 +227,7 @@ Links to general Unity tutorials and documentation
 - Tutorials
 	- Studytonight [Adding Sound Effects to Game](https://www.studytonight.com/game-development-in-2D/audio-in-unity)
 - Resources
+    - 8-bit sound effects https://sfxr.me/ and https://www.bfxr.net/ 
 	- [freesound.org](https://freesound.org/)
 	- [The Yellowstone sound library](https://www.nps.gov/yell/learn/photosmultimedia/soundlibrary.htm) - Free sounds from Yellowstone Ntl. Park
 	- [BBC Sound Effects](https://sound-effects.bbcrewind.co.uk/) 
