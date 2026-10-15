@@ -26,7 +26,7 @@ Examples, tutorials, and references for
 	- [Storytelling](#storytelling)
 	- [Dialog](#dialog)
 	- [Game Art](#game-art)
-	- [Sound / Audio](#sound--audio)
+	- [Sound / Audio / Music](#sound--audio--music)
 	- [Version Control](#version-control)
 	- [Collaboration and Prototyping](#collaboration-and-prototyping)
 	- [Mobile Development](#mobile-development)
@@ -221,7 +221,7 @@ Links to general Unity tutorials and documentation
 
 
 
-### Sound / Audio
+### Sound / Audio / Music
 
 - Course Content
 	- Reference Sheet [Unity-Audio](reference-sheets/Unity-Audio.md)
@@ -229,7 +229,8 @@ Links to general Unity tutorials and documentation
 	- Studytonight [Adding Sound Effects to Game](https://www.studytonight.com/game-development-in-2D/audio-in-unity)
 - Resources
     - 8-bit sound effects https://sfxr.me/ and https://www.bfxr.net/ 
-	- [freesound.org](https://freesound.org/)
+	- [freesound.org](https://freesound.org/) - effects, music
+	- [pixabay.com](https://pixabay.com/music/search/game%20music/) - effects, music
 	- [The Yellowstone sound library](https://www.nps.gov/yell/learn/photosmultimedia/soundlibrary.htm) - Free sounds from Yellowstone Ntl. Park
 	- [BBC Sound Effects](https://sound-effects.bbcrewind.co.uk/) 
 
